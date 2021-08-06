@@ -6,6 +6,34 @@
 // set the defaults for all responsive levels here
 // no (xl) media query necessary (desktop first)
 
+.mir-main-nav {
+  .navbar {
+    padding: 0;
+  }
+  background-color: $menuGray;
+  #basket-list-item,
+  .nav-item {
+    &.active,
+    &:focus,
+    &:hover {
+      background-color: $primary;
+    }
+    .nav-link {
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+      &.active,
+      &:focus,
+      &:hover {
+        background-color: $primary;
+      }
+    }
+  }
+}
+.mir-prop-nav {
+  nav {
+    margin-bottom: 1rem;
+  }
+}
 
 // Large devices (desktops) and below: <= 1200px
 @include media-breakpoint-down(lg) {

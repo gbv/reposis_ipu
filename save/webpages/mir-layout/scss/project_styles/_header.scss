@@ -6,8 +6,20 @@
 // set the defaults for all responsive levels here
 // no (xl) media query necessary (desktop first)
 
-// logo and menu container
-
+#header_box {
+  position: relative;
+}
+#ipu-bibliothek {
+  font-weight: bold;
+  position: absolute;
+  right: 15px;
+  bottom: 0;
+}
+#project_logo_box {
+  img {
+    width: 250px;
+  }
+}
 
 // Large devices (desktops) and below: <= 1200px
 @include media-breakpoint-down(lg) {

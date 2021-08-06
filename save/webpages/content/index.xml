@@ -2,37 +2,47 @@
 <!DOCTYPE MyCoReWebPage>
 <MyCoReWebPage>
 
-  <section title="Willkommen bei MIR!" xml:lang="de">
-        <div class="jumbotwo" >
-            <div class="row">
-
-                <div class="col-12">
-                    <h2>Mods Institutional Repository (MIR)</h2>
-                </div>
-
-                <div class="col-md-4">
-                    <h3><span class="fas fa-check"></span> fertig</h3>
-                    <p>MIR ist eine MyCoRe-Software, die mit nur wenigen Anpassungen
-                    - so wie sie ist - als Repositorium eingesetzt werden kann.</p>
-                    <p><a class="btn btn-secondary" href="https://www.mycore.de/documentation/getting_started/gs_mir_install/" role="button">weitere Informationen »</a></p>
-                </div>
-                <div class="col-md-4">
-                    <h3><span class="fas fa-bolt"></span> mächtig</h3>
-                    <p>MIR verwendet das mächtige und bewährte MODS-Datenmodell. Den
-                    Kern der Webanwendung bildet MyCoRe mit einer Vielzahl von Funktionen.</p>
-                    <p><a class="btn btn-secondary" href="https://www.mycore.de/site/features/" role="button">weitere Informationen »</a></p>
-                </div>
-                <div class="col-md-4">
-                    <h3><span class="fas fa-heart"></span> lebendig</h3>
-                    <p>MIR basiert auf dem Software-Kern MyCoRe, der kontinuierlich
-                    weiter entwickelt wird. Eine lebendige Community setzt MIR in
-                    ihren Anwendungen ein.</p>
-                    <p><a class="btn btn-secondary" href="https://www.mycore.de/site/community/contact/" role="button">weitere Informationen »</a></p>
-                </div>
+  <section xml:lang="de" title="Willkommen auf den Seiten der IPU">
+    <div class="jumbotwo" id="project-index-search" style="margin-top:50px;">
+      <div class="row">
+        <div class="col-md-9 offset-md-2" lang="de">
+          <h1>
+            Der Publikations­server der IPU
+          </h1>
+          <form action="../servlets/solr/find" id="project-searchMainPage" class="form-inline" role="search">
+            <div class="input-group input-group-lg w-100">
+              <input
+                name="condQuery"
+                placeholder="Suche"
+                class="form-control search-query"
+                id="leo-searchInput"
+                type="text" />
+              <div class="input-group-append">
+                <button type="submit" class="btn btn-primary">
+                  <i class="fa fa-search"></i>
+                </button>
+              </div>
             </div>
+          </form>
         </div>
+      </div>
+    </div>
+    <script src="../js/jquery.number.js"></script>
+    <script>
+      $( document ).ready(function() {
+        $.ajax({
+          type: "GET",
+          url: "../api/v1/search?q=objectType:mods AND state:published&amp;rows=0&amp;wt=json&amp;json.wrf=?",
+          dataType: "jsonp",
+          success: function (data) {
+            $('#project-searchInput').attr('placeholder', 'Suche in ' + $.number(data.response.numFound,0, ',', '.') + ' Dokumenten');
+          },
+        });
+      });
+    </script>
   </section>
+
   <meta>
-    <log date="2015-05-22" time="11:12" labelPath=" » Start" lastEditor="Kathleen Neumann" />
+    <log date="2021-07-16" time="16:03" labelPath=" » Start" lastEditor="Tilo Neumann" />
   </meta>
 </MyCoReWebPage>

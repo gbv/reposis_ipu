@@ -14,8 +14,51 @@
 //  project settings
 // --------------------------------------------------
 
+//Pantone 151 EC (Orange) und
+$ipuOrange: rgba(238,124,40,1); // #ee7c28
+//Pantone 425 C (Dunkelgrau),
+$ipuDarkGray: rgba(95,96,98,1); //#5f6062;
+//Pantone Cool Gray 4 EC (Hellgrau)
+$ipuLightGray: rgba(191,192,193,1); // #bf0c1
+// Pantone Cool Gray 7 EC (Mittelgrau)
+$ipuMediumGray: rgba(147,149,153,1); // #939599
 
+//Grün-, Blau- und Rotbraun-Töne, die ebenfalls im
+//Corporate Design enthalten sind, sollen auf der Website nicht vorkommen.
+
+// Pantone 2257 U (Gruen)
+$ipuGreen: rgba(55,173,104,1); // #37ad68
+// Pantone 3135 UP (Blau)
+$ipuBlue: rgba(0,149,164,1); // #0095a4
+// Pantone 4014 C (Rot)
+$ipuRed: rgba(191,94,70,1); // #bf5e46
+
+//Als Schriftart der Website dient Roboto und Roboto Condensed.
+// using google font via gbv proxy
+// defined in _typo.scss and _common.scss
+
+// from website
+$menuGray:      #f0f0f0;
+$footerBlack:   #2c2c2c;
+$headlineBlack: rgba(35,40,45,0.8);
+$textBlack:     rgba(35,40,45,0.9);
 
 // --------------------------------------------------
 //  overwrite bootstrap
 // --------------------------------------------------
+
+$font-size-base: 1rem;
+$primary: $ipuOrange;
+$secondary: $ipuDarkGray;
+$body-color: $textBlack;
+$link-color: $primary;
+$link-hover-color: $textBlack;
+$link-hover-decoration: none;
+$border-radius: 0;
+$border-radius-sm: $border-radius;
+$border-radius-lg: $border-radius;
+$input-border-radius: $border-radius;
+$navbar-light-hover-color: white;
+$navbar-light-active-color: white;
+$navbar-nav-link-padding-x: 1rem;
+$font-family-sans-serif: Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";

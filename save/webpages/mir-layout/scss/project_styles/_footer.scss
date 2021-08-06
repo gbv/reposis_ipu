@@ -6,6 +6,12 @@
 // set the defaults for all responsive levels here
 // no (xl) media query necessary (desktop first)
 
+.flatmir-footer {
+  background-color: $footerBlack;
+}
+#powered_by {
+  background-color: darken($footerBlack, 4%);
+}
 
 // Large devices (desktops) and below: <= 1200px
 @include media-breakpoint-down(lg) {

@@ -11,28 +11,26 @@
   <xsl:template name="mir.navigation">
 
     <div id="header_box" class="clearfix container">
-      <div id="options_nav_box" class="mir-prop-nav">
+      <div id="options_nav_box" class="mir-prop-nav text-right">
         <nav>
           <ul class="navbar-nav ml-auto flex-row">
             <xsl:call-template name="mir.loginMenu" />
             <xsl:call-template name="mir.languageMenu" />
           </ul>
         </nav>
+        <a href="https://www.ipu-berlin.de/bibliothek/" id="ipu-bibliothek">IPU Bibliothek</a>
       </div>
       <div id="project_logo_box">
-        <a href="{concat($WebApplicationBaseURL,substring($loaded_navigation_xml/@hrefStartingPage,2),$HttpSession)}"
-           class="">
-          <span id="logo_mir">mir</span>
-          <span id="logo_modul">mycore</span>
-          <span id="logo_slogan">mods institutional repository</span>
+        <a href="http://www.ipu-berlin.de/">
+          <img src="{$WebApplicationBaseURL}images/ipu-logo-web_de.svg" alt="Logo IPU" />
         </a>
       </div>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="mir-main-nav bg-primary">
+    <div class="mir-main-nav">
       <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <nav class="navbar navbar-expand-lg navbar-light">
 
           <button
             class="navbar-toggler"
@@ -47,6 +45,9 @@
 
           <div id="mir-main-nav-collapse-box" class="collapse navbar-collapse mir-main-nav__entries">
             <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+              <xsl:call-template name="project.generate_single_menu_entry">
+                <xsl:with-param name="menuID" select="'brand'"/>
+              </xsl:call-template>
               <xsl:for-each select="$loaded_navigation_xml/menu">
                 <xsl:choose>
                   <!-- Ignore some menus, they are shown elsewhere in the layout -->
@@ -96,12 +97,6 @@
   <xsl:template name="mir.jumbotwo">
     <!-- show only on startpage -->
     <xsl:if test="//div/@class='jumbotwo'">
-      <div class="jumbotron">
-        <div class="container">
-          <h1>Mit MIR wird alles gut!</h1>
-          <h2>your repository - just out of the box</h2>
-        </div>
-      </div>
     </xsl:if>
   </xsl:template>
 
@@ -143,6 +138,32 @@
         </div>
       </div>
     </div>
+  </xsl:template>
+
+  <xsl:template name="project.generate_single_menu_entry">
+    <xsl:param name="menuID" />
+    <li class="nav-item">
+      <xsl:variable name="activeClass">
+        <xsl:choose>
+          <xsl:when test="$loaded_navigation_xml/menu[@id=$menuID]/item[@href = $browserAddress ]">
+          <xsl:text>active</xsl:text>
+          </xsl:when>
+          <xsl:otherwise>
+            <xsl:text>not-active</xsl:text>
+          </xsl:otherwise>
+        </xsl:choose>
+      </xsl:variable>
+      <a id="{$menuID}" href="{$WebApplicationBaseURL}{$loaded_navigation_xml/menu[@id=$menuID]/item/@href}" class="nav-link {$activeClass}" >
+        <xsl:choose>
+          <xsl:when test="$loaded_navigation_xml/menu[@id=$menuID]/item/label[lang($CurrentLang)] != ''">
+            <xsl:value-of select="$loaded_navigation_xml/menu[@id=$menuID]/item/label[lang($CurrentLang)]" />
+          </xsl:when>
+          <xsl:otherwise>
+            <xsl:value-of select="$loaded_navigation_xml/menu[@id=$menuID]/item/label[lang($DefaultLang)]" />
+          </xsl:otherwise>
+        </xsl:choose>
+      </a>
+    </li>
   </xsl:template>
 
   <xsl:template name="mir.powered_by">
