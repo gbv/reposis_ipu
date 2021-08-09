@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MyCoReWebPage>
+    <section xml:lang="de" title="Leitlinie">
+        <div class="row">
+            <div class="col-md-12">
+                <h1>Leitlinie zum Publizieren auf dem offenen elektronischen Dokumentenserver der IPU Bibliothek</h1>
+                
+                <h2>Ziele</h2>
+                <p>
+                    OEDIPUB ist ein fachliches Repositorium für Psychoanalyse und deren wissenschaftliche 
+                    Nachbardisziplinen, das an der Internationalen Psychoanalytischen Universität Berlin beheimatet 
+                    ist. Es wird von der Bibliothek der IPU Berlin angeboten und betrieben. Auf dem psychoanalytischen 
+                    Publikationsserver werden sowohl wissenschaftliche Beiträge (bspw. Artikel, Monographien aber auch 
+                    Qualifikationsarbeiten) und Forschungsdaten von Mitarbeitern und Studierenden der IPU Berlin 
+                    publiziert, als auch psychoanalytische Beiträge, die außerhalb des forschenden Kontexts der IPU 
+                    Berlin entstanden sind. Die Veröffentlichungen auf OEDIPUB werden weltweit kostenfrei zugänglich 
+                    gemacht. Die elektronische Veröffentlichung auf OEDIPUB wird Autoren und Herausgebern kostenfrei 
+                    angeboten. Die Publikationen auf OEDIPUB unterliegen keiner Bewertung oder Zensur durch die IPU 
+                    Bibliothek. Die IPU Berlin übernimmt keine Verantwortung für die Inhalte der publizierten Werke. 
+                </p>
+                <p>
+                    OEDIPUB verfolgt im Sinne des <a href="https://www.ipu-berlin.de/universitaet/">Leitbilds der 
+                        IPU Berlin</a> das Ziel der Festigung und Verbreitung der wissenschaftlichen und klinischen 
+                    psychoanalytischen Grundlagen, indem es die Nachprüfbarkeit, Nachnutzbarkeit und Sichtbarkeit
+                    psychoanalytisch-fundierter Forschungsleistungen gewährleistet und diese Interessenten und 
+                    Forschern dauerhaft und kostenfrei zur Verfügung stellt. OEDIPUB trägt damit zur Festigung, 
+                    Fortentwicklung und inhaltlichen Bereicherung der Psychoanalyse als Wissenschaft und 
+                    Therapieverfahren bei und fördert die transdisziplinäre wissenschaftliche Vernetzung. 
+                </p>
+                <p>
+                    OEDIPUB bietet die organisatorischen und technischen Rahmenbedingungen, um die dauerhafte 
+                    Verfügbarkeit der publizierten Objekte zu gewährleisten. Der technische Betrieb des 
+                    Dokumentenservers erfolgt durch die Bibliothek der IPU Berlin in Zusammenarbeit mit dem 
+                    <a href="https://www.gbv.de/Verbundzentrale/serviceangebote/reposis-repository-service">
+                        Repository-Service</a> der Verbundszentrale des Gemeinsamen Bibliotheksverbundes Göttingen. 
+                </p>
+                <h2>Open Access</h2>
+                <p>
+                    Die IPU Berlin schließt sich als Unterzeichner der 
+                    <a href="https://openaccess.mpg.de/Berliner-Erklaerung">„Berlin Declaration on Open Access 
+                        to Knowledge in the Sciences and Humanities“</a> an. OEDIPUB orientiert sich an den 
+                    Prinzipien des Open Access. Die auf OEDIPUB publizierten Dokumente sind zeitlich und 
+                    räumlich uneingeschränkt kostenfrei abrufbar. Die IPU Berlin unterstützt damit den freien 
+                    Austausch von Forschungsergebnissen und empfiehlt ihren Mitarbeitern gemäß den Empfehlungen 
+                    des Wissenschaftsrats, ihre Publikationen auf OEDIPUB, in Open-Access-Journalen und auf 
+                    Open-Access-Plattformen zu veröffentlichen. Elektronisches Publizieren auf OEDIPUB ermöglicht 
+                    es den Wissenschaftlern der IPU Berlin der in Entstehung begriffenen Open-Access-Erklärung der 
+                    Hochschule sowie den 
+                    <a href="https://www.dfg.de/download/pdf/foerderung/rechtliche_rahmenbedingungen/gute_wissenschaftliche_praxis/kodex_gwp.pdf">
+                        Grundsätzen zur Sicherung der guten wissenschaftlichen Praxis der DFG</a> zu entsprechen. 
+                </p>
+                <h2>Sammelauftrag</h2>
+                <p>
+                    Der Sammelauftrag der IPU Bibliothek im Bereich elektronischer Dokumente umfasst die Speicherung, 
+                    Katalogisierung, Archivierung, Veröffentlichung, Sichtbar- und Zugänglichmachung elektronischer 
+                    wissenschaftlicher Dokumente aus dem Fachbereich der Psychoanalyse und der an ihn angrenzenden 
+                    wissenschaftlichen Disziplinen. Hierzu zählen Erst- und Zweitveröffentlichungen von Artikeln, 
+                    elektronischen Zeitschriften, Monographien, Serien, Tagungs- und Konferenzbänden, Forschungsdaten, 
+                    Qualifikationsarbeiten der IPU-Studierenden, die eine schriftliche Publikationsempfehlung 
+                    vorweisen können, und weiteren wissenschaftlichen Publikationsformaten. Der Sammelauftrag 
+                    beinhaltet sowohl Arbeiten von Mitgliedern der IPU Berlin und von solchen Forschern oder 
+                    Körperschaften, die mit der IPU Berlin assoziiert sind, als auch psychoanalytische Beiträge von 
+                    Autoren, die in keiner direkten Verbindung zu der IPU Berlin stehen. Der Sammelauftrag bezieht 
+                    sich sowohl auf rein elektronische Publikationen als auch auf elektronische Versionen gedruckter 
+                    Dokumente (Digitalisate).
+                </p>
+                <h2>Bibliothekarische Erschließung</h2>
+                <p>
+                    Alle Publikationen auf OEDIPUB werden durch Mitarbeiter der IPU Bibliothek sowie durch die 
+                    Einreichenden selbst sachlich erschlossen. Folgende Sacherschließungsinstrumente werden dabei 
+                    angewandt: 
+                    <ul>
+                        <li>Abstracts (Zusammenfassungen auf Deutsch und Englisch)</li>
+                        <li>Schlagwörter (Freie Schlagwörter auf Deutsch und Englisch)</li>
+                        <li>Klassifikation (DDC – Dewey Decimal Classification)</li>
+                        <li>Zusätzliche Möglichkeiten zur Beschreibung und Dokumentation von Forschungsdaten</li>
+                    </ul>
+                    Die Annahme und Überprüfung der elektronischen Publikation sowie die Überprüfung der durch den 
+                    Autor angegebenen Metadaten erfolgt durch die Mitarbeiter des OEDIPUB Services der IPU Bibliothek. 
+                    Die Wahrung von Urheber- und Nutzungsrechten liegt in der Verantwortung der jeweiligen Autoren. 
+                </p>
+                <h2>Anforderungen an eine Elektronische Publikation</h2>
+                <p>
+                    Folgende Dokumente können auf OEDIPUB veröffentlicht werden:
+                    <ul>
+                        <li>Publikationen und Forschungsdaten mit wissenschaftlichem Charakter aus der Forschungstätigkeit 
+                            der IPU Berlin </li>
+                        <li>Publikationen von Mitgliedern und Angehörigen der IPU Berlin</li>
+                        <li>Publikationen aus Projekten, an denen die IPU Berlin beteiligt ist, auch wenn die Autoren
+                            nicht der IPU Berlin angehören</li>
+                        <li>Publikationen aus dem Fachbereich der Psychoanalyse und benachbarten Disziplinen (bspw. 
+                            Neuropsychoanalyse, psychoanalytische Kultur- und Sozialwissenschaften usw.), deren Autoren 
+                            und Herausgeber nicht mit der IPU Berlin assoziiert sind</li>
+                        <li>Ausgewiesene Qualifikationsarbeiten von (ehemal.) IPU-Studierenden (Bachelor-, Masterarbeiten, 
+                            Dissertationen, Habilitationsschriften)</li>
+                        <li>Publikationen begleitend zu Veranstaltungen an der IPU Berlin</li>
+                        <li>Dokumente mit Bezug zum Fachinformationsdienst der IPU Berlin</li>
+                        <li>Digitalisierte Objekte aus den Beständen und Spezialsammlungen der Universitätsbibliothe </li>
+                        <li>Sonstige offizielle Publikationen aus dem Fachbereich der Psychoanalyse</li>
+                    </ul>
+                </p>
+                <p>
+                    Genauere Informationen zum Publikationsprocedere finden Sie <a href="author_notes.xml">hier</a>. Das 
+                    elektronische Werk muss den Kriterien und den technischen Anforderungen <a href="author_notes.xml">
+                        OEDIPUBs</a> entsprechen und zur Verbreitung in der Öffentlichkeit bestimmt sein. Eine reine 
+                    Archivierung von öffentlich nicht zugänglichen Inhalten ist auf OEDIPUB nicht vorgesehen. Die 
+                    Aufbereitung der zu publizierenden elektronischen Dokumente erfolgt durch den Autor, kann aber 
+                    durch den OEDIPUB Service der IPU Bibliothek nach Absprache unterstützt werden. Es gibt keine 
+                    Layout-Vorgaben für die Manuskriptgestaltung. Sollten Veränderungen am Dokument notwendig sein, 
+                    bedarf es einer neuen Version, die gespeichert wird. Die Publikation kann über das Formular zur 
+                    Anmeldung einer Publikation auf <a href="index.xml">OEDIPUB</a> angemeldet und mit Metadaten 
+                    versehen werden. Die Abgabe der elektronischen Dokumente zur Verarbeitung erfolgt nach Absprache 
+                    per <a href="index.xml">Webformular</a>, Mail oder Post (Datenträger) an die Bibliothek der IPU. 
+                    Der OEDIPUB Service überprüft anschließend die elektronischen Dokumente und veröffentlicht sie
+                    nach Eingang des durch den Autor unterzeichneten <a href="P/Publikationsvertrag_OEDIPUB.docx">
+                        Publikationsvertrags</a>. Formatmigrationen gelten nicht als Veränderungen des elektronischen
+                    Dokuments und werden bei Bedarf durch den OEDIPUB Service vorgenommen. Bereits publizierte Dokumente
+                    können nur gelöscht oder verändert werden, wenn schwerwiegende rechtliche Gründe dies gebieten. Die
+                    Löschung erfolgt durch den OEDIPUB Service. Trotz Löschung bleibt ein Basis-Metadatensatz dauerhaft
+                    gespeichert und verfügbar. Dazu zählen das Löschdatum, der Löschgrund und der Objekt-Identifier.  
+                </p>
+                <h2>Technische Besonderheiten des Publikationsservers</h2>
+                <p>
+                    <ul>
+                        <li>Die elektronischen Dokumente werden mit individuellen und dauerhaften Adressen versehen, 
+                            welche einen unmittelbaren Zugriff auf die Dokumente erlauben. Die Adressen werden als URNs 
+                            (Uniform Resource Names) registriert. Die Administration und Pflege der URNs wird vom Betreiber 
+                            garantiert. Ergänzend ist es möglich DataCite Digital Object Identifiers (DOIs) zu vergeben.</li>
+                        <li>Das Auffinden der elektronischen Dokumente ist über Bibliothekskataloge, Recherchen in 
+                            bibliografischen Metadaten, über alphabetische und klassifikatorische Ordnungen sowie dynamisch 
+                            erstellte Listen und Indizes möglich.</li>
+                        <li>Die formalen und inhaltsbezogenen Metadaten zu den veröffentlichten Beiträgen können über eine 
+                            standardisierte Schnittstelle (OAI-PMH 2.0), an etablierte wissenschaftliche Suchmaschinen 
+                            (z.B. BASE und OAIster) weitergegeben werden. Daneben werden Suchbots über spezielle Tags in 
+                            den Webseiten und eine Sitemap speziell unterstützt, um beispielsweise auch die Sichtbarkeit 
+                            bei Google Scholar zu erhöhen. Dies gewährt eine globale Sichtbarkeit der hier eingestellten 
+                            Daten.</li>
+                        <li>Die Archivierungsdauer der Formate hängt von der Verfügbarkeit des Formates, der 
+                            Betrachtungssoftware sowie den Konvertierungsmöglichkeiten ab. Die Archivierungsdauer beträgt 
+                            mindestens 5 Jahre. An einer OAIS-konformen Anbindung an LZA-Dienste wird derzeit gearbeitet. 
+                            Ziel ist es, dass die Daten als SIP-Pakete ausgeliefert werden.</li>
+                    </ul>
+                </p>
+                <h2>Rechtliche Rahmenbedingungen</h2>
+                <p>
+                    Der Autor bzw. Herausgeber überträgt der Bibliothek ein einfaches und unbefristetes Nutzungsrecht 
+                    an dem Werk. Das Urheberrecht des Autors bleibt gewahrt. Damit besteht die Möglichkeit weiterer 
+                    Veröffentlichungen desselben Werks durch den Autor bspw. in Zeitschriften oder anderen Repositorien. 
+                    Sollte das Werk bereits an anderer Stelle publiziert worden sein, kann es, sofern rechtliche oder 
+                    vertragliche Regelungen dies zulassen, auf OEDIPUB zweitveröffentlicht werden. Der OEDIPUB Service 
+                    unterstützt Autoren und Herausgeber in der Abklärung lizenzrechtlicher Voraussetzungen, übernimmt 
+                    für die Angaben jedoch kein Gewähr. 
+                </p>
+                <p>
+                    Die Rechteübertragung bedarf grundsätzlich der Schriftform. Die Einhaltung von Urheber-, 
+                    Verwertungs- und Nutzungsrechten Dritter liegt in der Verantwortung der Autoren bzw. Herausgeber. 
+                    Wenn Anhaltspunkte für eine Rechtsverletzung bestehen, behält sich die Bibliothek der IPU das 
+                    Recht vor, den öffentlichen Zugriff auf die betroffene Publikation zu sperren. Für die aus der 
+                    Verletzung von Urheber- oder Verwertungsrechten entstehenden Schäden übernimmt die IPU Bibliothek 
+                    keine Haftung. Die Autoren versichern, in Zweifelsfällen oder bei Entstehen vermeintlicher oder 
+                    tatsächlicher Rechtsverletzungen die IPU Bibliothek hiervon unverzüglich in Kenntnis zu setzen.
+                </p>
+                <p>
+                    Im Rahmen der öffentlichen Bereitstellung sind Nutzer berechtigt, Dokumente zum privaten und 
+                    sonstigen eigenen Gebrauch herunterzuladen, zu speichern oder in kleiner Zahl zu drucken 
+                    (§ 53 UrhG). Weitergehende Rechte kann der Autor durch die Hinzufügung einer 
+                    Creative-Common-Lizenz einräumen. OEDIPUB empfiehlt Autoren und Herausgebern, die Verwendung 
+                    von Creative-Commons-Lizenzen zur Regelung der Nutzungsrechte an ihren Inhalten. Die IPU Bibliothek 
+                    empfiehlt die Anwendung der Creative-Commons-Lizenz CC-BY. 
+                </p>
+                <p>
+                    Nähere Informationen zu den rechtlichen Rahmenbedingungen entnehmen Sie bitte dem 
+                    <a href="Publikationsvertrag_OEDIPUB.docx">Vertrag zur Veröffentlichung von Publikationen</a>
+                    und dem <a href="Publikationsvertrag_Forschungsdaten_OEDIPUB.docx">Vertrag zur Veröffentlichung von 
+                        Forschungsdaten</a>, in denen die Urheber- und Nutzungsrechte geregelt werden. 
+                </p>
+                <h2>Beratungsmöglichkeiten und Service</h2>
+                <p>
+                    Die Veröffentlichung von Dokumenten auf OEDIPUB ist kostenfrei. Die Bibliothek der IPU unterstützt 
+                    Autoren in der elektronischen Aufbereitung sowie in der Abklärung von 
+                    Zweitveröffentlichungsmöglichkeiten und -rechten. Tätigkeiten, die einen bedeutenden Mehraufwand 
+                    erfordern, wie etwa die Überprüfung und Verfügbarmachung von mehr als 20 Veröffentlichungen eines 
+                    Autors, können in Rechnung gestellt werden.
+                </p>
+                <p>
+                    Der OEDIPUB Service umfasst die Vergabe dauerhafter persistenter und zitierfähiger Identifier wie 
+                    URL, URN und DOI, um die Dokumente langfristig auffindbar und zugänglich zu machen. Sie übernimmt 
+                    sowohl die formale als auch die inhaltliche Erschließung der Dokumente (mittels 
+                    Dewey-Klassifikation) sowie die Prüfung und Pflege der Metadaten. Die Metadaten und deren Link 
+                    zum Volltext werden im Katalog der IPU Bibliothek aufgenommen und auch in anderen Katalogen 
+                    öffentlich-rechtlicher Einrichtungen nachgewiesen. Im Rahmen der gesetzlich geregelten 
+                    Pflichtabgabe von Netzpublikationen erfolgt die Weitergabe der Metadaten sowie der 
+                    elektronischen Dokumente an die Deutsche Nationalbibliothek. 
+                </p>
+                <p>
+                    Der durch die IPU Bibliothek garantierte Archivierungszeitraum für elektronische Publikationen 
+                    auf OEDIPUB liegt bei fünf Jahren. Für Dokumente, die der gesetzlich geregelten Pflichtabgabe 
+                    unterliegen, werden die Anforderungen an eine Langzeitarchivierung durch Ablieferung an die 
+                    Deutsche Nationalbibliothek erfüllt. Darüber hinaus verpflichtet sich die IPU Bibliothek, nicht 
+                    unter die Pflichtabgabe fallende Dokumente zukünftig auch der Langzeitarchivierung zuzuführen. 
+                    Dabei wird sie mit Dienstleistern / Kooperationspartnern kooperieren. 
+                </p>
+                <p>
+                    <b>Ansprechpartner:</b> <br />
+                    
+                    Frau Julia Degenhardt <br />
+                    - OEDIPUB Leitung -<br />
+                    E-Mail: <span class="madress">OEDIPUB [at] ipu-berlin.de</span><br />
+                    Telefon: +49 30 300 117 560<br />
+                    Anschrift: Stromstr. 2 - 2. OG, 10555 Berlin 
+                </p>
+                <p>
+                    Wir danken der Humboldt-Universität zu Berlin und der Technischen Universität Braunschweig, 
+                    deren Hochschulschriftenserver uns als Vorlage dienten. 
+                </p>
+            </div>
+        </div>
+    </section>
+    <meta>
+    </meta>
+</MyCoReWebPage>
