@@ -1,22 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE MyCoReWebPage>
-<MyCoReWebPage>
-    <section xml:lang="de" title="Kontakt">
-        <div class="row">
-            <div class="col-md-12" lang="de">
-                <h2>Kontakt</h2>
-                <p>
-                    <strong>Institution</strong>
-                    <br/>
-                    Name
-                    <br/>
-                    E-Mail:
-                    <span class="madress">name [at] beispiel.de</span>
-                    <br/>
-                    Telefon: +49 00 00 00 00
-                </p>
-            </div>
-        </div>
-
-    </section>
-</MyCoReWebPage>
+<MyCoReWebPage><section xml:lang="de" title="Kontakt"><h1 style="margin-bottom: 0in; line-height: 100%;"><b>Kontakt OEDIPUB</b></h1>
+        
+        <p style="margin-bottom: 0in; line-height: 100%"> </p>
+        
+        <p style="margin-bottom: 0in; line-height: 100%">Julia Degenhardt</p>
+        
+        <p style="margin-bottom: 0in; line-height: 100%">- OEDIPUB Leitung -</p>
+        
+        <p style="margin-bottom: 0in; line-height: 100%">IPU Berlin Bibliothek</p>
+        
+        <p style="margin-bottom: 0in; line-height: 100%">Stromstr. 2</p>
+        
+        <p style="margin-bottom: 0in; line-height: 100%">D-10555 Berlin</p>
+        
+        <p style="margin-bottom: 0in; line-height: 100%"> </p>
+        
+        <p style="margin-bottom: 0in; line-height: 100%">Tel.: +49 30 300 117 560</p>
+        
+        <p style="margin-bottom: 0in; line-height: 100%">E-Mail: <font color="#0000ff"><u><a href="mailto:OEDIPUB@ipu-berlin.de">OEDIPUB@ipu-berlin.de</a></u></font></p>
+        
+        <p style="margin-bottom: 0in; line-height: 100%"> </p>
+        
+        <p style="margin-bottom: 0in; line-height: 100%">Die obige Kontaktstelle ist auch Ihr Ansprechpartner für Fragen zum Publizieren auf OEDIPUB.</p>
+        
+        <p style="margin-bottom: 0in; line-height: 100%"> </p>
+        
+        <p style="margin-bottom: 0in; line-height: 100%">Fragen zum Repositoryframework MyCoRe und dem Datenbankserver beantworten Ihnen der</p>
+        
+        <p style="margin-bottom: 0in; line-height: 100%"> </p>
+        
+        <p style="margin-bottom: 0in; line-height: 100%">Repository-Service</p>
+        
+        <p style="margin-bottom: 0in; line-height: 100%">Verbundszentrale des GBV (VZG)</p>
+        
+        <p style="margin-bottom: 0in; line-height: 100%">Platz der Göttinger Sieben 1</p>
+        
+        <p style="margin-bottom: 0in; line-height: 100%">37073 Göttingen</p>
+        
+        <p style="margin-bottom: 0in; line-height: 100%">Tel.: 0551 39 5207</p>
+        
+        <p style="margin-bottom: 0in; line-height: 100%"> </p>
+        
+        <p style="margin-bottom: 0in; line-height: 100%">Internet: <a href="https://www.gbv.de/Verbundzentrale/serviceangebote/reposis-repository-service"><font color="#4b8fbb"><font size="3" style="font-size: 11pt"><u>https://www.gbv.de/Verbundzentrale/serviceangebote/reposis-repository-service</u></font></font></a><font color="#000000"><font size="3" style="font-size: 11pt"> </font></font></p>
+        
+        <p style="margin-bottom: 0in; line-height: 100%">E-Mail: <a href="mailto:dms-list@lists.gbv.de"><font color="#4b8fbb"><font size="3" style="font-size: 11pt"><u>dms-list@lists.gbv.de</u></font></font></a></p>
+        <style type="text/css">p { margin-bottom: 0.1in; direction: ltr; line-height: 115%; text-align: left; orphans: 2; widows: 2; background: transparent }a:link { color: #0000ff; text-decoration: underline }
+        </style>
+    </section><meta><log lastEditor="administrator" date="2021-07-09" time="08:18" /></meta></MyCoReWebPage>
