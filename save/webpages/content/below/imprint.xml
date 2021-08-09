@@ -3,22 +3,115 @@
 <MyCoReWebPage>
     <section xml:lang="de" title="Impressum">
         <div class="row">
-            <div class="col-md-12" lang="de">
+            <div class="col-md-10" lang="de">
                 <h1>Impressum</h1>
-                <p>
-                    Die nachstehenden Informationen enthalten die gesetzlich vorgesehenen Pflichtangaben zur
-                    Anbieterkennzeichnung, sowie wichtige rechtliche Hinweise zur Internetpräsenz der ...
+                <h3> Anbieterkennzeichnung gem. § 5 TMG (Telemediengesetz): </h3>
+                <p>    
+                    International Psychoanalytic University Berlin gGmbH<br/>
+                    Stromstr. 1<br/>
+                    D-10555 Berlin 
+                </p>
+                <p> 
+                    Tel.: +49 30 300 117 500<br/>
+                    Fax: +49 30 300 117 509
+                </p>
+                <p> 
+                    E-Mail: <span class="madress">info [at] ipu-berlin.de</span> <br/>
+                    Internet: <a href="www.ipu-berlin.de"><font color="#4b8fbb"><font size="3" style="font-size: 11pt">
+                                <u>www.ipu-berlin.de</u></font></font></a> 
                 </p>
 
-                <h2>Anbieter</h2>
+                <h3> Betreiber von OEDIPUB: </h3>
+                <p> 
+                    Bibliothek der IPU Berlin <br/>
+                    vertreten durch Prof. Dr. Lilli Gast<br/> 
+                    Stromstr. 2<br/>
+                    D-10555 Berlin 
+                </p>
+                <p>Tel.: +49 30 300 117 560</p>
+                <p> 
+                    E-Mail: <span class="madress">OEDIPUB [at] ipu-berlin.de</span> 
+                    / <span class="madress">bibliothek [at] ipu-berlin.de</span> 
+                </p>
+
+                <h3>Vertretungsberechtigter der IPU Berlin:</h3>
+                <p>Dr. Rainer Kleinholz </p>
+
+                <h3>Inhaltlich verantwortlich für die Website gem. § 55 Abs. 2 RfStV:</h3>
+                <p> Prof. Dr. Lilli Gast (Anschrift wie oben) </p>
+                <p> 
+                    Registereintrag: HRB 114412 B,<br/>
+                    Handelsregister Berlin, Amtsgericht Charlottenburg<br/>
+                    Umsatzsteuer-Identifikationsnr.: DE 815 184 289
+                </p>
+                <p> 
+                    Die International Psychoanalytic University Berlin gGmbH ist als gemeinnützig anerkannt. 
+                </p>
+                
+                <h2>Haftungsausschluss</h2>
+                
+                <h3>Haftung für Inhalte:</h3>
                 <p>
-                    Anbieter dieser Internetpräsenz ist im Rechtssinne ...
+                    Die Inhalte unserer Seiten wurden mit größter Sorgfalt erstellt. Für die Richtigkeit, 
+                    Vollständigkeit und Aktualität der Inhalte können wir jedoch kein Gewähr übernehmen. Als
+                    Dienstanbieter sind wir gemäß § 7 Abs. 1 TMG für eigene Inhalte auf diesen Seiten nach den 
+                    allgemeinen Gesetzen verantwortlich. Nach §§ 8 bis 10 TMG sind wir als Dienstanbieter jedoch 
+                    nicht verpflichtet, übermittelte oder gespeicherte fremde Informationen zu überwachen oder nach
+                    Umständen zu forschen, die auf eine rechtswidrige Tätigkeit hinweisen. Verpflichtungen zur 
+                    Entfernung oder Sperrung der Nutzung von Informationen nach den allgemeinen Gesetzen bleiben 
+                    hiervon unberührt. Eine diesbezügliche Haftung ist jedoch erst ab dem Zeitpunkt der Kenntnis 
+                    einer konkreten Rechtsverletzung möglich. Bei Bekanntwerden von entsprechenden Rechtsverletzungen
+                    werden wir diese Inhalte umgehend entfernen. 
+                </p>
+                
+                <h3>Haftung für Links:</h3>
+                <p>
+                    Unser Angebot enthält Links zu externen Webseiten Dritter, auf deren Inhalte wir keinen Einfluss 
+                    haben. Deshalb können wir für diese fremden Inhalte auch kein Gewähr übernehmen. Für die Inhalte 
+                    der verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber der Seiten verantwortlich. 
+                    Die verlinkten Seiten wurden zum Zeitpunkt der Verlinkung auf mögliche Rechtsverstöße überprüft. 
+                    Rechtswidrige Inhalte waren zum Zeitpunkt der Verlinkung nicht erkennbar. Eine permanente 
+                    inhaltliche Kontrolle der verlinkten Seiten ist jedoch ohne konkrete Anhaltspunkte einer 
+                    Rechtsverletzung nicht zumutbar. Bei Bekanntwerden von Rechtsverletzungen werden wir derartige 
+                    Links umgehend entfernen. 
+                </p>
+                
+                <h2>Urheberrecht</h2> 
+                <p>
+                    Die auf OEDIPUB öffentlich zugänglich gemachten elektronischen Dokumente einschließlich anderer 
+                    dazugehöriger Daten wie z.B. Bilder, Grafiken, Multimedia-Dateien sind urheberrechtlich geschützt. 
+                    Einzelne Vervielfältigungen, z.B. Kopien und Ausdrucke, dürfen nur zum privaten und sonstigen eigenen 
+                    Gebrauch angefertigt werden (§ 53 UrhG). Die Herstellung und Verbreitung von weiteren Reproduktionen 
+                    ist nur mit ausdrücklicher Genehmigung der Urheber bzw. Herausgeber gestattet oder seitens der 
+                    Autoren durch Creative-Commons-Lizenzen legitimiert. Die Informationen dürfen im Übrigen nicht 
+                    verändert oder verfälscht werden. Weitergabe und Vervielfältigung können nur mit Quellenangabe 
+                    erfolgen. Die Nutzung der lizensierten Inhalte bedarf der Einhaltung der für das Werk geltenden 
+                    Lizenzbedingungen. Layout, Projektmanagement, Programmierung und technische Realisierung sowie 
+                    Pflege des Internetauftritts erfolgt durch den Repository-Service der VZG. 
+                </p>
+                
+                <h2>Datenschutz</h2>
+                <p>
+                    Sofern innerhalb des Internetangebots die Möglichkeit zur Eingabe persönlicher oder geschäftlicher 
+                    Daten (E-Mailadressen, Namen, Anschriften) besteht, so erfolgt die Preisgabe dieser Daten seitens 
+                    des Nutzers auf ausdrücklich freiwilliger Basis. Die Inanspruchnahme und Bezahlung aller 
+                    angebotenen Dienste ist – soweit technisch möglich und zumutbar – auch ohne Angabe solcher Daten
+                    bzw. unter Angabe anonymisierter Daten oder eines Pseudonyms gestattet. Die Nutzung der im Rahmen
+                    des Impressums oder vergleichbarer Angaben veröffentlichten Kontaktdaten wie Postanschriften, 
+                    Telefonnummern und E-Mailadressen durch Dritte zur Übersendung von nicht ausdrücklich angeforderten
+                    Informationen ist nicht gestattet. Rechtliche Schritte gegen die Versender von sogenannten Spam-Mails
+                    bei Verstößen gegen dieses Verbot ist ausdrücklich vorbehalten.
+                </p>
+                
+                <h2>AGG (Allgemeines Gleichbehandlungsgesetz) </h2>
+                <p>
+                    Die auf den Internetseiten der IPU verwendete maskuline bzw. feminine Sprachform dient der 
+                    leichteren Lesbarkeit und meint immer auch das jeweils andere Geschlecht. 
                 </p>
             </div>
         </div>
     </section>
 
     <meta>
-        <log date="2020-10-22" time="18:09" labelPath=" » Admin" lastEditor="Kathleen Neumann"/>
     </meta>
 </MyCoReWebPage>
