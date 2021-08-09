@@ -3,21 +3,255 @@
     <section xml:lang="de" title="Datenschutz (Privacy Policy)">
         <div class="row">
             <div class="col-md-12" lang="de">
-                <h1>I. Name und Anschrift des Verantwortlichen</h1>
-                <p>Verantwortlicher im Sinne der Datenschutz-Grundverordnung und anderer datenschutzrechtlicher
-                    Bestimmungen ist die:
-                </p>
-                <p>INSTITUTION
+                <h1>Datenschutzerklärung für OEDIPUB</h1>
+                <p>
+                    Wir möchten Sie darüber informieren, wann bzw. bei welchen Nutzungen wir Daten verarbeiten, 
+                    welche Daten wir aus welchen Gründen verarbeiten, wer Daten erhält und welche Rechte Sie aufgrund
+                    der Datenverarbeitung haben. 
                 </p>
                 <p>
-                    E-Mail:
-                    <a href="mailto:INSTITUTION@beispiel.de" title="Opens window for sending email">
-                        INSTITUTION@beispiel.de
-                    </a>
+                    Auf OEDIPUB werden elektronische Dokumente aus psychoanalytischen Forschungszusammenhängen gesammelt, 
+                    erschlossen und nachgewiesen. Dazu können sowohl Autoren, die wissenschaftlich mit der IPU Berlin 
+                    assoziiert sind, als auch Wissenschaftler aus anderen Zusammenhängen Dokumente und Forschungsdaten 
+                    auf OEDIPUB einreichen, die durch die Bibliothek der IPU Berlin öffentlich zugänglich gemacht werden.
+                    Beim Hochladen, Betrachten und Downloaden fallen personenbezogene Daten an, die unterschiedlich 
+                    verarbeitet werden. 
                 </p>
-
                 <p>
-                    <b>Stand: Februar 2020</b>
+                    Die folgenden Hinweise beziehen sich ausschließlich auf den Datenschutz für OEDIPUB. Darüber hinaus 
+                    gelten die Datenschutzbestimmungen der IPU Berlin.
+                </p>
+                
+                <h2>1. Verantwortliche im Sinne der Datenschutz-Grundverordnung (DSGVO)</h2>
+                
+                <p>
+                    Internationale Psychoanalytische Universität in Berlin (IPU Berlin)<br /> 
+                    Stromstr. 1<br />
+                    D-10555 Berlin<br />
+                    E-Mail: <span class="madress">OEDIPUB [at] ipu-berlin.de</span> <br />
+                    Tel.: +49 30 300 117 500
+                </p>
+                <p>
+                    vertreten durch die Präsidentin, Prof. Dr. Jan-Hendrik Olbertz
+                </p>
+                
+                <h2>2. Kontaktdaten des behördlichen Datenschutzbeauftragten:</h2>
+                <p>
+                    IPU Berlin<br />
+                    Datenschutzbeauftragter<br />
+                    Stromstr. 1<br />
+                    D-10555 Berlin<br />
+                    E-Mail: <span class="madress">datenschutz [at] ipu-berlin.de</span>
+                </p>
+                
+                <h2>3. Allgemeines zur Datenverarbeitung</h2>
+                <p>
+                    Diese Datenschutzerklärung soll die Nutzer OEDIPUBs über die Art, den Umfang und den Zweck der
+                    Erhebung und Verwendung personenbezogener Daten durch den Betreiber OEDIPUBs (IPU Berlin) 
+                    aufklären. Die Internationale Psychoanalytische Universität in Berlin nimmt den Datenschutz sehr 
+                    ernst und behandelt Ihre personenbezogenen Daten vertraulich und entsprechend der gesetzlichen 
+                    Vorschriften. Da durch neue Technologien und die ständige Weiterentwicklung des Services 
+                    Änderungen an der Datenschutzerklärung vorgenommen werden können, empfehlen wir ein regelmäßiges 
+                    Aufrufen und Durchlesen der Datenschutzerklärung. 
+                </p>
+                <h3>3.1 Verarbeitung der personenbezogenen Daten</h3>
+                <p>
+                    Die Datenverarbeitung richtet sich danach, in welchem Umfang und welche Features der Website Sie 
+                    nutzen. Eine Anmeldung („Login“) mit persönlichen Daten für die Veröffentlichung ist nicht 
+                    erforderlich. Auch für die Suche nach oder den lesenden Zugriff auf Publikationen bedarf es keiner 
+                    Anmeldung. Die Anmeldung ist den Mitarbeitern OEDIPUBs vorbehalten. Das Repositorium verarbeitet und 
+                    speichert folgende Nutzerdaten der Mitarbeiter:
+                    <ul>
+                        <li>Name</li>
+                        <li>Benutzerkennung</li>
+                        <li>E-Mail-Adresse</li>
+                        <li>Uhrzeit und Datum des letzten Logins</li>
+                        <li>Benutzerrollen (Administratoren, Bearbeiter)</li>
+                        <li>Verknüpfungen zu den in diesem Repositorium veröffentlichten Publikationen, inkl. Datum und 
+                            Uhrzeit der letzten Änderung. Die Speicherung und Verarbeitung dieser Daten geschieht zur 
+                            Wahrnehmung der uns übertragenen Aufgabe der Unterstützung von Lehre und Forschung gemäß Art. 6 
+                            Abs. 1 lit. E DSGVO i. V. m. § 3 NDSG und ist erforderlich</li>
+                        <li>Zum Nachweis der Berechtigung zur Veröffentlichung in unserem Repositorium </li>
+                        <li>Zur Kommunikation mit Autoren im Rahmen des Veröffentlichungsprozesses </li>
+                    </ul>
+                </p>
+                <h3>3.2 Publikationsdaten</h3>
+                <p>
+                    Zweck dieses Repositoriums ist die weltweite Veröffentlichung und Bereitstellung elektronischer 
+                    Publikationen im Sinne von Open Access. Dazu speichern, verarbeiten und veröffentlichen wir auch 
+                    personenbezogene Daten der an Publikationen beteiligten Personen:
+                    <ul>
+                        <li>Namen und Rollen (z.B. Autor, Herausgeber) </li>
+                        <li>Eindeutige Autoren-Identifikatoren (z.B. ORCiD, GND) </li>
+                        <li>Informationen zur organisatorischen Zugehörigkeit (z.B. Universität, Fakultät, Institut)</li>
+                    </ul>
+                </p>
+                <p>
+                    Dies dient dem eindeutigen Nachweis und der Anerkennung der Urheberschaft, der Zitierfähigkeit und 
+                    der besseren Auffindbarkeit der Publikationen. Mit Veröffentlichung der Publikation übertragen wir 
+                    auch diese personenbezogenen Daten an Dritte und Stellen sie über Schnittstellen bereit:
+                    <ul>
+                        <li>An die Deutsche Nationalbibliothek im Rahmen der Meldepflichten zum Zweck der Archivierung 
+                            und des Nachweises in der Deutschen Nationalbibliographie</li>
+                        <li>An die Registrierungsagentur DataCite zur eindeutigen Vergabe von dauerhaften 
+                            Publikations-Identifikatoren (DOI)</li>
+                        <li>An wissenschaftliche und allgemeine Suchmaschinen wie Google, Google Scholar, BASE</li>
+                        <li>An Dritte weltweit, über Schnittstellen wie OAI (Open Archives Initiative) und das 
+                            Google Sitemap Protokoll</li>
+                    </ul>
+                </p>
+                <p>
+                    Eine Veröffentlichung und damit die Weitergabe und weltweite Zugänglichmachung erfolgt nur mit 
+                    Einverständnis der Autoren bzw. Herausgeber und nach einer Unterzeichnung des 
+                    Veröffentlichungsvertrags. 
+                </p>
+                <h3>3.3. Dauer der Speicherung personenbezogener Daten</h3>
+                <p>
+                    Die personenbezogenen Daten der betroffenen Personen werden von der IPU Berlin nur so lange 
+                    gespeichert, wie der Zweck der Speicherung besteht. Wenn die Verarbeitung auf einer Einwilligung der 
+                    betroffenen Person beruht, werden die Daten nur so lange gespeichert, bis die Einwilligung widerrufen 
+                    wird, es sei denn, es besteht eine andere Rechtsgrundlage für die Verarbeitung. 
+                </p>
+                
+                <h2>4. Zweck und Rechtsgrundlage der Verarbeitung</h2> 
+                
+                <h3>4.1 Auskunftsrechte</h3>
+                <p>
+                    Nutzer haben das Recht, auf Antrag eine kostenlose Auskunft darüber zu erhalten, welche ihrer 
+                    personenbezogenen Daten gespeichert wurden. Sie haben außerdem das Recht auf Berichtigung falscher 
+                    Daten und auf die Verarbeitungseinschränkung oder Löschung ihrer personenbezogenen Daten. Falls 
+                    zutreffend, können Sie auch Ihr Recht auf Datenportabilität geltend machen. Sollten Sie annehmen, dass 
+                    Ihre Daten unrechtmäßig verarbeitet wurden, können Sie eine Beschwerde bei der zuständigen 
+                    Aufsichtsbehörde einreichen. 
+                </p>
+                <h3>4.2 Recht auf Löschung</h3>
+                <p>
+                    Sofern Ihr Wunsch nicht mit einer gesetzlichen Pflicht zur Aufbewahrung von Daten (z.B. 
+                    Vorratsdatenspeicherung) kollidiert, haben Sie ein Anrecht auf Löschung Ihrer Daten. Von uns 
+                    gespeicherte Daten werden, sollten sie für ihre Zweckbestimmung nicht mehr vonnöten sein und es keine 
+                    gesetzlichen Aufbewahrungsfristen geben, gelöscht. Falls eine Löschung nicht durchgeführt werden kann, 
+                    da die Daten für zulässige gesetzliche Zwecke erforderlich sind, erfolgt eine Einschränkung der 
+                    Datenverarbeitung. In diesem Fall werden die Daten gesperrt und nicht für andere Zwecke verarbeitet. 
+                </p>
+                <h3>4.3 Widerspruchsrechte</h3>
+                <p>
+                    Betroffene haben das Recht, ihre datenschutzrechtliche Einwilligungserklärung jederzeit zu widerrufen. 
+                    Durch den Widerruf der Einwilligung wird die Rechtmäßigkeit der aufgrund der Einwilligung bis zum 
+                    Widerruf erfolgten Verarbeitung nicht berührt. Wenn Sie eine Berichtigung, Sperrung, Löschung oder 
+                    Auskunft über die zu Ihrer Person gespeicherten personenbezogenen Daten wünschen oder Fragen bzgl. 
+                    der Erhebung, Verarbeitung oder Verwendung Ihrer personenbezogenen Daten haben oder erteilte 
+                    Einwilligungen widerrufen möchten, wenden Sie sich bitte an folgende Kontaktadresse: 
+                </p>
+                <p>
+                    Team OEDIPUB der IPU Berlin <br />
+                    E-Mail-Adresse: <span class="madress">OEDIPUB [at] ipu-berlin.de</span><br />
+                    Tel.: 030 300 117 560
+                </p>
+                <h3>4.4 Recht auf Beschwerde bei einer Aufsichtsbehörde</h3>
+                <p>
+                    Unbeschadet eines anderweitigen verwaltungsrechtlichen oder gerichtlichen Rechtsbefehls steht 
+                    Betroffenen das Recht auf Beschwerde bei einer Aufsichtsbehörde, insbesondere in dem Mitgliedstaat 
+                    ihres Aufenthaltsorts, ihres Arbeitsplatzes oder des Orts des mutmaßlichen Verstoßes zu, wenn sie der 
+                    Ansicht sind, dass die Verarbeitung der sie betreffenden personenbezogenen Daten gegen die DSGVO 
+                    verstößt. 
+                </p>
+                <p>
+                    Die Aufsichtsbehörde, bei der die Beschwerde eingereicht wurde, unterrichtet den Beschwerdeführenden 
+                    über den Stand und die Ergebnisse der Beschwerde einschließlich der Möglichkeit eines gerichtlichen 
+                    Rechtsbehelfs nach Art. 78 DSGVO. 
+                </p>
+                <h2>5. Beschreibung der Webseite und Erstellung von Logfiles</h2>
+                
+                <h3>5.1 Beschreibung und Umfang der Datenverarbeitung</h3>
+                <p>
+                    Bei jedem Aufruf einer Internetseite der IPU Berlin erfasst das System automatisiert Daten und 
+                    Informationen von Computersystemen des aufrufenden Rechners. Im Einzelnen werden folgende Daten 
+                    erhoben: 
+                    <ul>
+                        <li>Informationen über den Browsertyp und die verwendete Version</li>
+                        <li>Das Betriebssystem des Nutzenden </li>
+                        <li>Die IP-Adresse des Nutzenden </li>
+                        <li>Datum und Uhrzeit des Zugriffs</li>
+                        <li>Webseiten, die vom System des Nutzenden über die Website der IPU Berlin aufgerufen wurden </li>
+                    </ul>
+                </p>
+                <p>
+                    Die Daten werden ebenfalls in den Logfiles des Systems gespeichert. Eine Speicherung dieser Daten 
+                    zusammen mit anderen personenbezogenen Daten des Nutzenden findet nicht statt. 
+                </p>
+                
+                <h3>5.2 Rechtsgrundlage für die Datenverarbeitung</h3>
+                <p>
+                    Rechtsgrundlage für die vorübergehende Speicherung der Daten ist Art. 6 Abs. 1 lit. f DSGVO. 
+                </p>
+                
+                <h3>5.3 Zweck der Datenverarbeitung</h3>
+                <p>
+                    Die vorübergehende Speicherung der IP-Adresse durch das System ist zur Erhaltung des Dienstbetriebs 
+                    notwendig. Hierfür muss die IP-Adresse des Nutzenden für die Dauer der Sitzung gespeichert bleiben. 
+                </p>
+                <p>
+                    Die Speicherung in Logfiles erfolgt, um die Funktionsfähigkeit der Website sicherzustellen. Zudem 
+                    dienen der IPU Berlin die Daten zur Optimierung der Website und zur Sicherstellung der Sicherheit 
+                    der informationstechnischen Systeme. Eine Auswertung der Daten zu Marketingzwecken findet in diesem 
+                    Zusammenhang nicht statt. In diesen Zwecken liegt auch das berechtigte Interesse an der 
+                    Datenverarbeitung nach Art. 6 Abs. 1 lit. f DSGVO. 
+                </p>
+                <h3>5.4 Dauer der Speicherung</h3>
+                <p>
+                    Die Daten werden gelöscht, wenn die jeweilige Sitzung beendet ist. Im Falle der Speicherung der 
+                    Daten in Logfiles ist dies nach spätestens 24 Stunden der Fall. Eine darüber hinaus gehende 
+                    Speicherung ist möglich. In diesem Fall werden die IP-Adressen der Nutzenden gelöscht oder verfremdet, 
+                    sodass eine Zuordnung des aufrufenden Clients nicht mehr möglich ist. 
+                </p>
+                
+                <h2>6. Verwendung von Cookies</h2>
+                <p>
+                    Diese Dienstleistung verwendet Cookies zur pseudonymisierten Reichweitenmessung. Bei Cookies handelt 
+                    es sich um kleine Dateien, welche auf Ihrem Endgerät gespeichert werden. Ihr Browser greift auf diese 
+                    Dateien zu. Durch den Einsatz von Cookies erhöht sich die Benutzerfreundlichkeit und Sicherheit dieser 
+                    Plattform. Nutzungsdaten werden nur in anonymisierter Form zu Optimierungszwecken gesammelt und 
+                    gespeichert. 
+                </p>
+                <p>
+                    Die Daten dienen ausschließlich der Verbesserung des Publikationsservers, den die Betreiber OEDIPUBs 
+                    mit ihrer Dienstleistung anbieten. 
+                </p>
+                <h2>7. Kontaktaufnahme</h2>
+                
+                <h3>7.1 Beschreibung und Umfang der Datenverarbeitung</h3>
+                <p>
+                    Auf OEDIPUB ist eine Kontaktaufnahme über Formulare oder jeweils bereitgestellte E-Mail-Adressen 
+                    möglich. In diesem Fall werden die übermittelten personenbezogenen Daten der nutzenden Person 
+                    gespeichert. Es erfolgt in diesem Zusammenhang keine Weitergabe der Daten an Dritte. Die Daten werden 
+                    ausschließlich für die Verarbeitung des genannten Zweckes verwendet. 
+                </p>
+                <h3>7.2 Rechtgrundlage für die Datenverarbeitung</h3>
+                <p>
+                    Rechtsgrundlage für die Verarbeitung der übermittelten Daten im Rahmen der Kontaktaufnahme ist 
+                    Art. 6 Abs. 1 DSGVO. 
+                </p>
+                <h3>7.3 Zweck der Datenverarbeitung</h3>
+                <p>
+                    Die Verarbeitung der personenbezogenen Daten dient der IPU Berlin allein zur Bearbeitung der 
+                    Kontaktaufnahme. Hierin liegt auch das berechtigte Interesse an der Verarbeitung der Daten. 
+                </p>
+                <h3>7.4 Dauer der Speicherung, Widerspruchs- und Beseitigungsmöglichkeiten</h3>
+                <p>
+                    Die personenbezogenen Daten, die übermittelt wurden, werden gelöscht, wenn der jeweilige Zweck erfüllt 
+                    ist. 
+                </p>
+                <p>
+                    Nimmt die nutzende Person Kontakt mit der IPU Berlin auf, so kann sie der Speicherung ihrer 
+                    personenbezogenen Daten jederzeit widersprechen. In einem solchen Fall kann die Kommunikation nicht 
+                    fortgeführt oder wieder aufgenommen werden. Alle personenbezogenen Daten, die im Zuge der 
+                    Kontaktaufnahme gespeichert wurden, werden in diesem Fall gelöscht. 
+                </p>
+                <p>
+                    Weitere Informationen entnehmen Sie bitte der Datenschutzerklärung der IPU Berlin. 
+                </p>
+                <p>
+                    <b>Stand: Juli 2021</b>
                 </p>
             </div>
         </div>
