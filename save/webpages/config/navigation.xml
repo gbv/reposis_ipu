@@ -69,7 +69,7 @@
             <label xml:lang="de">Nach Fachbereich</label>
             <label xml:lang="en">for subject area</label>
         </item>
-        <item href="/content/browse/sdnb.xml" type="intern">
+        <item href="/content/browse/ddc.xml" type="intern">
             <label xml:lang="de">Nach DDC</label>
             <label xml:lang="en">for DDC</label>
         </item>

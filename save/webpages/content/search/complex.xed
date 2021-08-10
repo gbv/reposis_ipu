@@ -82,7 +82,7 @@
               <!-- DDC -->
               <mir:template name="selectInput"
                   xpath="condition[@field='category.top'][2]/@value" id="inputDDC1"
-                  i18n="editor.search.mir.project.ddc" tooltip="editor.search.mir.project.tooltip"
+                  i18n="editor.search.project.ddc" tooltip="editor.search.project.ddc.tooltip"
                   uri="xslStyle:items2options:classification:editorComplete:-1:children:DDC" />
               <!-- Genre -->
                 <mir:template name="selectInput"
