@@ -1,45 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE MyCoReWebPage>
-<MyCoReWebPage>
-  
-  <section xml:lang="de" title="Willkommen auf den Seiten der IPU">
-    <div class="jumbotwo" id="project-index-search" style="margin-top:50px;">
-      <div class="row">
-        <div class="col-md-9" lang="de">
-          <div id="project_logo_box" class="mr-2 mb-2">
-            <a href="http://www.ipu-berlin.de/">
-              <img src="../images/ipu-logo-web_de.svg" alt="Logo IPU" />
-            </a>
-          </div>
-          <h1>
-            OEDIPUB – Offener elektronischer Dokumentenserver der IPU Bibliothek
-          </h1>
-          <p>
-            Willkommen auf dem Publikationsserver für Psychoanalyse OEDIPUB ist ein fachliches Repositorium für Psychoanalyse, 
-            das an der IPU Berlin beheimatet ist. Der psychoanalytische Publikationsserver bietet Autoren, Herausgebern und 
-            Studierenden der IPU Berlin die Rahmenbedingungen zum kostenfreien elektronischen Publizieren von Dokumenten, 
-            Qualifikationsarbeiten und Forschungsdaten aus dem Fachbereich der Psychoanalyse.
-          </p>
-          <p>
-            OEDIPUB ist frei im Internet zugänglich. Alle Metadaten können frei recherchiert werden. 
-          </p>
-        </div>
-        <div class="col-md-9" lang="de">
-          <form action="../servlets/solr/find" id="project-searchMainPage" class="form-inline" role="search">
-            <div class="input-group input-group-lg w-100">
-              <input name="condQuery" placeholder="Suche" class="form-control search-query" id="leo-searchInput" type="text" />
-              <div class="input-group-append">
-                <button type="submit" class="btn btn-primary">
-                  <i class="fa fa-search"></i>
-                </button>
-              </div>
-            </div>
-          </form>
-        </div>
-      </div>
-    </div>
-  <script src="../js/jquery.number.js"></script>
-  <script>
+<MyCoReWebPage><section xml:lang="de" title="Willkommen auf den Seiten der IPU"><div>
+<div class="jumbotwo" id="project-index-search" style="margin-top:50px;">
+<div class="row">
+<div class="col-md-9" lang="de">
+<div class="mr-2 mb-2" id="project_logo_box"><a href="http://www.ipu-berlin.de/"><img alt="Logo IPU" src="../images/ipu-logo-web_de.svg" /> </a></div>
+
+<h1>OEDIPUB – Offener elektronischer Dokumentenserver der IPU Bibliothek</h1>
+
+<p>Willkommen auf dem Publikationsserver für Psychoanalyse</p>
+
+<p>OEDIPUB ist ein fachliches Repositorium für Psychoanalyse, das an der IPU Berlin beheimatet ist. Der psychoanalytische Publikationsserver bietet Autoren, Herausgebern und Studierenden der IPU Berlin die Rahmenbedingungen zum kostenfreien elektronischen Publizieren von Dokumenten, Qualifikationsarbeiten und Forschungsdaten aus dem Fachbereich der Psychoanalyse.</p>
+
+<p>OEDIPUB ist frei im Internet zugänglich. Alle Metadaten können frei recherchiert werden.</p>
+</div>
+
+<div class="col-md-9" lang="de">
+<form action="../servlets/solr/find" class="form-inline" id="project-searchMainPage" role="search">
+<div class="input-group input-group-lg w-100"><input class="form-control search-query" id="leo-searchInput" name="condQuery" placeholder="Suche" type="text" />
+<div class="input-group-append"><button class="btn btn-primary" type="submit" /></div>
+<i class="fa fa-search"> </i></div>
+</form>
+</div>
+</div>
+</div>
+<script src="../js/jquery.number.js" /><script>
     $( document ).ready(function() {
     $.ajax({
     type: "GET",
@@ -50,9 +34,5 @@
     },
     });
     });
-  </script>
-</section>
-
-<meta>
-</meta>
-</MyCoReWebPage>
+  </script></div>
+</section><meta><log lastEditor="degenhardt" date="2021-08-09" time="16:05" /></meta></MyCoReWebPage>
