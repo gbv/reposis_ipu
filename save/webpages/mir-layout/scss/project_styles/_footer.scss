@@ -8,6 +8,30 @@
 
 .flatmir-footer {
   background-color: $footerBlack;
+  padding-top: 2rem;
+}
+.internal_links {
+  flex-direction: column;
+  margin-bottom: 3rem;
+}
+.internal_links .dropdown-item {
+  color: $footerText;
+  padding: .4rem 0;
+  &:hover,
+  &:focus {
+    color: $ipuOrange;
+    background-color: transparent;
+  }
+}
+.ipu-logo-box {
+  text-align: right;
+  img {
+    width: 250px;
+  }
+}
+.copyright-box {
+  color: $footerText;
+  margin-bottom: 2rem;
 }
 #powered_by {
   background-color: darken($footerBlack, 4%);

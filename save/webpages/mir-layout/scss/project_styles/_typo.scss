@@ -11,9 +11,24 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Roboto Condensed', "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  font-weight: 700;
+  font-family: $font-family-condensed;
+  font-weight: 400;
   color: $headlineBlack;
+}
+h1 {
+  color: $ipuOrange;
+}
+h2.ipu-subline {
+  font-size: 1.4rem;
+}
+.copyright-box,
+.internal_links .dropdown-item {
+  font-weight: 300;
+  text-transform: uppercase;
+  font-family: $font-family-condensed;
+}
+.project_logo_box {
+  font-family: $font-family-condensed;
 }
 
 // Large devices (desktops) and below: <= 1200px

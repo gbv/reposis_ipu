@@ -21,8 +21,12 @@
         <a href="https://www.ipu-berlin.de/bibliothek/" id="ipu-bibliothek">IPU Bibliothek</a>
       </div>
       <div id="project_logo_box">
-        <a href="http://www.ipu-berlin.de/">
-          <img src="{$WebApplicationBaseURL}images/ipu-logo-web_de.svg" alt="Logo IPU" />
+        <a href="{$WebApplicationBaseURL}">
+          <img src="{$WebApplicationBaseURL}images/OEDIPUB_Logo.svg" alt="Logo OEDIPUB" />
+          <div>
+            <span class="project-name">OED<strong>IPU</strong>B</span>
+            <span class="project-slogen">Offene elektronische Dokumente der IPU Bibliothek</span>
+          </div>
         </a>
       </div>
     </div>
@@ -103,10 +107,18 @@
   <xsl:template name="mir.footer">
     <div class="container">
       <div class="row">
-        <div class="col-12">
+        <div class="col-6">
           <ul class="internal_links nav navbar-nav navbar-expand-md">
             <xsl:apply-templates select="$loaded_navigation_xml/menu[@id='below']/*" />
           </ul>
+        </div>
+        <div class="col-6 ipu-logo-box">
+          <a href="http://www.ipu-berlin.de/">
+            <img src="{$WebApplicationBaseURL}images/ipu-logo-web_de.svg" alt="Logo IPU" />
+          </a>
+        </div>
+        <div class="col-12">
+          <div class="copyright-box">Copyright © 2021 · International Psychoanalytic University Berlin</div>
         </div>
       </div>
     </div>

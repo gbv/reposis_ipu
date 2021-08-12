@@ -40,25 +40,48 @@ $ipuRed: rgba(191,94,70,1); // #bf5e46
 // from website
 $menuGray:      #f0f0f0;
 $footerBlack:   #2c2c2c;
+$footerText:    rgba(255,255,255,0.3);
 $headlineBlack: rgba(35,40,45,0.8);
 $textBlack:     rgba(35,40,45,0.9);
+$dropdownBack:  rgba(240,240,240,0.9);
+$dropdownBack:  rgba(240,240,240,1); // increase contrast
+$dropdownText:  #727272;
+
+// project specific
+$font-family-condensed: 'Roboto Condensed', "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
 
 // --------------------------------------------------
 //  overwrite bootstrap
 // --------------------------------------------------
 
-$font-size-base: 1rem;
 $primary: $ipuOrange;
 $secondary: $ipuDarkGray;
+
 $body-color: $textBlack;
 $link-color: $primary;
 $link-hover-color: $textBlack;
 $link-hover-decoration: none;
+
+$font-size-base: 1rem;
+$line-height-base: 1.5;
+$headings-font-weight: 300;
+$font-weight-base: 300;
+$font-weight-normal: 300;
+$font-family-sans-serif: Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
 $border-radius: 0;
 $border-radius-sm: $border-radius;
 $border-radius-lg: $border-radius;
 $input-border-radius: $border-radius;
+
 $navbar-light-hover-color: white;
 $navbar-light-active-color: white;
 $navbar-nav-link-padding-x: 1rem;
-$font-family-sans-serif: Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+$dropdown-bg: $dropdownBack;
+$dropdown-color: $dropdownText;
+$dropdown-link-color: $dropdownText;
+$dropdown-link-hover-color: $ipuOrange;
+$dropdown-link-hover-bg: transparent;
+$dropdown-border-color: $dropdownBack;
