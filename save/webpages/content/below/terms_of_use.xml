@@ -1,38 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <MyCoReWebPage>
-    <section xml:lang="de" title="NUTZUNGSBEDINGUNGEN">
+    <section xml:lang="de" title="Nutzungsbedingungen">
         <div class="row">
             <div class="col-md-12" lang="de">
-                <h1>Nutzungsbedingungen</h1>
-                <p>
-                    Informationen zur Nutzung.
+                <h1>Nutzungsbedingungen für OEDIPUB</h1>
+                <p>         
+                    Für die Dokumente auf OEDIPUB gilt uneingeschränkt das Urheberrechtsgesetz (UrhG). 
+                    Für die Veröffentlichung empfiehlt OEDIPUB Autoren und Herausgebern eine CC-Lizensierung. 
+                    Die Metadaten OEDIPUBs unterliegen einer CC0-Lizensierung.
                 </p>
                 <p>
-                    Weitere Erklärungen.
+                    Bitte geben Sie bei der Nutzung die vollständige Quellenangabe für das Dokument an (siehe unten).
+                    Einzelne Vervielfältigungen, z.B. Kopien und Ausdrucke, dürfen nur zum privaten und sonstigen 
+                    eigenen Gebrauch angefertigt werden (§ 53 UrhG). Die Herstellung und Verbreitung von weiteren 
+                    Reproduktionen ist nur mit ausdrücklicher Genehmigung der Urheber gestattet oder seitens der 
+                    Autoren und Herausgeber durch CC-Lizensierungen legitimiert. Nutzer sind für die Einhaltung der 
+                    Rechtsvorschriften selbst verantwortlich und können bei Missbrauch haftbar gemacht werden.
                 </p>
-                <h2>
-                    Überschrift 1
-                </h2>
+                <h2>Quellenangaben</h2>
                 <p>
-                    Hier kommt noch Text.
+                    OEDIPUB - Offene elektronische Dokumente der IPU Bibliothek + PURL (Persistent Uniform Resource 
+                    Locator) des digitalen Objektes
                 </p>
-                <h2>
-                    Überschrift 2
-                </h2>
+                <P>
+                    Beispiel:
+                    
+                    <i>OEDIPUB - Offene elektronische Dokumente der IPU Bibliothek, https://doi.org/xxxxxx/xxxxxxxxxxxxxx (DOI)</i>
+                    
+                    <i>OEDIPUB - Offene elektronische Dokumente der IPU Bibliothek, [OEDIPUB Bsp. Für URN] (URN)</i>
+                </P>
+
+                <h2>OAI-Schnittstelle zum Metadaten-Harvesting unter:</h2>
                 <p>
-                    Hier kommt noch viel mehr Text.
-                    <ul>
-                        <li>...</li>
-                        <li>...</li>
-                        <li>...</li>
-                    </ul>
+                    [Hier braucht es den entsprechenden Link]
                 </p>
             </div>
         </div>
     </section>
-    <section xml:lang="en" title="TERMS OF USE">
+    <section xml:lang="en" title="Terms of Use">
     </section>
     <meta>
-        <log lastEditor="administrator" date="2020-06-10" time="15:29"/>
     </meta>
 </MyCoReWebPage>
