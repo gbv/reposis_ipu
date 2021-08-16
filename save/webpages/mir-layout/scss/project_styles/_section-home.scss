@@ -11,6 +11,26 @@
     display: none;
   }
 }
+// reset mir settings
+// do not remove jumbotwo class,
+// then body mir-start_page will not longer be set
+/*
+.jumbotwo {
+  h2 {
+    font-size: 40px;
+    margin: 0px 0 30px 0;
+  }
+  h3 {
+    span {
+      padding-right: 20px;
+    }
+  }
+}
+*/
+h2.ipu-subline {
+  font-size: 1.4rem;
+  margin-bottom: 0.5rem;
+}
 
 // Large devices (desktops) and below: <= 1200px
 @include media-breakpoint-down(lg) {

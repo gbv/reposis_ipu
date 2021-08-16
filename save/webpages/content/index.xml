@@ -3,7 +3,7 @@
 <MyCoReWebPage>
 
   <section xml:lang="de" title="Willkommen auf den Seiten der IPU">
-    <div class="" id="project-index-search">
+    <div class="jumbotwo" id="project-index-search">
       <div class="row">
         <div class="col-12" lang="de">
           <h1 class="text-primary">
@@ -16,7 +16,7 @@
         <div class="col-9 mt-4 mb-5" lang="de">
           <form action="../servlets/solr/find" id="project-searchMainPage" class="form-inline" role="search">
             <div class="input-group input-group-lg w-100">
-              <input name="condQuery" placeholder="Suche" class="form-control search-query" id="leo-searchInput" type="text" />
+              <input name="condQuery" placeholder="Suche" class="form-control search-query" id="project-searchInput" type="text" />
               <div class="input-group-append">
                 <button type="submit" class="btn btn-primary">
                   <i class="fa fa-search"></i>
