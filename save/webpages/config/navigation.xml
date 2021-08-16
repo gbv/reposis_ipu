@@ -77,7 +77,7 @@
     <menu id="publish" dir="/content/publish">
         <label xml:lang="de">Dokumente einreichen</label>
         <label xml:lang="en">Submit Document</label>
-        <item href="/servlets/MCRActionMappingServlet/mods/create" type="intern" replaceMenu="false" constrainPopUp="false">
+        <item href="/content/publish/submit_request.xed" type="intern" replaceMenu="false" constrainPopUp="false">
             <label xml:lang="de">Publizieren</label>
             <label xml:lang="en">Publish</label>
         </item>

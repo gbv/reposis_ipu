@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE MyCoReWebPage>
+<MyCoReWebPage>
+  
+  <section xml:lang="de" title="Publizieren">
+    <xed:form xmlns:xed="http://www.mycore.de/xeditor" method="post" role="form" class="form-horizontal">
+      <xed:bind xpath="/contactMail">
+        <h1>Übermittlung Ihrer Daten</h1>
+        <h2>Persönliche Daten</h2>
+        <div class="form-group row">
+          <div class="ml-3"></div>
+        </div>
+        
+        <!-- sender name -->
+        <xed:bind xpath="to_name">
+          <div class="form-group row">
+            <label class="col-md-3 control-label required">
+              * Name:
+            </label>
+            <div class="col-md-6">
+              <input placeholder="M. Muster" class="form-control input-md" type="text" required="required" />
+            </div>
+          </div>
+        </xed:bind>
+        
+        <!-- sender mail address -->
+        <xed:bind xpath="to_mail">
+          <div class="form-group row">
+            <label class="col-md-3 control-label required">
+              * E-Mail:
+            </label>
+            <div class="col-md-6">
+              <input placeholder="m.muster@ipu.de" class="form-control input-md" type="email" required="required" />
+            </div>
+          </div>
+        </xed:bind>
+        
+        <!-- university -->
+        <xed:bind xpath="university">
+          <div class="form-group row">
+            <label class="col-md-3 control-label required">
+              * Universität / Institut:
+            </label>
+            <div class="col-md-6">
+              <input class="form-control input-md" type="text" required="required" />
+            </div>
+          </div>
+        </xed:bind>
+        
+        <!-- department -->
+        <xed:bind xpath="department">
+          <div class="form-group row">
+            <label class="col-md-3 control-label required">
+              * <xed:output i18n="editor.search.mir.institute" />:
+            </label>
+            <div class="col-md-6">
+              <select class="form-control form-control-inline">
+                <option value="">
+                  <xed:output i18n="mir.select.optional" />
+                </option>
+                <xed:include uri="xslStyle:items2options:classification:editor:-1:children:mir_institutes" />
+              </select>
+            </div>
+          </div>
+        </xed:bind>
+        
+        <!-- title (DE) -->
+        <xed:bind xpath="title_de">
+          <div class="form-group row">
+            <label class="col-md-3 control-label required">
+              * Titel (deutsch):
+            </label>
+            <div class="col-md-6">
+              <input class="form-control input-md" type="text" required="required" />
+            </div>
+          </div>
+        </xed:bind>
+        
+        <!-- title (EN) -->
+        <xed:bind xpath="title_en">
+          <div class="form-group row">
+            <label class="col-md-3 control-label required">
+              * Titel (englisch):
+            </label>
+            <div class="col-md-6">
+              <input class="form-control input-md" type="text" required="required" />
+            </div>
+          </div>
+        </xed:bind>
+        
+        <!-- license -->
+        <xed:bind xpath="license">
+          <div class="form-group row">
+            <label class="col-md-3 control-label required">
+              * Lizenz:
+            </label>
+            <div class="col-md-6">
+              <select class="form-control form-control-inline">
+                <option value="">
+                  <xed:output i18n="mir.select.optional" />
+                </option>
+                <xed:include uri="xslStyle:items2options:classification:editor:-1:children:mir_licenses" />
+              </select>
+            </div>
+          </div>
+        </xed:bind>
+        
+        <!-- keywords (DE) -->
+        <xed:bind xpath="keywords_de">
+          <div class="form-group row">
+            <label class="col-md-3 control-label required">
+              * Schlagworte (deutsch):
+            </label>
+            <div class="col-md-6">
+              <input class="form-control input-md" type="text" required="required" />
+            </div>
+          </div>
+        </xed:bind>
+        
+        <!-- keywords (EN) -->
+        <xed:bind xpath="keywords_en">
+          <div class="form-group row">
+            <label class="col-md-3 control-label required">
+              * Schlagworte (englisch):
+            </label>
+            <div class="col-md-6">
+              <input class="form-control input-md" type="text" required="required" />
+            </div>
+          </div>
+        </xed:bind>
+        
+        <!-- abstract (DE) -->
+        <xed:bind xpath="abstract_de">
+          <div class="form-group row">
+            <label class="col-md-3 control-label required">
+              * Zusammenfassung (deutsch):
+            </label>
+            <div class="col-md-6">
+              <textarea class="form-control input-md" type="text" rows="3" required="required" />
+            </div>
+          </div>
+        </xed:bind>
+        
+        <!-- abstract (EN) -->
+        <xed:bind xpath="abstract_en">
+          <div class="form-group row">
+            <label class="col-md-3 control-label required">
+              * Zusammenfassung (englisch):
+            </label>
+            <div class="col-md-6">
+              <textarea class="form-control input-md" type="text" rows="3" required="required" />
+            </div>
+          </div>
+        </xed:bind>
+        
+        <!-- notes -->
+        <xed:bind xpath="notes">
+          <div class="form-group row">
+            <label class="col-md-3 control-label">* Anmerkungen:</label>
+            <div class="col-md-6">
+              <textarea class="form-control input-md" type="text" rows="3" required="required" />
+            </div>
+          </div>
+        </xed:bind>
+        
+        <!-- attachment -->
+        <xed:bind xpath="attachment">
+          <div class="form-group row">
+            <label class="col-md-3 control-label">* Anhang (max. 50MB):</label>
+            <div class="col-md-6">
+              <input name="file" type="file" />
+            </div>
+          </div>
+        </xed:bind>
+        
+        <!-- approvement -->
+        <xed:bind xpath="approvement">
+          <div class="form-group row ">
+            <label class="col-md-3 control-label"> </label>
+            <div class="col-md-6"> <input type="checkbox" value="true" required="required" />
+              Ich habe die <a href="../below/rights.xml">Datenschutzerklärung</a> gelesen und erkenne sie an.
+            </div>
+          </div>
+        </xed:bind>
+
+        <!-- copy to sender -->
+        <xed:bind xpath="copy_to_sender">
+          <div class="form-group row ">
+            <label class="col-md-3 control-label"> </label>
+            <div class="col-md-6"> <input type="checkbox" value="true" />
+              Kopie an Absender
+            </div>
+          </div>
+        </xed:bind>
+        
+        <!-- captacha -->
+        <!-- TODO: Remove this once MIR-993 is fixed 
+             <xed:if test="string-length($MIR.ReCaptcha.site.key) &gt; 0">
+             <script type="text/javascript">
+             <![CDATA[
+             var verifyCallback = function(response) {
+             $('#my-g-recaptcha-response').val(response);
+             };
+             ]]>
+             </script>
+             <script src='https://www.google.com/recaptcha/api.js?hl={$CurrentLang}'></script>
+             <xed:bind xpath="attributes/attribute[@name='recaptchaParam']/@value">
+             <div class="form-group row {$xed-validation-marker} required">
+             <label class="col-md-3 control-label" for="my-g-recaptcha-response">
+             <xed:output i18n="selfRegistration.captcha" />
+             </label>
+             <div id="captcha" class="g-recaptcha col-md-6" data-sitekey="{$MIR.ReCaptcha.site.key}" data-callback="verifyCallback" />
+             <input id="my-g-recaptcha-response" type="hidden" />
+             <xed:validate display="global" i18n="selfRegistration.error.captcha" test="xed:call-java('org.mycore.mir.authorization.ReCaptcha', 'isSubmittedCaptchaCorrect', .)" />
+             </div>
+             </xed:bind>
+             <xed:cleanup-rule xpath="//attribute[@name='recaptchaParam']" relevant-if="true" />
+             </xed:if>
+        -->
+        <!-- Hidden parameters for MCRMailer -->
+        <input type="hidden" value="../content/publish/submit_request.xed?XSL.Status.Style=success&amp;XSL.Status.Message=project.submit_request.success" name="goto" /><!-- where to go after sending mail -->
+        <input type="hidden" value="submit_request" name="xsl" /><!-- specify xsl to convert mail to for MCRMailer -->
+        
+        <!-- Buttons -->
+        <div class="form-group row ">
+          <label class="col-md-3 control-label"> </label>
+          <div class="md-6 pl-3">
+            <button id="reset" class="btn btn-secondary" type="reset">Formular leeren</button>
+            <button id="save" class="btn btn-primary" xed:target="servlet" xed:href="MCRMailer" type="submit">Absenden</button>
+          </div>
+        </div>
+        
+        <script src="../../js/validator.min.js" type="text/javascript"></script>
+      </xed:bind>
+    </xed:form>
+  </section>
+  
+</MyCoReWebPage>
