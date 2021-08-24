@@ -3,18 +3,19 @@
 <xsl:stylesheet version="1.0"
                 xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
                 xmlns:xlink="http://www.w3.org/1999/xlink"
-                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                xmlns:mods="http://www.loc.gov/mods/v3">
   
   <xsl:output method="xml" encoding="UTF-8" />
-  <xsl:param name="MCR.mir-module.EditorMail" />
+  <xsl:param name="MCR.mir-module.MailSender" />
   <xsl:param name="WebApplicationBaseURL" />
   <xsl:param name="MIR.UploadForm.path" />
   
-  <xsl:template match="/contactMail">
+  <xsl:template match="/">
     <xsl:if test="approvement='true'">
       <email>
         <from><xsl:value-of select="concat(to_name, '&lt;', to_mail, '&gt;')"/></from>
-        <to><xsl:value-of select="$MCR.mir-module.EditorMail" /></to>
+        <to><xsl:value-of select="$MCR.mir-module.MailSender" /></to>
         <xsl:choose>
           <xsl:when test="copy_to_sender='true'">
             <bcc><xsl:value-of select="concat(to_name, '&lt;', to_mail, '&gt;')"/></bcc>
@@ -46,10 +47,10 @@
     Zusammenfassung (deutsch):  <xsl:value-of select="abstract_de" />
     Zusammenfassung (englisch): <xsl:value-of select="abstract_en" />
     Anmerkungen:                <xsl:value-of select="notes" />
-            
+
         </body>
         <part>
-          <xsl:value-of select="concat('file://', $MIR.UploadForm.path, '/', file/@name )" />
+          <xsl:value-of select="concat('file://', $MIR.UploadForm.path, '/', email/file/@name )" />
         </part>
       </email>
     </xsl:if>

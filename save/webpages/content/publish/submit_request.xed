@@ -3,236 +3,241 @@
 <MyCoReWebPage>
   
   <section xml:lang="de" title="Publizieren">
-    <xed:form xmlns:xed="http://www.mycore.de/xeditor" method="post" role="form" class="form-horizontal">
-      <xed:bind xpath="/contactMail">
-        <h1>Übermittlung Ihrer Daten</h1>
-        <h2>Persönliche Daten</h2>
+
+    <style>
+      .required:after {
+        content:" *";
+      }
+    </style>
+
+    <form  action="../../servlets/MIRMailerWithFile" method="post" role="form" class="form-horizontal" enctype="multipart/form-data" data-toggle="validator">
+      <input type="hidden" name="goto" value="../content/index.xml" />
+      
+      <h1>Übermittlung Ihrer Daten</h1>
+      
+      <h2>Persönliche Daten</h2>
         <div class="form-group row">
           <div class="ml-3"></div>
         </div>
-        
-        <!-- sender name -->
-        <xed:bind xpath="to_name">
-          <div class="form-group row">
-            <label class="col-md-3 control-label required">
-              * Name:
-            </label>
-            <div class="col-md-6">
-              <input placeholder="M. Muster" class="form-control input-md" type="text" required="required" />
-            </div>
-          </div>
-        </xed:bind>
-        
-        <!-- sender mail address -->
-        <xed:bind xpath="to_mail">
-          <div class="form-group row">
-            <label class="col-md-3 control-label required">
-              * E-Mail:
-            </label>
-            <div class="col-md-6">
-              <input placeholder="m.muster@ipu.de" class="form-control input-md" type="email" required="required" />
-            </div>
-          </div>
-        </xed:bind>
-        
-        <!-- university -->
-        <xed:bind xpath="university">
-          <div class="form-group row">
-            <label class="col-md-3 control-label required">
-              * Universität / Institut:
-            </label>
-            <div class="col-md-6">
-              <input class="form-control input-md" type="text" required="required" />
-            </div>
-          </div>
-        </xed:bind>
-        
-        <!-- department -->
-        <xed:bind xpath="department">
-          <div class="form-group row">
-            <label class="col-md-3 control-label required">
-              * <xed:output i18n="editor.search.mir.institute" />:
-            </label>
-            <div class="col-md-6">
-              <select class="form-control form-control-inline">
-                <option value="">
-                  <xed:output i18n="mir.select.optional" />
-                </option>
-                <xed:include uri="xslStyle:items2options:classification:editor:-1:children:mir_institutes" />
-              </select>
-            </div>
-          </div>
-        </xed:bind>
-        
-        <!-- title (DE) -->
-        <xed:bind xpath="title_de">
-          <div class="form-group row">
-            <label class="col-md-3 control-label required">
-              * Titel (deutsch):
-            </label>
-            <div class="col-md-6">
-              <input class="form-control input-md" type="text" required="required" />
-            </div>
-          </div>
-        </xed:bind>
-        
-        <!-- title (EN) -->
-        <xed:bind xpath="title_en">
-          <div class="form-group row">
-            <label class="col-md-3 control-label required">
-              * Titel (englisch):
-            </label>
-            <div class="col-md-6">
-              <input class="form-control input-md" type="text" required="required" />
-            </div>
-          </div>
-        </xed:bind>
-        
-        <!-- license -->
-        <xed:bind xpath="license">
-          <div class="form-group row">
-            <label class="col-md-3 control-label required">
-              * Lizenz:
-            </label>
-            <div class="col-md-6">
-              <select class="form-control form-control-inline">
-                <option value="">
-                  <xed:output i18n="mir.select.optional" />
-                </option>
-                <xed:include uri="xslStyle:items2options:classification:editor:-1:children:mir_licenses" />
-              </select>
-            </div>
-          </div>
-        </xed:bind>
-        
-        <!-- keywords (DE) -->
-        <xed:bind xpath="keywords_de">
-          <div class="form-group row">
-            <label class="col-md-3 control-label required">
-              * Schlagworte (deutsch):
-            </label>
-            <div class="col-md-6">
-              <input class="form-control input-md" type="text" required="required" />
-            </div>
-          </div>
-        </xed:bind>
-        
-        <!-- keywords (EN) -->
-        <xed:bind xpath="keywords_en">
-          <div class="form-group row">
-            <label class="col-md-3 control-label required">
-              * Schlagworte (englisch):
-            </label>
-            <div class="col-md-6">
-              <input class="form-control input-md" type="text" required="required" />
-            </div>
-          </div>
-        </xed:bind>
-        
-        <!-- abstract (DE) -->
-        <xed:bind xpath="abstract_de">
-          <div class="form-group row">
-            <label class="col-md-3 control-label required">
-              * Zusammenfassung (deutsch):
-            </label>
-            <div class="col-md-6">
-              <textarea class="form-control input-md" type="text" rows="3" required="required" />
-            </div>
-          </div>
-        </xed:bind>
-        
-        <!-- abstract (EN) -->
-        <xed:bind xpath="abstract_en">
-          <div class="form-group row">
-            <label class="col-md-3 control-label required">
-              * Zusammenfassung (englisch):
-            </label>
-            <div class="col-md-6">
-              <textarea class="form-control input-md" type="text" rows="3" required="required" />
-            </div>
-          </div>
-        </xed:bind>
-        
-        <!-- notes -->
-        <xed:bind xpath="notes">
-          <div class="form-group row">
-            <label class="col-md-3 control-label">* Anmerkungen:</label>
-            <div class="col-md-6">
-              <textarea class="form-control input-md" type="text" rows="3" required="required" />
-            </div>
-          </div>
-        </xed:bind>
-        
-        <!-- attachment -->
-        <xed:bind xpath="attachment">
-          <div class="form-group row">
-            <label class="col-md-3 control-label">* Anhang (max. 50MB):</label>
-            <div class="col-md-6">
-              <input name="file" type="file" />
-            </div>
-          </div>
-        </xed:bind>
-        
-        <!-- approvement -->
-        <xed:bind xpath="approvement">
-          <div class="form-group row ">
-            <label class="col-md-3 control-label"> </label>
-            <div class="col-md-6"> <input type="checkbox" value="true" required="required" />
-              Ich habe die <a href="../below/rights.xml">Datenschutzerklärung</a> gelesen und erkenne sie an.
-            </div>
-          </div>
-        </xed:bind>
-
-        <!-- copy to sender -->
-        <xed:bind xpath="copy_to_sender">
-          <div class="form-group row ">
-            <label class="col-md-3 control-label"> </label>
-            <div class="col-md-6"> <input type="checkbox" value="true" />
-              Kopie an Absender
-            </div>
-          </div>
-        </xed:bind>
-        
-        <!-- captacha -->
-        <!-- TODO: Remove this once MIR-993 is fixed 
-             <xed:if test="string-length($MIR.ReCaptcha.site.key) &gt; 0">
-             <script type="text/javascript">
-             <![CDATA[
-             var verifyCallback = function(response) {
-             $('#my-g-recaptcha-response').val(response);
-             };
-             ]]>
-             </script>
-             <script src='https://www.google.com/recaptcha/api.js?hl={$CurrentLang}'></script>
-             <xed:bind xpath="attributes/attribute[@name='recaptchaParam']/@value">
-             <div class="form-group row {$xed-validation-marker} required">
-             <label class="col-md-3 control-label" for="my-g-recaptcha-response">
-             <xed:output i18n="selfRegistration.captcha" />
-             </label>
-             <div id="captcha" class="g-recaptcha col-md-6" data-sitekey="{$MIR.ReCaptcha.site.key}" data-callback="verifyCallback" />
-             <input id="my-g-recaptcha-response" type="hidden" />
-             <xed:validate display="global" i18n="selfRegistration.error.captcha" test="xed:call-java('org.mycore.mir.authorization.ReCaptcha', 'isSubmittedCaptchaCorrect', .)" />
-             </div>
-             </xed:bind>
-             <xed:cleanup-rule xpath="//attribute[@name='recaptchaParam']" relevant-if="true" />
-             </xed:if>
-        -->
-        <!-- Hidden parameters for MCRMailer -->
-        <input type="hidden" value="../content/publish/submit_request.xed?XSL.Status.Style=success&amp;XSL.Status.Message=project.submit_request.success" name="goto" /><!-- where to go after sending mail -->
-        <input type="hidden" value="submit_request" name="xsl" /><!-- specify xsl to convert mail to for MCRMailer -->
-        
-        <!-- Buttons -->
-        <div class="form-group row ">
-          <label class="col-md-3 control-label"> </label>
-          <div class="md-6 pl-3">
-            <button id="reset" class="btn btn-secondary" type="reset">Formular leeren</button>
-            <button id="save" class="btn btn-primary" xed:target="servlet" xed:href="MCRMailer" type="submit">Absenden</button>
-          </div>
+      
+      <!-- sender name -->
+      <div class="form-group row">
+        <label class="col-md-3 control-label required">Name:</label>
+        <div class="col-md-6">
+          <input name="name" xpath="to_name" placeholder="M. Muster" class="form-control input-md" type="text" required="required" />
         </div>
-        
-        <script src="../../js/validator.min.js" type="text/javascript"></script>
-      </xed:bind>
+      </div>
+      
+      <!-- sender mail address -->
+      <div class="form-group row">
+        <label class="col-md-3 control-label required">E-Mail:</label>
+        <div class="col-md-6">
+          <input name="mail" xpath="to_mail" placeholder="m.muster@ipu.de" class="form-control input-md" type="email" required="required" />
+        </div>
+      </div>
+      
+      <!-- university -->
+      <div class="form-group row">
+        <label class="col-md-3 control-label required">Universität / Institut:</label>
+        <div class="col-md-6">
+          <input name="university" xpath="university" class="form-control input-md" type="text" required="required" />
+        </div>
+      </div>
+      
+      <!-- department -->
+      <div class="form-group row">
+        <label class="col-md-3 control-label required">Fachbereich:</label>
+        <div class="col-md-6">
+          <select name="department" class="form-control form-control-inline">
+
+            <option selected="selected" disabled="disabled">(bitte wählen)</option>
+
+            <optgroup label="Grundlagenfächer">
+              <option title="Allgemeine Psychologie" value="Allgemeine Psychologie">Allgemeine Psychologie</option>
+              <option title="Grundlagen der Psychoanalyse" value="Grundlagen der Psychoanalyse">Grundlagen der Psychoanalyse</option>
+              <option title="Bio-/Neuropsychoanalyse und -psychologie" value="Bio-/Neuropsychoanalyse und -psychologie">Bio-/Neuropsychoanalyse und -psychologie</option>
+              <option title="Differentielle- bzw. Persönlichkeitspsychologie" value="Differentielle- bzw. Persönlichkeitspsychologie">Differentielle- bzw. Persönlichkeitspsychologie</option>
+              <option title="Entwicklungspsychoanalyse und -psychologie" value="Entwicklungspsychoanalyse und -psychologie">Entwicklungspsychoanalyse und -psychologie</option>
+              <option title="Sozialpsychologie" value="Sozialpsychologie">Sozialpsychologie</option>
+              <option title="Metapsychologie" value="Metapsychologie">Metapsychologie</option>
+              <option title="Psychoanalytische Kulturtheorie" value="Psychoanalytische Kulturtheorie">Psychoanalytische Kulturtheorie</option>
+              <option title="Psychoanalytische Sozialwissenschaften" value="Psychoanalytische Sozialwissenschaften">Psychoanalytische Sozialwissenschaften</option>
+              <option title="Geschichte der Psychoanalyse und Psychologie" value="Geschichte der Psychoanalyse und Psychologie">Geschichte der Psychoanalyse und Psychologie</option>
+              <option title="Sonstige" value="Sonstige">Sonstige</option>
+            </optgroup>
+            
+            <optgroup label="Anwendungsfächer">
+              <option title="Klinische Psychoanalyse und Psychologie" value="Klinische Psychoanalyse und Psychologie">Klinische Psychoanalyse und Psychologie</option>
+              <option title="Behandlungsaspekte" value="Behandlungsaspekte">Behandlungsaspekte</option>
+              <option title="Behandlungstechnik" value="Behandlungstechnik">Behandlungstechnik</option>
+              <option title="Arbeits- und Organisationspsychoanalyse und -pschologie" value="Arbeits- und Organisationspsychoanalyse und -pschologie">Arbeits- und Organisationspsychoanalyse und -pschologie</option>
+              <option title="Pädagogische Psychoanalyse und Psychologie" value="Pädagogische Psychoanalyse und Psychologie">Pädagogische Psychoanalyse und Psychologie</option>
+              <option title="Psychotherapieforschung" value="Psychotherapieforschung">Psychotherapieforschung</option>
+              <option title="Sonstige" value="Sonstige">Sonstige</option>
+            </optgroup>
+            
+            <optgroup label="Methodenfächer">
+              <option title="Psychologische und sozialwissenschaftliche Methodenlehre" value="Psychologische und sozialwissenschaftliche Methodenlehre">Psychologische und sozialwissenschaftliche Methodenlehre</option>
+              <option title="Statistik" value="Statistik">Statistik</option>
+              <option title="Psychodynamische und psychologische Diagnostik" value="Psychodynamische und psychologische Diagnostik">Psychodynamische und psychologische Diagnostik</option>
+              <option title="Sonstige" value="Sonstige">Sonstige</option>
+            </optgroup>
+            
+          </select>
+        </div>
+      </div>
+      
+      <!-- title (DE) -->
+      <div class="form-group row">
+        <label class="col-md-3 control-label required">Titel (deutsch):</label>
+        <div class="col-md-6">
+          <input name="title_de" xpath="title_de" class="form-control input-md" type="text" required="required" />
+        </div>
+      </div>
+      
+      <!-- title (EN) -->
+      <div class="form-group row">
+        <label class="col-md-3 control-label ">Titel (englisch):</label>
+        <div class="col-md-6">
+          <input name="title_en" xpath="title_en" class="form-control input-md" type="text" />
+        </div>
+      </div>
+      
+      <!-- license -->
+      <div class="form-group row">
+        <label class="col-md-3 control-label required">Lizenz:</label>
+        <div class="col-md-6">
+          <select name="license" xpath="license" class="form-control form-control-inline" required="required">
+            <option selected="selected" disabled="disabled">(bitte wählen)</option>
+            <option title="Alle Rechte vorbehalten" value="Alle Rechte vorbehalten">Alle Rechte vorbehalten</option>
+            <option title="Open-Access im Zuge einer Allianz- bzw. Nationallizenz" value="oa_nlz">Open-Access im Zuge einer Allianz- bzw. Nationallizenz</option>
+            <optgroup label="Creative Commons 3.0 International Lizenzen" title="Creative Commons 3.0 International Lizenzen" value="cc_3.0">
+              <option title="CC BY 3.0" value="cc_by_3.0">CC BY 3.0</option>
+              <option title="CC BY-SA 3.0" value="cc_by-sa_3.0">CC BY-SA 3.0</option>
+              <option title="CC BY-ND 3.0" value="cc_by-nd_3.0">CC BY-ND 3.0</option>
+              <option title="CC BY-NC 3.0" value="cc_by-nc_3.0">CC BY-NC 3.0</option>
+              <option title="CC BY-NC-SA 3.0" value="cc_by-nc-sa_3.0">CC BY-NC-SA 3.0</option>
+              <option title="CC BY-NC-ND 3.0" value="cc_by-nc-nd_3.0">CC BY-NC-ND 3.0</option>
+            </optgroup>
+            <optgroup label="Creative Commons 4.0 International Lizenzen" title="Creative Commons 4.0 International Lizenzen" value="cc_4.0">
+              <option title="CC BY 4.0" value="cc_by_4.0">CC BY 4.0</option>
+              <option title="CC BY-SA 4.0" value="cc_by-sa_4.0">CC BY-SA 4.0</option>
+              <option title="CC BY-ND 4.0" value="cc_by-nd_4.0">CC BY-ND 4.0</option>
+              <option title="CC BY-NC 4.0" value="cc_by-nc_4.0">CC BY-NC 4.0</option>
+              <option title="CC BY-NC-SA 4.0" value="cc_by-nc-sa_4.0">CC BY-NC-SA 4.0</option>
+              <option title="CC BY-NC-ND 4.0" value="cc_by-nc-nd_4.0">CC BY-NC-ND 4.0</option>
+            </optgroup>
+            <option title="PDDL - Public Domain Dedication and License" value="odc_pddl">PDDL - Public Domain Dedication and License</option>
+            <option title="ODC-By - Attribution License" value="odc_by">ODC-By - Attribution License</option>
+            <option title="ODC-ODbL - Open Database License" value="odc_odbl">ODC-ODbL - Open Database License</option>
+            <option title="Open Government Licence" value="ogl">Open Government Licence</option>
+            <option title="OGL 3.0" value="ogl_3.0">OGL 3.0</option>
+            <option title="OGL 2.0" value="ogl_2.0">OGL 2.0</option>
+            <option title="OGL 1.0" value="ogl_1.0">OGL 1.0</option>
+          </select>
+        </div>
+      </div>
+      
+      <!-- keywords (DE) -->
+      <div class="form-group row">
+        <label class="col-md-3 control-label">Schlagworte (deutsch):</label>
+        <div class="col-md-6">
+          <input name="keywords_de" xpath="keywords_de" class="form-control input-md" type="text" />
+        </div>
+      </div>
+      
+      <!-- keywords (EN) -->
+      <div class="form-group row">
+        <label class="col-md-3 control-label">Schlagworte (englisch):</label>
+        <div class="col-md-6">
+          <input name="keywords_en" xpath="keywords_en" class="form-control input-md" type="text" />
+        </div>
+      </div>
+      
+      <!-- abstract (DE) -->
+      <div class="form-group row">
+        <label class="col-md-3 control-label required">Zusammenfassung (deutsch):</label>
+        <div class="col-md-6">
+          <textarea name="abstract_de" class="form-control input-md" type="text" rows="3" required="required" />
+        </div>
+      </div>
+      
+      <!-- abstract (EN) -->
+      <div class="form-group row">
+        <label class="col-md-3 control-label">Zusammenfassung (englisch):</label>
+        <div class="col-md-6">
+          <textarea name="abstract_en" class="form-control input-md" type="text" rows="3" />
+        </div>
+      </div>
+      
+      <!-- notes -->
+      <div class="form-group row">
+        <label class="col-md-3 control-label">Anmerkungen:</label>
+        <div class="col-md-6">
+          <textarea name="notes" class="form-control input-md" type="text" rows="3" />
+        </div>
+      </div>
+      
+      <!-- attachment -->
+      <div class="form-group row">
+        <label class="col-md-3 control-label required">Anhang (max. 50MB):</label>
+        <div class="col-md-6">
+          <input name="file" type="file" required="required" />
+        </div>
+      </div>
+      
+      <!-- approvement -->
+      <div class="form-group row">
+        <label class="col-md-3 control-label"> </label>
+        <div class="col-md-6"> 
+          <input xpath="approvement" type="checkbox" value="true" required="required" />
+          Ich habe die <a href="../below/rights.xml">Datenschutzerklärung</a> gelesen und erkenne sie an.
+        </div>
+      </div>
+      
+      <!-- copy to sender -->
+      <div class="form-group row">
+        <label class="col-md-3 control-label"> </label>
+        <div class="col-md-6"> <input xpath="copy_to_sender" type="checkbox" value="true" />Kopie an Absender</div>
+      </div>
+      
+      <xed:form xmlns:xed="http://www.mycore.de/xeditor" method="post" role="form" class="form-horizontal">
+      <xed:if test="string-length($MIR.ReCaptcha.site.key) &gt; 0">
+        <script type="text/javascript">
+        <![CDATA[
+            var verifyCallback = function(response) {
+              $('#my-g-recaptcha-response').val(response);
+            };
+        ]]>
+        </script>
+        <script src='https://www.google.com/recaptcha/api.js?hl={$CurrentLang}'></script>
+        <xed:bind xpath="attributes/attribute[@name='recaptchaParam']/@value">
+          <div class="form-group row {$xed-validation-marker}">
+            <label class="col-md-3 control-label required" for="my-g-recaptcha-response">
+              <xed:output i18n="selfRegistration.captcha" />
+            </label>
+            <div id="captcha" class="g-recaptcha col-md-6" data-sitekey="{$MIR.ReCaptcha.site.key}" data-callback="verifyCallback" />
+            <input id="my-g-recaptcha-response" type="hidden" />
+            <xed:validate display="global" i18n="selfRegistration.error.captcha" test="xed:call-java('org.mycore.mir.authorization.ReCaptcha', 'isSubmittedCaptchaCorrect', .)" />
+          </div>
+        </xed:bind>
+        <xed:cleanup-rule xpath="//attribute[@name='recaptchaParam']" relevant-if="true" />
+      </xed:if>
     </xed:form>
+
+      <!-- Buttons -->
+      <div class="form-group row ">
+        <label class="col-md-3 control-label"> </label>
+        <div class="md-6 pl-3">
+          <button id="reset" class="btn btn-secondary" type="reset">Formular leeren</button>
+          <button id="save" class="btn btn-primary" type="submit">Absenden</button>
+        </div>
+      </div>
+
+    </form>
+
+    <script src="../../js/validator.min.js" type="text/javascript" />
+
   </section>
   
 </MyCoReWebPage>
