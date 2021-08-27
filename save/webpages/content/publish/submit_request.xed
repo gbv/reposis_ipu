@@ -3,22 +3,22 @@
 <MyCoReWebPage>
   
   <section xml:lang="de" title="Publizieren">
-
+    
     <style>
       .required:after {
-        content:" *";
+      content:" *";
       }
     </style>
-
+    
     <form  action="../../servlets/MIRMailerWithFile" method="post" role="form" class="form-horizontal" enctype="multipart/form-data" data-toggle="validator">
       <input type="hidden" name="goto" value="../content/index.xml" />
       
       <h1>Übermittlung Ihrer Daten</h1>
       
       <h2>Persönliche Daten</h2>
-        <div class="form-group row">
-          <div class="ml-3"></div>
-        </div>
+      <div class="form-group row">
+        <div class="ml-3"></div>
+      </div>
       
       <!-- sender name -->
       <div class="form-group row">
@@ -49,9 +49,9 @@
         <label class="col-md-3 control-label required">Fachbereich:</label>
         <div class="col-md-6">
           <select name="department" class="form-control form-control-inline">
-
+            
             <option selected="selected" disabled="disabled">(bitte wählen)</option>
-
+            
             <optgroup label="Grundlagenfächer">
               <option title="Allgemeine Psychologie" value="Allgemeine Psychologie">Allgemeine Psychologie</option>
               <option title="Grundlagen der Psychoanalyse" value="Grundlagen der Psychoanalyse">Grundlagen der Psychoanalyse</option>
@@ -110,37 +110,37 @@
           <select name="license" xpath="license" class="form-control form-control-inline" required="required">
             <option selected="selected" disabled="disabled">(bitte wählen)</option>
             <option title="Alle Rechte vorbehalten" value="Alle Rechte vorbehalten">Alle Rechte vorbehalten</option>
-            <option title="Open-Access im Zuge einer Allianz- bzw. Nationallizenz" value="oa_nlz">Open-Access im Zuge einer Allianz- bzw. Nationallizenz</option>
+            <option title="Open-Access im Zuge einer Allianz- bzw. Nationallizenz" value="Open-Access im Zuge einer Allianz- bzw. Nationallizenz">Open-Access im Zuge einer Allianz- bzw. Nationallizenz</option>
             <optgroup label="Creative Commons 3.0 International Lizenzen" title="Creative Commons 3.0 International Lizenzen" value="cc_3.0">
-              <option title="CC BY 3.0" value="cc_by_3.0">CC BY 3.0</option>
-              <option title="CC BY-SA 3.0" value="cc_by-sa_3.0">CC BY-SA 3.0</option>
-              <option title="CC BY-ND 3.0" value="cc_by-nd_3.0">CC BY-ND 3.0</option>
-              <option title="CC BY-NC 3.0" value="cc_by-nc_3.0">CC BY-NC 3.0</option>
-              <option title="CC BY-NC-SA 3.0" value="cc_by-nc-sa_3.0">CC BY-NC-SA 3.0</option>
-              <option title="CC BY-NC-ND 3.0" value="cc_by-nc-nd_3.0">CC BY-NC-ND 3.0</option>
+              <option title="CC BY 3.0" value="CC BY 3.0">CC BY 3.0</option>
+              <option title="CC BY-SA 3.0" value="CC BY-SA 3.0">CC BY-SA 3.0</option>
+              <option title="CC BY-ND 3.0" value="CC BY-ND 3.0">CC BY-ND 3.0</option>
+              <option title="CC BY-NC 3.0" value="CC BY-NC 3.0">CC BY-NC 3.0</option>
+              <option title="CC BY-NC-SA 3.0" value="CC BY-NC-SA 3.0">CC BY-NC-SA 3.0</option>
+              <option title="CC BY-NC-ND 3.0" value="CC BY-NC-ND 3.0">CC BY-NC-ND 3.0</option>
             </optgroup>
             <optgroup label="Creative Commons 4.0 International Lizenzen" title="Creative Commons 4.0 International Lizenzen" value="cc_4.0">
-              <option title="CC BY 4.0" value="cc_by_4.0">CC BY 4.0</option>
-              <option title="CC BY-SA 4.0" value="cc_by-sa_4.0">CC BY-SA 4.0</option>
-              <option title="CC BY-ND 4.0" value="cc_by-nd_4.0">CC BY-ND 4.0</option>
-              <option title="CC BY-NC 4.0" value="cc_by-nc_4.0">CC BY-NC 4.0</option>
-              <option title="CC BY-NC-SA 4.0" value="cc_by-nc-sa_4.0">CC BY-NC-SA 4.0</option>
-              <option title="CC BY-NC-ND 4.0" value="cc_by-nc-nd_4.0">CC BY-NC-ND 4.0</option>
+              <option title="CC BY 4.0" value="CC BY 4.0">CC BY 4.0</option>
+              <option title="CC BY-SA 4.0" value="CC BY-SA 4.0">CC BY-SA 4.0</option>
+              <option title="CC BY-ND 4.0" value="CC BY-ND 4.0">CC BY-ND 4.0</option>
+              <option title="CC BY-NC 4.0" value="CC BY-NC 4.0">CC BY-NC 4.0</option>
+              <option title="CC BY-NC-SA 4.0" value="CC BY-NC-SA 4.0">CC BY-NC-SA 4.0</option>
+              <option title="CC BY-NC-ND 4.0" value="CC BY-NC-ND 4.0">CC BY-NC-ND 4.0</option>
             </optgroup>
-            <option title="PDDL - Public Domain Dedication and License" value="odc_pddl">PDDL - Public Domain Dedication and License</option>
-            <option title="ODC-By - Attribution License" value="odc_by">ODC-By - Attribution License</option>
-            <option title="ODC-ODbL - Open Database License" value="odc_odbl">ODC-ODbL - Open Database License</option>
-            <option title="Open Government Licence" value="ogl">Open Government Licence</option>
-            <option title="OGL 3.0" value="ogl_3.0">OGL 3.0</option>
-            <option title="OGL 2.0" value="ogl_2.0">OGL 2.0</option>
-            <option title="OGL 1.0" value="ogl_1.0">OGL 1.0</option>
+            <option title="PDDL - Public Domain Dedication and License" value="PDDL - Public Domain Dedication and License">PDDL - Public Domain Dedication and License</option>
+            <option title="ODC-By - Attribution License" value="ODC-By - Attribution License">ODC-By - Attribution License</option>
+            <option title="ODC-ODbL - Open Database License" value="ODC-ODbL - Open Database License">ODC-ODbL - Open Database License</option>
+            <option title="Open Government Licence" value="Open Government Licence">Open Government Licence</option>
+            <option title="OGL 3.0" value="OGL 3.0">OGL 3.0</option>
+            <option title="OGL 2.0" value="OGL 2.0">OGL 2.0</option>
+            <option title="OGL 1.0" value="OGL 1.0">OGL 1.0</option>
           </select>
         </div>
       </div>
       
       <!-- keywords (DE) -->
       <div class="form-group row">
-        <label class="col-md-3 control-label">Schlagworte (deutsch):</label>
+        <label class="col-md-3">Schlagworte (deutsch):</label>
         <div class="col-md-6">
           <input name="keywords_de" xpath="keywords_de" class="form-control input-md" type="text" />
         </div>
@@ -148,7 +148,7 @@
       
       <!-- keywords (EN) -->
       <div class="form-group row">
-        <label class="col-md-3 control-label">Schlagworte (englisch):</label>
+        <label class="col-md-3">Schlagworte (englisch):</label>
         <div class="col-md-6">
           <input name="keywords_en" xpath="keywords_en" class="form-control input-md" type="text" />
         </div>
@@ -164,7 +164,7 @@
       
       <!-- abstract (EN) -->
       <div class="form-group row">
-        <label class="col-md-3 control-label">Zusammenfassung (englisch):</label>
+        <label class="col-md-3">Zusammenfassung (englisch):</label>
         <div class="col-md-6">
           <textarea name="abstract_en" class="form-control input-md" type="text" rows="3" />
         </div>
@@ -172,7 +172,7 @@
       
       <!-- notes -->
       <div class="form-group row">
-        <label class="col-md-3 control-label">Anmerkungen:</label>
+        <label class="col-md-3">Anmerkungen:</label>
         <div class="col-md-6">
           <textarea name="notes" class="form-control input-md" type="text" rows="3" />
         </div>
@@ -188,7 +188,7 @@
       
       <!-- approvement -->
       <div class="form-group row">
-        <label class="col-md-3 control-label"> </label>
+        <label class="col-md-3"> </label>
         <div class="col-md-6"> 
           <input xpath="approvement" type="checkbox" value="true" required="required" />
           Ich habe die <a href="../below/rights.xml">Datenschutzerklärung</a> gelesen und erkenne sie an.
@@ -197,47 +197,42 @@
       
       <!-- copy to sender -->
       <div class="form-group row">
-        <label class="col-md-3 control-label"> </label>
-        <div class="col-md-6"> <input xpath="copy_to_sender" type="checkbox" value="true" />Kopie an Absender</div>
+        <label class="col-md-3"> </label>
+        <div class="col-md-6"> <input name="copy" xpath="copy_to_sender" type="checkbox" value="true" />Kopie an Absender</div>
       </div>
       
-      <xed:form xmlns:xed="http://www.mycore.de/xeditor" method="post" role="form" class="form-horizontal">
-      <xed:if test="string-length($MIR.ReCaptcha.site.key) &gt; 0">
-        <script type="text/javascript">
-        <![CDATA[
-            var verifyCallback = function(response) {
-              $('#my-g-recaptcha-response').val(response);
-            };
-        ]]>
-        </script>
-        <script src='https://www.google.com/recaptcha/api.js?hl={$CurrentLang}'></script>
-        <xed:bind xpath="attributes/attribute[@name='recaptchaParam']/@value">
-          <div class="form-group row {$xed-validation-marker}">
-            <label class="col-md-3 control-label required" for="my-g-recaptcha-response">
-              <xed:output i18n="selfRegistration.captcha" />
-            </label>
-            <div id="captcha" class="g-recaptcha col-md-6" data-sitekey="{$MIR.ReCaptcha.site.key}" data-callback="verifyCallback" />
-            <input id="my-g-recaptcha-response" type="hidden" />
-            <xed:validate display="global" i18n="selfRegistration.error.captcha" test="xed:call-java('org.mycore.mir.authorization.ReCaptcha', 'isSubmittedCaptchaCorrect', .)" />
-          </div>
-        </xed:bind>
-        <xed:cleanup-rule xpath="//attribute[@name='recaptchaParam']" relevant-if="true" />
-      </xed:if>
-    </xed:form>
-
+      <!-- captcha -->
+      <div class="form-group row">
+        <label class="col-md-3 control-label"> </label>
+        <div id="captcha" class="g-recaptcha col-md-6" data-sitekey="6LcXrv4SAAAAAHcQzQOpn1Vj88sxgRqfkjn2BKSw" data-callback="verifyRecaptchaCallback" data-expired-callback="expiredRecaptchaCallback" />
+        <input id="g-recaptcha-response" class="form-control d-none" required="required" data-recaptcha="true" data-error="Bitte vervollständigen Sie das Captcha." />
+        <div class="help-block with-errors" />
+      </div>
+      
       <!-- Buttons -->
-      <div class="form-group row ">
+      <div class="form-group row">
         <label class="col-md-3 control-label"> </label>
         <div class="md-6 pl-3">
           <button id="reset" class="btn btn-secondary" type="reset">Formular leeren</button>
           <button id="save" class="btn btn-primary" type="submit">Absenden</button>
         </div>
       </div>
-
+      
     </form>
-
+    
+    <script type="text/javascript">
+      <![CDATA[
+                    var verifyRecaptchaCallback = function (response) {
+                      $('input[data-recaptcha]').val(response).trigger('change');
+                    };
+                    var expiredRecaptchaCallback = function () {
+                      $('input[data-recaptcha]').val("").trigger('change');
+                    };
+                  ]]>
+    </script>
+    <script src='https://www.google.com/recaptcha/api.js?hl=de'></script>
     <script src="../../js/validator.min.js" type="text/javascript" />
-
+    
   </section>
   
 </MyCoReWebPage>
