@@ -1,187 +1,91 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<MyCoReWebPage>
-    <section xml:lang="de" title="Hinweise für Autoren">
-        <div class="row">
-            <div class="col-md-12">
-                <h1>Hinweise für Autoren</h1>
-                
-                <h2>Publizieren wissenschaftlicher Arbeiten auf dem Publikationsserver der IPU Berlin</h2>
-                
-                <p>
-                    Auf dem Publikationsserver OEDIPUB können Sie Ihre wissenschaftlichen Arbeiten (Artikel, 
-                    Monographien, Tagungsbeiträge, Qualifikationsarbeiten etc.) sowie Forschungsdaten kostenfrei 
-                    und mit offenem Zugang (Open Access) zeitlich uneingeschränkt veröffentlichen. Die OEDIPUB 
-                    Sammlung vereint Publikationen aus dem Fachbereich der Psychoanalyse und der an sie 
-                    angrenzenden wissenschaftlichen Felder sowie wissenschaftliche Arbeiten aus den forschenden 
-                    Zusammenhängen der IPU Berlin. Auch als Studierende der IPU Berlin können Sie 
-                    Qualifikationsarbeiten mit Publikationsempfehlung auf OEDIPUB veröffentlichen.
-                </p>
-                <p>Es bestehen folgende Möglichkeiten der Veröffentlichung:
-                    <ol>
-                        <li>
-                            <b>Erstveröffentlichung (Goldener Weg des Open Access):</b> Veröffentlichung einer 
-                            Publikation, die bisher an keiner anderen Stelle publiziert wurde. <br />
-                        </li><br />
-                        <li>
-                            <b>Zweitveröffentlichung (Grüner Weg des Open Access):</b> Veröffentlichung einer bereits 
-                            publizierten (Verlags-)Publikation. Mit Blick auf den anwachsenden Einfluss der 
-                            Open-Access-Bewegung räumen viele wissenschaftliche Verlage ihren Autoren das Recht 
-                            auf weitere Veröffentlichungen auf Repositorien ein. Hierzu müssen in den meisten 
-                            Fällen bestimmte Bedingungen (bspw. eine Embargofrist, Veröffentlichung von Preprints, 
-                            Postprints o.a.) erfüllt sein. Hinweise zu den Veröffentlichungsrechten der jeweiligen 
-                            Verlage sind auf der <a href="https://v2.sherpa.ac.uk/romeo/">SHERPA/RoMEO-Liste</a> 
-                            einsehbar. Die Angaben auf SHERPA/RoMEO sind rechtlich unverbindlich. Seit dem Jahr 
-                            2014 gilt zudem unter bestimmten Voraussetzungen ein Recht auf Zweitveröffentlichung
-                            (<a href="http://www.gesetze-im-internet.de/urhg/__38.html">§38 Urheberrechtsgesetz</a>). 
-                            Gerne unterstützen wir Sie darin, Ihre Publikationen auf Veröffentlichungsmöglichkeiten zu 
-                            überprüfen. Für die Richtigkeit der Angaben können wir kein Gewähr übernehmen. Die 
-                            Anlaufstelle für eine Beratung können Sie dem 5. Kapitel Beratungsmöglichkeiten (siehe 
-                            unten) entnehmen. 
-                        </li>
-                    </ol>
-                </p>
-                <p>
-                    Die Veröffentlichung von Publikationen auf OEDIPUB erfolgt unter Wahrung des geltenden deutschen
-                    Urheberrechts. Ihr Urheberrecht verbleibt bei Ihnen. Der Bibliothek der IPU Berlin wird ein 
-                    einfaches, zeitlich unbefristetes Nutzungsrecht übertragen, das die IPU Bibliothek dazu befugt, 
-                    die eingereichte Publikation auf dem Server zu vervielfältigen, zu speichern und öffentlich 
-                    zugänglich zu machen. Genauere Informationen entnehmen Sie bitte dem 
-                    <a href="Publikationsvertrag_OEDIPUB.docx">Vertragstext</a>. Die Einhaltung von Urheber- und 
-                    Verwertungsrechten Dritter liegt in Ihrer Verantwortung bzw. in der des Herausgebers. Bitte 
-                    beachten Sie, dass es ggf. das Einverständnis zur elektronischen Veröffentlichung von Co-Autoren 
-                    bedarf. 
-                </p>
-                <p>
-                    Ihre Publikation erhält einen persistenten Identifier (DOI, URN), wird langzeitarchiviert und 
-                    kann mit Ihrem ORCiD-Account verknüpft werden. Die Metadaten werden in gängigen Bibliothekskatalogen 
-                    indexiert und regelmäßig von Suchmaschinen geharvestet (z.B. Deutsche Nationalbibliothek, BASE, 
-                    GoogleScholar, OpenAire). Der Publikationsserver ist OpenAire3.0-kompatibel und erfüllt damit die 
-                    Voraussetzungen für eine Horizon2020-geförderte Publikation.
-                </p>
-                
-                <h2>Publizieren und Archivieren von Forschungsdaten</h2>
-                <p>
-                    Auch Forschungsdaten können auf dem elektronischen Dokumentenserver OEDIPUB publiziert und 
-                    archiviert werden. Beim Publizieren erhält Ihr veröffentlichter Datensatz einen persistenten 
-                    Identifier (DOI, URN), wird archiviert (derzeit lediglich Bitstream Preservation) und kann mit 
-                    Ihrem ORCiD-Account verknüpft werden. Veröffentlichte Datensätze können frei oder eingeschränkt 
-                    zugänglich gemacht werden.
-                </p>
-                
-                <h2>Voraussetzung</h2>
-                
-                <p>
-                    <ul>
-                        <li><b>Fachliche Zugehörigkeit</b>: Ihre zu publizierende Arbeit hat einen forschenden Bezug zur 
-                            Psychoanalyse bzw. zu den an sie angrenzenden wissenschaftlichen Disziplinen (bspw. 
-                            psychoanalytische Kultur- oder Sozialwissenschaften), oder Sie sind Wissenschaftler 
-                            oder Studierender der IPU Berlin.</li>
-                        <li><b>Wahrung des Urheberrechts</b>: Sie müssen sicherstellen, dass die Urheberrechte für das Werk 
-                            bei Ihnen liegen. Im Falle einer Co-Autorenschaft benötigen Sie das Einverständnis zur 
-                            Veröffentlichung der Co-Autoren. </li>
-                        <li><b>Unterzeichnung des Autorenvertrags</b>: Wir benötigen Ihre Zustimmung zu den 
-                            Vertragsbedingungen zur Veröffentlichung Ihrer Arbeiten auf OEDIPUB. Drucken Sie hierzu 
-                            bitte zwei Exemplare des <a href="Publikationsvertrag_OEDIPUB.docx">Autorenvertrags</a> aus und senden Sie beide ausgefüllt und 
-                            unterschrieben per Post an die IPU Bibliothek, oder eingescannt per E-Mail an 
-                            <span class="madress">oedipub [at] ipu-berlin.de</span></li>
-                        <li><b>Technische Formate</b>: Für die Publikation auf OEDIPUB bestehen folgende Anforderungen an 
-                            die technische Qualität des zu publizierenden Dokuments:</li>
-                        <ul>
-                            <li>Nutzung des offenen Textformats PDF/A, das über kostenfreie Darstellungsprogramme 
-                                angezeigt werden kann und für die Langzeitarchivierung geeignet ist</li>
-                            <li>Das Dokument stellt kein dynamisches Dokument dar</li>
-                            <li>Die Dokumenteigenschaften „Titel“ und „Autor“ sind sinnvoll ausgefüllt</li>
-                            <li>Die Datei muss durchsuchbar sein (OCR-Texterkennung), um eine Volltextsuche zu 
-                                ermöglichen</li>
-                            <li>Das Dokument ist frei von technischen Schutzeinrichtungen</li>
-                            <li>Das Dokument erfüllt die Anforderungen des Datenschutzes; Personenbezogene 
-                                Informationen zu der Person des Autors (z.B. Anschrift, Geburtsort, -datum, Lebenslauf)
-                                sowie zu den im Text behandelten Personen dürfen nicht in dem Dokument aufgeführt
-                                sein</li>
-                            <li>Der Dateienname hat die Form: <i>publikationstyp_nachname_veröffentlichungsjahr.PDF</i> (Nur 
-                                Kleinbuchstaben, keine Umlaute) Beispiel: <i>dissertation_mustermann_2021.PDF</i></li>
-                        </ul>
-                        <li>Alle weiteren Anforderungen gelten zusätzlich für Dissertationen, können aber auch für 
-                            andere Publikationen als Orientierungshilfe dienen
-                            <ul>
-                                <li>Das Seitenformat ist A4 oder A5</li>
-                                <li>Die Sprache des Dokuments ist festgelegt</li>
-                                <li>Das Layout des Texts ist einspaltig, doppelseitig druckbar und ermöglicht die 
-                                    Bindung durch einen mindestens 25 mm breiten Innenrand</li>
-                                <li>Lesezeichen sind vorhanden und geben mindestens das Inhaltsverzeichnis wieder</li>
-                                <li>Es werden der Farbraum RGB und ein geräteunabhängiges Ausgabeprofil verwendet</li>
-                            </ul>
-                        </li>
-                        <li><b>Forschungsdaten</b>: Achten Sie bei einer Archivierung bzw. Publikation Ihrer Forschungsdaten 
-                            auf die Nachvollziehbarkeit Ihres Datensatzes. Zudem sollte Ihrem Datensatz eine 
-                            README-Datei mit beschreibenden Metadaten (Orientierungshilfe der TU Braunschweig) 
-                            beiliegen (auf Anfrage auch als TXT-Datei verfügbar).
-                        </li>
-                    </ul>
-                </p>
-                <h2>Procedere</h2>
-                <p>
-                    <ol>
-                        <li><b>Vertragsunterzeichnung</b>: Bitte füllen Sie für Ihre Publikation den 
-                            <a href="Publikationsvertrag_OEDIPUB.docx">Autorenvertrag für Erst- und
-                            Zweitveröffentlichungen</a> aus und übermitteln Sie uns diesen unterschrieben (per Mail an 
-                            <span class="madress">oedipub [at] ipu-berlin.de</span> oder per Post in zweifacher Ausführung 
-                            an die IPU Bibliothek). Für die Veröffentlichung von Forschungsdaten existiert ein gesonderter
-                            <a href="Publikationsvertrag_Forschungsdaten_OEDIPUB.docx">Publikationsvertrag</a>. 
-                            Mit Ihrer Unterschrift akzeptieren Sie die Vertragsbedingungen für die Veröffentlichung Ihrer 
-                            Publikation. Anhand des Vertrages vergeben Sie eine Lizenz für die Nutzungsrechte. Wir 
-                            empfehlen die Anwendung der Creative-Commons-Lizenz CC-BY. Nähere Informationen zur 
-                            Lizensierung finden Sie hier. Bei kumulativen Dissertationen und Zweitveröffentlichungen 
-                            kann keine CC-Lizenz vergeben werden. Sollten Sie keine CC-Lizenz vergeben, unterliegt 
-                            ihr Werk den Nutzungsbedingungen von §51 und §53 des Urheberrechtsgesetzes.
-                        </li><br />
-                        <li><b>Übermittlung des Dokuments</b>: Bitte stellen Sie sicher, dass das einzureichende Dokument den 
-                            technischen Anforderungen für eine Publikation auf OEDIPUB entspricht (siehe oben). Der 
-                            nächste Schritt besteht in der Übermittlung des einzureichenden Dokuments an die IPU 
-                            Bibliothek.
-                        </li> 
-                        <ul>
-                            <li>Einreichung per <a href="index.xml">Webformular</a></li>
-                            <li>Einreichung per Mail an <span class="madress">oedipub [at] ipu-berlin.de</span></li>
-                            <li>Einreichung eines Datenträgers per Post an IPU Bibliothek</li>
-                            <li>Die Einreichung von Forschungsdaten erfolgt per Mail an <span class="madress">
-                                oedipub [at] ipu-berlin.de</span></li>
-                        </ul><br />
-                        <li><b>Veröffentlichung</b>: Das eingereichte Dokument wird von uns überprüft und auf dem 
-                            Dokumentenserver veröffentlicht und archiviert. Eine erste Rückmeldung erhalten Sie 
-                            innerhalb weniger Wochen per E-Mail.
-                        </li>
-                    </ol>
-                </p>
-                
-                <h2>Beratungsmöglichkeiten</h2>
-                <p>
-                    Sollten Sie Fragen rund um die Veröffentlichung Ihrer Forschungsarbeiten auf dem Dokumentenserver
-                    OEDIPUB haben, zögern Sie nicht, uns zu kontaktieren.  
-                </p>
-                <p>
-                    <b>Wenden Sie sich bitte an:</b> <br />
+<MyCoReWebPage><section xml:lang="de" title="Hinweise für Autoren"><div class="row">
+<div class="col-md-12">
+<h1>Hinweise für Autoren</h1>
 
-                    Julia Degenhardt <br />
-                    - OEDIPUB Leitung -<br />
-                    E-Mail: <span class="madress">OEDIPUB [at] ipu-berlin.de</span><br />
-                    Telefon: +49 30 300 117 560<br />
-                </p>
-                <p>
-                    Bitte beachten Sie, dass aufgrund der aktuellen Corona-Situation die telefonische Erreichbarkeit eingeschränkt ist.      
-                </p>
-                <p>
-                    <b>Postanschrift:</b> <br />
-      
-                    OEDIPUB<br />
-                    IPU Berlin Bibliothek <br />
-                    Stromstr. 2 – 2. OG <br />
-                    10555 Berlin
-                </p>
-                
-            </div>
-        </div>
-    </section>
-    <meta>
-    </meta>
-</MyCoReWebPage>
+<h2>Publizieren wissenschaftlicher Arbeiten auf dem Publikationsserver der IPU Berlin</h2>
+
+<p>Auf dem Publikationsserver OEDIPUB können Sie Ihre wissenschaftlichen Arbeiten (Artikel, Monographien, Tagungsbeiträge, Qualifikationsarbeiten etc.) sowie Forschungsdaten kostenfrei und mit offenem Zugang (Open Access) zeitlich uneingeschränkt veröffentlichen. Die OEDIPUB Sammlung vereint Publikationen aus dem Fachbereich der Psychoanalyse und der an sie angrenzenden wissenschaftlichen Felder sowie wissenschaftliche Arbeiten aus den forschenden Zusammenhängen der IPU Berlin. Auch als Studierende der IPU Berlin können Sie Qualifikationsarbeiten mit Publikationsempfehlung auf OEDIPUB veröffentlichen.</p>
+
+<p>Es bestehen folgende Möglichkeiten der Veröffentlichung:</p>
+
+<ol>
+	<li><b>Erstveröffentlichung (Goldener Weg des Open Access):</b> Veröffentlichung einer Publikation, die bisher an keiner anderen Stelle publiziert wurde.</li>
+	<br />
+	<li><b>Zweitveröffentlichung (Grüner Weg des Open Access):</b> Veröffentlichung einer bereits publizierten (Verlags-)Publikation. Mit Blick auf den anwachsenden Einfluss der Open-Access-Bewegung räumen viele wissenschaftliche Verlage ihren Autoren das Recht auf weitere Veröffentlichungen auf Repositorien ein. Hierzu müssen in den meisten Fällen bestimmte Bedingungen (bspw. eine Embargofrist, Veröffentlichung von Preprints, Postprints o.a.) erfüllt sein. Hinweise zu den Veröffentlichungsrechten der jeweiligen Verlage sind auf der <a href="https://v2.sherpa.ac.uk/romeo/">SHERPA/RoMEO-Liste</a> einsehbar. Die Angaben auf <a href="http://v2.sherpa.ac.uk/romeo/">SHERPA/RoMEO</a> sind rechtlich unverbindlich. Seit dem Jahr 2014 gilt zudem unter bestimmten Voraussetzungen ein Recht auf Zweitveröffentlichung (<a href="http://www.gesetze-im-internet.de/urhg/__38.html">§38 Urheberrechtsgesetz</a>). Gerne unterstützen wir Sie darin, Ihre Publikationen auf Veröffentlichungsmöglichkeiten zu überprüfen. Für die Richtigkeit der Angaben können wir kein Gewähr übernehmen. Die Anlaufstelle für eine Beratung können Sie dem Kapitel "Beratungsmöglichkeiten" (siehe unten) entnehmen.</li>
+</ol>
+
+<p>Die Veröffentlichung von Publikationen auf OEDIPUB erfolgt unter Wahrung des geltenden deutschen Urheberrechts. Ihr Urheberrecht verbleibt bei Ihnen. Der Bibliothek der IPU Berlin wird ein einfaches, zeitlich unbefristetes Nutzungsrecht übertragen, das die IPU Bibliothek dazu befugt, die eingereichte Publikation auf dem Server zu vervielfältigen, zu speichern und öffentlich zugänglich zu machen. Genauere Informationen entnehmen Sie bitte dem <a href="Publikationsvertrag_OEDIPUB.docx">Vertragstext</a>. Die Einhaltung von Urheber- und Verwertungsrechten Dritter liegt in Ihrer Verantwortung bzw. in der des Herausgebers. Bitte beachten Sie, dass es ggf. das Einverständnis zur elektronischen Veröffentlichung von Co-Autoren bedarf.</p>
+
+<p>Ihre Publikation erhält einen persistenten Identifier (DOI, URN), wird langzeitarchiviert und kann mit Ihrem ORCiD-Account verknüpft werden. Die Metadaten werden in gängigen Bibliothekskatalogen indexiert und regelmäßig von Suchmaschinen geharvestet (z.B. Deutsche Nationalbibliothek, BASE, GoogleScholar, OpenAire). Der Publikationsserver ist OpenAire3.0-kompatibel und erfüllt damit die Voraussetzungen für eine Horizon2020-geförderte Publikation.</p>
+
+<h2>Publizieren und Archivieren von Forschungsdaten</h2>
+
+<p>Auch Forschungsdaten können auf dem elektronischen Dokumentenserver OEDIPUB publiziert und archiviert werden. Beim Publizieren erhält Ihr veröffentlichter Datensatz einen persistenten Identifier (DOI, URN), wird archiviert (derzeit lediglich Bitstream Preservation) und kann mit Ihrem ORCiD-Account verknüpft werden. Veröffentlichte Datensätze können frei oder eingeschränkt zugänglich gemacht werden.</p>
+
+<h2>Voraussetzung</h2>
+
+<ul>
+	<li><b>Fachliche Zugehörigkeit</b>: Ihre zu publizierende Arbeit hat einen forschenden und/oder inhaltlichen Bezug zur Psychoanalyse bzw. zu den an sie angrenzenden wissenschaftlichen Disziplinen (bspw. psychoanalytische Kultur- oder Sozialwissenschaften), oder Sie sind Wissenschaftler oder Studierender der IPU Berlin.</li>
+	<li><b>Wahrung des Urheberrechts</b>: Sie müssen sicherstellen, dass die Urheberrechte für das Werk bei Ihnen liegen. Im Falle einer Co-Autorenschaft benötigen Sie das Einverständnis zur Veröffentlichung der Co-Autoren.</li>
+	<li><b>Unterzeichnung des Autorenvertrags</b>: Wir benötigen Ihre Zustimmung zu den Vertragsbedingungen zur Veröffentlichung Ihrer Arbeiten auf OEDIPUB. Drucken Sie hierzu bitte zwei Exemplare des <a href="Publikationsvertrag_OEDIPUB.docx">Autorenvertrags</a> aus und senden Sie beide ausgefüllt und unterschrieben per Post an die IPU Bibliothek oder eingescannt per E-Mail an <span class="madress">OEDIPUB [at] ipu-berlin.de</span></li>
+	<li><b>Technische Formate</b>: Für die Publikation auf OEDIPUB bestehen folgende Anforderungen an die technische Qualität des zu publizierenden Dokuments:
+	<ul>
+		<li>Nutzung des offenen Textformats PDF/A, das über kostenfreie Darstellungsprogramme angezeigt werden kann und für die Langzeitarchivierung geeignet ist</li>
+		<li>Das Dokument stellt kein dynamisches Dokument dar</li>
+		<li>Die Dokumenteigenschaften „Titel“ und „Autor“ sind sinnvoll ausgefüllt</li>
+		<li>Die Datei muss durchsuchbar sein (OCR-Texterkennung), um eine Volltextsuche zu ermöglichen</li>
+		<li>Das Dokument ist frei von technischen Schutzeinrichtungen</li>
+		<li>Das Dokument erfüllt die Anforderungen des Datenschutzes; Personenbezogene Informationen zu der Person des Autors (z.B. Anschrift, Geburtsort, -datum, Lebenslauf) sowie zu den im Text behandelten Personen dürfen nicht in dem Dokument aufgeführt sein</li>
+		<li>Der Dateienname hat die Form: <i>publikationstyp_nachname_veröffentlichungsjahr.PDF</i> (Nur Kleinbuchstaben, keine Umlaute) Beispiel: <i>dissertation_mustermann_2021.PDF</i></li>
+	</ul>
+	</li>
+	<li>Alle weiteren Anforderungen gelten zusätzlich für Dissertationen, können aber auch für andere Publikationen als Orientierungshilfe dienen
+	<ul>
+		<li>Das Seitenformat ist A4 oder A5</li>
+		<li>Die Sprache des Dokuments ist festgelegt</li>
+		<li>Das Layout des Texts ist einspaltig, doppelseitig druckbar und ermöglicht die Bindung durch einen mindestens 25 mm breiten Innenrand</li>
+		<li>Lesezeichen sind vorhanden und geben mindestens das Inhaltsverzeichnis wieder</li>
+		<li>Es werden der Farbraum RGB und ein geräteunabhängiges Ausgabeprofil verwendet</li>
+	</ul>
+	</li>
+	<li><b>Forschungsdaten</b>: Achten Sie bei einer Archivierung bzw. Publikation Ihrer Forschungsdaten auf die Nachvollziehbarkeit Ihres Datensatzes. Zudem sollte Ihrem Datensatz eine README-Datei mit beschreibenden Metadaten beiliegen (auf Anfrage auch als TXT-Datei verfügbar).</li>
+</ul>
+
+<h2>Procedere</h2>
+
+<ol>
+	<li><b>Vertragsunterzeichnung</b>: Bitte füllen Sie für Ihre Publikation den <a href="Publikationsvertrag_OEDIPUB.docx">Autorenvertrag für Erst- und Zweitveröffentlichungen</a> aus und übermitteln Sie uns diesen unterschrieben (per Mail an <span class="madress">OEDIPUB [at] ipu-berlin.de</span> oder per Post in zweifacher Ausführung an die IPU Bibliothek). Für die Veröffentlichung von Forschungsdaten existiert ein gesonderter <a href="Publikationsvertrag_Forschungsdaten_OEDIPUB.docx">Publikationsvertrag</a>. Mit Ihrer Unterschrift akzeptieren Sie die Vertragsbedingungen für die Veröffentlichung Ihrer Publikation. Anhand des Vertrages vergeben Sie eine Lizenz für die Nutzungsrechte. Wir empfehlen die Anwendung der Creative-Commons-Lizenz CC-BY. Nähere Informationen zur Lizensierung finden Sie <a href="https://creativecommons.org/licenses/?lang=de">hier</a>. Bei kumulativen Dissertationen und Zweitveröffentlichungen kann keine CC-Lizenz vergeben werden. Sollten Sie keine CC-Lizenz vergeben, unterliegt ihr Werk den Nutzungsbedingungen von §51 und §53 des Urheberrechtsgesetzes.</li>
+	<br />
+	<li><b>Übermittlung des Dokuments</b>: Bitte stellen Sie sicher, dass das einzureichende Dokument den technischen Anforderungen für eine Publikation auf OEDIPUB entspricht (siehe oben). Der nächste Schritt besteht in der Übermittlung des einzureichenden Dokuments an die IPU Bibliothek.
+	<ul>
+		<li>Einreichung per <a href="index.xml">Webformular</a></li>
+		<li>Einreichung per Mail an <span class="madress">OEDIPUB [at] ipu-berlin.de</span></li>
+		<li>Einreichung eines Datenträgers per Post an IPU Bibliothek</li>
+		<li>Die Einreichung von Forschungsdaten erfolgt per Mail an <span class="madress"> OEDIPUB [at] ipu-berlin.de</span></li>
+	</ul>
+	</li>
+	<br />
+	<li><b>Veröffentlichung</b>: Das eingereichte Dokument wird von uns überprüft und auf dem Dokumentenserver veröffentlicht und archiviert. Eine erste Rückmeldung erhalten Sie innerhalb weniger Wochen per E-Mail.</li>
+</ol>
+
+<h2>Beratungsmöglichkeiten</h2>
+
+<p>Sollten Sie Fragen rund um die Veröffentlichung Ihrer Forschungsarbeiten auf dem Dokumentenserver OEDIPUB haben, zögern Sie nicht, uns zu kontaktieren.</p>
+
+<p><b>Wenden Sie sich bitte an:</b><br />
+Julia Degenhardt<br />
+- OEDIPUB Leitung -<br />
+E-Mail: <span class="madress">OEDIPUB [at] ipu-berlin.de</span><br />
+Telefon: +49 30 300 117 560</p>
+
+<p>Bitte beachten Sie, dass aufgrund der aktuellen Corona-Situation die telefonische Erreichbarkeit eingeschränkt ist.</p>
+
+<p><b>Postanschrift:</b><br />
+OEDIPUB<br />
+IPU Berlin Bibliothek<br />
+Stromstr. 2 – 2. OG<br />
+10555 Berlin</p>
+</div>
+</div>
+</section><meta><log lastEditor="degenhardt" date="2021-08-31" time="13:42" /></meta></MyCoReWebPage>
