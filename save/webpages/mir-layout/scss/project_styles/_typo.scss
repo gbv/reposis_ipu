@@ -11,8 +11,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: $font-family-condensed;
-  font-weight: 400;
+  font-weight: 600;
   color: $headlineBlack;
 }
 h1 {
@@ -20,13 +19,10 @@ h1 {
 }
 .copyright-box,
 .internal_links .dropdown-item {
-  font-weight: 300;
+  font-weight: 400;
   text-transform: uppercase;
-  font-family: $font-family-condensed;
 }
-.project_logo_box {
-  font-family: $font-family-condensed;
-}
+
 
 // Large devices (desktops) and below: <= 1200px
 @include media-breakpoint-down(lg) {
