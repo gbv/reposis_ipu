@@ -1,86 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE MyCoReWebPage>
-<MyCoReWebPage>
-    <section xml:lang="de" title="Barrierefreiheitserklärung">
-        <div class="row">
-            <div class="col-md-12" lang="de">
-                <h1>Barrierefreiheitserklärung</h1>
-                <h2>Barrierefreiheit</h2>
-                <p>
-                    Die IPU Berlin bemüht sich darum, ihren Webauftritt künftig barrierefrei zu gestalten. Die 
-                    Erklärung zur digitalen Barrierefreiheit wird im Gesetz über die barrierefreie Informations- 
-                    und Kommunikationstechnik Berlin (BIKTG Berlin) gefordert. Die technischen Anforderungen zur 
-                    Barrierefreiheit ergeben sich aus BITV 2.0. Die Umsetzung der Barrierefreiheit für den OEDIPUB 
-                    Service befindet sich im Aufbau. Eine ausführliche Barrierefreiheitserklärung wird nachgereicht, 
-                    sobald die entsprechenden Anpassungen sowie eine Beurteilung der Barrierefreiheit der Website 
-                    erfolgt sind.
-                </p>
-                <p>
-                    Dieser Webauftritt wird voraussichtlich nur teilweise die Anforderungen BITV 2.0 erfüllen. Die 
-                    Barrieren und Gründe, die zu einer Einschränkung führen, werden derzeit ermittelt und nach 
-                    Abschluss der Beurteilung nachgereicht.
-                </p>
-                <p>
-                    Die identifizierten technischen Defizite und Mängel werden künftig kontinuierlich verbessert und 
-                    behoben. Wir bemühen uns um eine sukzessive Abarbeitung und Aufbereitung.
-                </p>
-                <h2>Feedback und Kontakt</h2>
-                <p>
-                    Sollten Sie auf Hilfestellungen zur Nutzung der Inhalte angewiesen sein oder auf Mängel aufmerksam 
-                    werden, wenden Sie sich bitte an folgende Kontaktstelle.
-                </p>
-                <p>
-                    Julia Degenhardt <br />
-                    - OEDIPUB Leitung -<br />
-                    Stromstr. 2<br />
-                    10555 Berlin<br />
-                </p>
-                <p>
-                    E-Mail: <span class="madress">OEDIPUB [at] ipu-berlin.de</span>
-                    Tel.: +49 30 300 117 560<br />
-                </p>
-                <p>
-                    Wir freuen uns über Ihre Hinweise und Fehlerbeschreibungen und sind bemüht, zeitnah Lösungen für 
-                    Ihre Probleme zu finden.   
-                </p>
-                
-                <h2>Schlichtungsverfahren</h2>
-                <p>
-                    Bei dem Beauftragten der Bundesregierung für die Belange von Menschen mit Behinderungen gibt es 
-                    eine Schlichtungsstelle gemäß § 16 BGG. Wenn Sie mit den Antworten der oben genannten Kontaktstelle 
-                    nicht zufrieden sind, können Sie die Schlichtungsstelle nach dem Behindertengleichstellungsgesetz 
-                    (BGG) einschalten.
-                </p>
-                <p>
-                    Das Schlichtungsverfahren ist kostenlos. Sie brauchen keinen Rechtsbeistand. Die Schlichtstelle 
-                    hilft dabei, gemeinsam außergerichtliche Lösungen für Probleme zu finden.
-                </p>
-                <p>
-                    Sie erreichen die Schlichtungsstelle unter folgender Adresse:
-                </p>
-                
-                <h3>Schlichtungsstelle nach dem Behindertengleichstellungsgesetz</h3>
-                
-                <p>Bei dem Beauftragten der Bundesregierung für die Belange von Menschen mit Behinderungen</p>
-                <p>
-                    Mauerstraße 53<br />
-                    10117 Berlin<br />
-                </p>
-                <p>
-                    E-Mail: <span class="madress">info [at] ipu-schlichtungsstelle-bgg.de</span><br />
-                    Tel.: +49 30 18 527 2805
-                </p>
-                <p>
-                    Ein Online-Formular für die Einreichung von Schlichtungsanträgen nach dem BGG finden Sie 
-                    <a href="https://www.behindertenbeauftragter.de/DE/SchlichtungsstelleBGG/SchlichtungsstelleBGG_node.html">
-                    hier</a>.  
-                </p>
-                <p>
-                    Diese vorläufige Erklärung wurde am 10.08.2021 erstellt. Die vorläufige Einschätzung basiert auf 
-                    einer Selbstbewertung.
-                </p>
-            </div>
-        </div>
-    </section>
-    <meta></meta>
-</MyCoReWebPage>
+<MyCoReWebPage><section xml:lang="de" title="Barrierefreiheitserklärung"><div class="row">
+<div class="col-md-12" lang="de">
+<h1>Barrierefreiheitserklärung</h1>
+
+<h2>Barrierefreiheit</h2>
+
+<p>Die IPU Berlin bemüht sich darum, ihren Webauftritt künftig barrierefrei zu gestalten. Die Erklärung zur digitalen Barrierefreiheit wird im Gesetz über die barrierefreie Informations- und Kommunikationstechnik Berlin (BIKTG Berlin) gefordert. Die technischen Anforderungen zur Barrierefreiheit ergeben sich aus BITV 2.0. Die Umsetzung der Barrierefreiheit für den OEDIPUB Service befindet sich im Aufbau. Eine ausführliche Barrierefreiheitserklärung wird nachgereicht, sobald die entsprechenden Anpassungen sowie eine Beurteilung der Barrierefreiheit der Website erfolgt sind.</p>
+
+<p>Dieser Webauftritt wird voraussichtlich nur teilweise die Anforderungen BITV 2.0 erfüllen. Die Barrieren und Gründe, die zu einer Einschränkung führen, werden derzeit ermittelt und nach Abschluss der Beurteilung nachgereicht.</p>
+
+<p>Die identifizierten technischen Defizite und Mängel werden künftig kontinuierlich verbessert und behoben. Wir bemühen uns um eine sukzessive Abarbeitung und Aufbereitung.</p>
+
+<h2>Feedback und Kontakt</h2>
+
+<p>Sollten Sie auf Hilfestellungen zur Nutzung der Inhalte angewiesen sein oder auf Mängel aufmerksam werden, wenden Sie sich bitte an folgende Kontaktstelle.</p>
+
+<p>Julia Degenhardt<br />
+- OEDIPUB Leitung -<br />
+Stromstr. 2<br />
+10555 Berlin</p>
+
+<p>E-Mail: <span class="madress">OEDIPUB [at] ipu-berlin.de</span> </p>
+
+<p>Tel.: +49 30 300 117 560</p>
+
+<p>Wir freuen uns über Ihre Hinweise und Fehlerbeschreibungen und sind bemüht, zeitnah Lösungen für Ihre Probleme zu finden.</p>
+
+<h2>Schlichtungsverfahren</h2>
+
+<p>Bei dem Beauftragten der Bundesregierung für die Belange von Menschen mit Behinderungen gibt es eine Schlichtungsstelle gemäß § 16 BGG. Wenn Sie mit den Antworten der oben genannten Kontaktstelle nicht zufrieden sind, können Sie die Schlichtungsstelle nach dem Behindertengleichstellungsgesetz (BGG) einschalten.</p>
+
+<p>Das Schlichtungsverfahren ist kostenlos. Sie brauchen keinen Rechtsbeistand. Die Schlichtstelle hilft dabei, gemeinsam außergerichtliche Lösungen für Probleme zu finden.</p>
+
+<p>Sie erreichen die Schlichtungsstelle unter folgender Adresse:</p>
+
+<h3>Schlichtungsstelle nach dem Behindertengleichstellungsgesetz</h3>
+
+<p>Bei dem Beauftragten der Bundesregierung für die Belange von Menschen mit Behinderungen</p>
+
+<p>Mauerstraße 53<br />
+10117 Berlin</p>
+
+<p>E-Mail: <span class="madress">info [at] ipu-schlichtungsstelle-bgg.de</span><br />
+Tel.: +49 30 18 527 2805</p>
+
+<p>Ein Online-Formular für die Einreichung von Schlichtungsanträgen nach dem BGG finden Sie <a href="https://www.behindertenbeauftragter.de/DE/SchlichtungsstelleBGG/SchlichtungsstelleBGG_node.html"> hier</a>.</p>
+
+<p>Diese vorläufige Erklärung wurde am 10.08.2021 erstellt. Die vorläufige Einschätzung basiert auf einer Selbstbewertung.</p>
+</div>
+</div>
+</section><meta><log lastEditor="degenhardt" date="2021-09-03" time="10:07" /></meta></MyCoReWebPage>

@@ -1,44 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<MyCoReWebPage>
-    <section xml:lang="de" title="Nutzungsbedingungen">
-        <div class="row">
-            <div class="col-md-12" lang="de">
-                <h1>Nutzungsbedingungen für OEDIPUB</h1>
-                <p>         
-                    Für die Dokumente auf OEDIPUB gilt uneingeschränkt das Urheberrechtsgesetz (UrhG). 
-                    Für die Veröffentlichung empfiehlt OEDIPUB Autoren und Herausgebern eine CC-Lizensierung. 
-                    Die Metadaten OEDIPUBs unterliegen einer CC0-Lizensierung.
-                </p>
-                <p>
-                    Bitte geben Sie bei der Nutzung die vollständige Quellenangabe für das Dokument an (siehe unten).
-                    Einzelne Vervielfältigungen, z.B. Kopien und Ausdrucke, dürfen nur zum privaten und sonstigen 
-                    eigenen Gebrauch angefertigt werden (§ 53 UrhG). Die Herstellung und Verbreitung von weiteren 
-                    Reproduktionen ist nur mit ausdrücklicher Genehmigung der Urheber gestattet oder seitens der 
-                    Autoren und Herausgeber durch CC-Lizensierungen legitimiert. Nutzer sind für die Einhaltung der 
-                    Rechtsvorschriften selbst verantwortlich und können bei Missbrauch haftbar gemacht werden.
-                </p>
-                <h2>Quellenangaben</h2>
-                <p>
-                    OEDIPUB - Offene elektronische Dokumente der IPU Bibliothek + PURL (Persistent Uniform Resource 
-                    Locator) des digitalen Objektes
-                </p>
-                <P>
-                    Beispiel:
-                    
-                    <i>OEDIPUB - Offene elektronische Dokumente der IPU Bibliothek, https://doi.org/xxxxxx/xxxxxxxxxxxxxx (DOI)</i>
-                    
-                    <i>OEDIPUB - Offene elektronische Dokumente der IPU Bibliothek, [OEDIPUB Bsp. Für URN] (URN)</i>
-                </P>
+<MyCoReWebPage><section xml:lang="de" title="Nutzungsbedingungen"><div class="row">
+<div class="col-md-12" lang="de">
+<h1>Nutzungsbedingungen für OEDIPUB</h1>
 
-                <h2>OAI-Schnittstelle zum Metadaten-Harvesting unter:</h2>
-                <p>
-                    [Hier braucht es den entsprechenden Link]
-                </p>
-            </div>
-        </div>
-    </section>
-    <section xml:lang="en" title="Terms of Use">
-    </section>
-    <meta>
-    </meta>
-</MyCoReWebPage>
+<p>Für die Dokumente auf OEDIPUB gilt uneingeschränkt das Urheberrechtsgesetz (UrhG). Für die Veröffentlichung empfiehlt OEDIPUB Autoren und Herausgebern eine <a href="https://creativecommons.org/about/cclicenses/">CC-Lizensierung</a>. Die Metadaten OEDIPUBs unterliegen einer CC0-Lizensierung.</p>
+
+<p>Bitte geben Sie bei der Nutzung die vollständige Quellenangabe für das Dokument an (siehe unten). Einzelne Vervielfältigungen, z.B. Kopien und Ausdrucke, dürfen nur zum privaten und sonstigen eigenen Gebrauch angefertigt werden (§ 53 UrhG). Die Herstellung und Verbreitung von weiteren Reproduktionen ist nur mit ausdrücklicher Genehmigung der Urheber gestattet oder seitens der Autoren und Herausgeber durch CC-Lizensierungen legitimiert. Nutzer sind für die Einhaltung der Rechtsvorschriften selbst verantwortlich und können bei Missbrauch haftbar gemacht werden.</p>
+
+<h2>Quellenangaben</h2>
+
+<p><em>OEDIPUB - Offene elektronische Dokumente der IPU Bibliothek</em>, PURL (Persistent Uniform Resource Locator) des digitalen Objektes</p>
+
+<p><em>OEDIPUB - Offene elektronische Dokumente der IPU Bibliothek</em>, URN (Uniform Resource Name) des digitalen Objektes</p>
+
+<h2>OAI-Schnittstelle zum Metadaten-Harvesting unter:</h2>
+
+<p>[Hier braucht es den entsprechenden Link]</p>
+</div>
+</div>
+</section><section xml:lang="en" title="Terms of Use" /><meta><log lastEditor="degenhardt" date="2021-09-03" time="09:50" /></meta></MyCoReWebPage>
