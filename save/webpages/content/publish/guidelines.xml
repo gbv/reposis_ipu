@@ -108,11 +108,11 @@
                     durch den OEDIPUB Service der IPU Bibliothek nach Absprache unterstützt werden. Es gibt keine 
                     Layout-Vorgaben für die Manuskriptgestaltung. Sollten Veränderungen am Dokument notwendig sein, 
                     bedarf es einer neuen Version, die gespeichert wird. Die Publikation kann über das Formular zur 
-                    Anmeldung einer Publikation auf <a href="index.xml">OEDIPUB</a> angemeldet und mit Metadaten 
+                    Anmeldung einer Publikation auf <a href="../index.xml">OEDIPUB</a> angemeldet und mit Metadaten 
                     versehen werden. Die Abgabe der elektronischen Dokumente zur Verarbeitung erfolgt nach Absprache 
-                    per <a href="index.xml">Webformular</a>, Mail oder Post (Datenträger) an die Bibliothek der IPU. 
+                    per <a href="submit_request.xed">Webformular</a>, Mail oder Post (Datenträger) an die Bibliothek der IPU. 
                     Der OEDIPUB Service überprüft anschließend die elektronischen Dokumente und veröffentlicht sie
-                    nach Eingang des durch den Autor unterzeichneten <a href="P/Publikationsvertrag_OEDIPUB.docx">
+                    nach Eingang des durch den Autor unterzeichneten <a href="Publikationsvertrag_OEDIPUB.docx">
                         Publikationsvertrags</a>. Formatmigrationen gelten nicht als Veränderungen des elektronischen
                     Dokuments und werden bei Bedarf durch den OEDIPUB Service vorgenommen. Bereits publizierte Dokumente
                     können nur gelöscht oder verändert werden, wenn schwerwiegende rechtliche Gründe dies gebieten. Die
