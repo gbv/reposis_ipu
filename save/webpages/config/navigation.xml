@@ -96,11 +96,11 @@
             <label xml:lang="de">Vertragsbedingungen</label>
             <label xml:lang="en">Terms &amp; Conditions</label>
         </item>
-        <item href="/content/publish/Publikationsvertrag_OEDIPUB.docx" type="intern" replaceMenu="false" constrainPopUp="false">
+        <item href="/content/publish/Publikationsvertrag_OEDIPUB_2021.pdf" type="intern" replaceMenu="false" constrainPopUp="false">
             <label xml:lang="de">  •  Publikationsvertrag OEDIPUB</label>
             <label xml:lang="en">  •  Publication Agreement OEDIPUB</label>
         </item>
-        <item href="/content/publish/Publikationsvertrag_Forschungsdaten_OEDIPUB.docx" type="intern" replaceMenu="false" constrainPopUp="false">
+        <item href="/content/publish/Forschungsdatenpublikationsvertrag_OEDIPUB.pdf" type="intern" replaceMenu="false" constrainPopUp="false">
             <label xml:lang="de">  •  Publikationsvertrag Forschungsdaten OEDIPUB</label>
             <label xml:lang="en">  •  Publication Agreement Research data OEDIPUB</label>
         </item>
