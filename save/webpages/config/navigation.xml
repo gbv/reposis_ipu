@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<navigation dir="/content" href="navigation" hrefStartingPage="/content/index.xml" template="template_mir">
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<navigation hrefStartingPage="/content/index.xml" dir="/content" template="template_mir">
     <menu id="main" dir="/content/main">
         <label xml:lang="de">Hauptmenü</label>
         <label xml:lang="en">Main menu</label>
@@ -38,7 +38,6 @@
         </item>
     </menu>
     <menu id="search">
-        <!-- search menu  -->
         <label xml:lang="de">Recherche</label>
         <label xml:lang="en">Search</label>
         <item href="/content/search/simple.xed" type="intern" replaceMenu="false" constrainPopUp="false">

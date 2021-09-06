@@ -1,57 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE MyCoReWebPage>
-<MyCoReWebPage>
-    <section xml:lang="de" title="Vertragsbedingungen">
-        <div class="row">
-            <div class="col-md-12" lang="de">
-                <h1>Vertragsbedingungen für Veröffentlichungen auf dem Publikationsserver</h1>
-                
-                <h2>Publikationen</h2>
-                <p>Mit Ihrer Unterschrift auf dem <a href="Publikationsvertrag_OEDIPUB.docx">Vertragsformular</a> erkennen 
-                    Sie folgende Vertragsbedingungen an:
-                </p>
-                <p>
-                    <ol>
-                        <li>Sie übertragen der Bibliothek der IPU Berlin ein einfaches, zeitlich unbefristetes Nutzungsrecht an Ihrem zu veröffentlichenden Werk und gestatten der IPU Berlin damit, Ihr Werk auf ihren Servern zu speichern, zu vervielfältigen, öffentlich zugänglich zu machen, zum Download anzubieten und auf Einzelabruf in Datennetzen zu übertragen. Die IPU Berlin verfolgt mit der Veröffentlichung keine wirtschaftlichen Interessen. Der Autor enthält von der IPU Berlin für die Veröffentlichung seines Werkes keine Vergütung.</li>
-                        <li>Sie versichern, über das Urheberrecht am Werk zu verfügen und ferner mit dieser Veröffentlichung – auch im Namen evtl. Miturheber – keine Rechte Dritter zu verletzen. Dies schließt ggfs. auch Abbildungen und Multimedia-Elemente ein.</li>
-                        <li>Sie gestatten dem Betreiber, das Werk zu archivieren und zu speichern und es bei Bedarf, etwa zum Zwecke der Langzeitarchivierung, in andere elektronische und physische Formate zu überführen.</li>
-                        <li>Sie übernehmen die volle Verantwortung für die von Ihnen eingestellten Inhalte, auch im Sinne der Sicherung der guten wissenschaftlichen Praxis. Die Verantwortung für die Vermeidung von Interessenskonflikten liegt bei dem Inhaber der Verwertungsrechte und nicht bei der Bibliothek der IPU Berlin.</li>
-                        <li>Die Bibliothek der IPU Berlin behält sich das Recht vor, den öffentlichen Zugriff auf die betroffene Publikation zu sperren, sofern Anhaltspunkte für eine Rechtsverletzung vorliegen. Für die resultierenden Schäden, die aus der Verletzung von Urheber- oder Verwertungsrechten entstehen, haftet die Bibliothek der IPU Berlin nicht. In Zweifelsfällen oder beim Entstehen vermeintlicher oder tatsächlicher Rechtsverletzungen ist der Autor verpflichtet, die IPU Bibliothek hierüber unverzüglich in Kenntnis zu setzen.</li>
-                        <li>Die Metadaten zum Werk und der Link zum Volltext werden im Katalog der IPU Bibliothek sowie in anderen Katalogen öffentlich-rechtlicher Einrichtungen nachgewiesen. Die Metadaten und die elektronischen Dokumente werden an die Deutsche Nationalbibliothek weitergeben.</li>
-                        <li>Die Bibliothek der IPU Berlin übernimmt keine Haftung für den Fall, dass von dritter Seite die Publikation unrechtmäßig heruntergeladen, verändert oder an anderer Stelle verbreitet wird.</li>
-                    </ol>
-                </p>
-                <p>
-                    Weitere Informationen zu den Vertragsbedingungen entnehmen Sie bitte dem <a href="Publikationsvertrag_OEDIPUB.docx">Vertragsformular für die digitale Textpublikation</a>.
-                </p>
-                
-                <p>Stand: 17.08.2021</p>
-                
-                
-                <h2>Forschungsdaten</h2>
-                
-                <p>
-                    Wenn Sie auf OEDIPUB Ihre Forschungsdaten gemäß der guten wissenschaftlichen Praxis für mindestens fünf Jahre archivieren oder veröffentlichen möchten, erkennen Sie in der Einwilligungserklärung mit Ihrer Unterschrift folgende Vertragsbedingungen an:
-                </p>
-                <p>
-                    <ol>
-                        <li>Sie übertragen der Bibliothek der IPU Berlin ein einfaches, zeitlich unbefristetes Nutzungsrecht an Ihren zu veröffentlichenden Forschungsdaten und gestatten der IPU Berlin damit, Ihr Werk auf ihren Servern zu speichern, zu vervielfältigen, öffentlich zugänglich zu machen, zum Download anzubieten und auf Einzelabruf in Datennetzen zu übertragen. Die IPU Berlin verfolgt mit der Archivierung und Veröffentlichung keine wirtschaftlichen Interessen. Der Autor enthält von der IPU Berlin für die Veröffentlichung seines Werkes keine Vergütung.</li>
-                        <li>Sie versichern, dass im Falle der Veröffentlichung der Forschungsdaten, auch im Namen der an der Erzeugung beteiligten Personen, keine Rechte Dritter mit einer derartigen Veröffentlichung zu verletzt werden.</li>
-                        <li>Sie übernehmen als Inhaber der Verwertungsrechte die volle Verantwortung für die Vermeidung von Interessenskonflikten. Die Bibliothek der IPU Berlin ist hierfür nicht verantwortbar.</li>
-                        <li>Sie übernehmen die volle Verantwortung für die von Ihnen verbreiteten Inhalte und die Einhaltung der geltenden wissenschaftlichen Standards. Sie übernehmen die volle Verantwortung für die Wahrung der geltenden Datenschutzbestimmungen, insbesondere bzgl. der Anonymisierung/Pseudonymisierung personenbezogener Daten und dem Vorliegen von Einwilligungserklärungen der beteiligten Personen.</li>
-                        <li>Die Bibliothek der IPU Berlin behält sich das Recht vor, bei veröffentlichten Forschungsdaten den Zugriff auf diese zu sperren, sofern konkrete Anhaltspunkte für eine Rechtsverletzung bestehen. Die Bibliothek der IPU Berlin haftet nicht für aus der Verletzung von Verwertungsrechten resultierenden Schäden. Sie versichern, in Zweifelsfällen oder bei Entstehen vermeintlicher oder tatsächlicher Rechtsverletzungen die Bibliothek der IPU Berlin hiervon unverzüglich in Kenntnis zu setzen.</li>
-                        <li>Die Metadaten der publizierten Forschungsdaten sowie die zusätzlich eingereichte README-Datei mit vertieften Beschreibungen des Datensatzes werden öffentlich zugänglich gemacht. Die Metadaten werden an Systeme wie BASE und DataCite zum Zwecke der Auffindbarkeit weitergegeben.</li>
-                        <li>Der Bibliothek der IPU Berlin ist es gestattet, insbesondere zum Zwecke der Langzeitarchivierung die Forschungsdaten in andere Dateiformate zu konvertieren oder anderweitig technisch zu verändern.</li>
-                        <li>Die Bibliothek der IPU Berlin übernimmt keine Haftung für den Fall eines missbräuchlichen Zugriffs seitens Dritter auf Forschungsdaten.</li>
-                    </ol>
-                </p>
-                <p>
-                    Weitere Informationen zu den Vertragsbedingungen entnehmen Sie bitte dem <a href="Publikationsvertrag_Forschungsdaten_OEDIPUB.docx">Vertragsformular für die digitale Publikation von Forschungsdaten</a>.
-                </p>
-                <p>Stand: 17.08.2021</p>
-            </div>
-        </div>
-    </section>
-    <meta>
-    </meta>
-</MyCoReWebPage>
+<MyCoReWebPage><section xml:lang="de" title="Vertragsbedingungen"><div class="row">
+<div class="col-md-12" lang="de">
+<h1>Vertragsbedingungen für Veröffentlichungen auf dem Publikationsserver</h1>
+
+<h2>Publikationen</h2>
+
+<p>Mit Ihrer Unterschrift auf dem <a href="/ipu/content/publish/Publikationsvertrag_OEDIPUB_2021(8).pdf">Vertragsformular für Erst- und Zweitveröffentlichungen auf OEDIPUB</a> erkennen Sie folgende Vertragsbedingungen an:</p>
+
+<ol>
+	<li>Sie übertragen der Bibliothek der IPU Berlin ein einfaches, zeitlich unbefristetes Nutzungsrecht an Ihrem zu veröffentlichenden Werk und gestatten der IPU Berlin damit, Ihr Werk auf ihren Servern zu speichern, zu vervielfältigen, öffentlich zugänglich zu machen, zum Download anzubieten und auf Einzelabruf in Datennetzen zu übertragen. Die IPU Berlin verfolgt mit der Veröffentlichung keine wirtschaftlichen Interessen. Der Autor enthält von der IPU Berlin für die Veröffentlichung seines Werkes keine Vergütung.</li>
+	<li>Sie versichern, über das Urheberrecht am Werk zu verfügen und ferner mit dieser Veröffentlichung – auch im Namen evtl. Miturheber – keine Rechte Dritter zu verletzen. Dies schließt ggfs. auch Abbildungen und Multimedia-Elemente ein.</li>
+	<li>Sie gestatten dem Betreiber, das Werk zu archivieren und zu speichern und es bei Bedarf, etwa zum Zwecke der Langzeitarchivierung, in andere elektronische und physische Formate zu überführen.</li>
+	<li>Sie übernehmen die volle Verantwortung für die von Ihnen eingestellten Inhalte, auch im Sinne der Sicherung der guten wissenschaftlichen Praxis. Die Verantwortung für die Vermeidung von Interessenskonflikten liegt bei dem Inhaber der Verwertungsrechte und nicht bei der Bibliothek der IPU Berlin.</li>
+	<li>Die Bibliothek der IPU Berlin behält sich das Recht vor, den öffentlichen Zugriff auf die betroffene Publikation zu sperren, sofern Anhaltspunkte für eine Rechtsverletzung vorliegen. Für die resultierenden Schäden, die aus der Verletzung von Urheber- oder Verwertungsrechten entstehen, haftet die Bibliothek der IPU Berlin nicht. In Zweifelsfällen oder beim Entstehen vermeintlicher oder tatsächlicher Rechtsverletzungen ist der Autor verpflichtet, die IPU Bibliothek hierüber unverzüglich in Kenntnis zu setzen.</li>
+	<li>Die Metadaten zum Werk und der Link zum Volltext werden im Katalog der IPU Bibliothek sowie in anderen Katalogen öffentlich-rechtlicher Einrichtungen nachgewiesen. Die Metadaten und die elektronischen Dokumente werden an die Deutsche Nationalbibliothek weitergeben.</li>
+	<li>Die Bibliothek der IPU Berlin übernimmt keine Haftung für den Fall, dass von dritter Seite die Publikation unrechtmäßig heruntergeladen, verändert oder an anderer Stelle verbreitet wird.</li>
+</ol>
+
+<p>Weitere Informationen zu den Vertragsbedingungen entnehmen Sie bitte dem <a href="/ipu/content/publish/Publikationsvertrag_OEDIPUB_2021(6).pdf">Vertragsformular für die digitale Textpublikation</a>.</p>
+
+<p>Stand: 17.08.2021</p>
+
+<h2>Forschungsdaten</h2>
+
+<p>Wenn Sie auf OEDIPUB Ihre Forschungsdaten gemäß der guten wissenschaftlichen Praxis für mindestens fünf Jahre archivieren oder veröffentlichen möchten, erkennen Sie mit der Unterzeichnung des <a href="/ipu/content/publish/Forschungsdatenpublikationsvertrag_OEDIPUB(4).pdf">Forschungsdatenpublikationsvertrags</a> folgende Vertragsbedingungen an:</p>
+
+<ol>
+	<li>Sie übertragen der Bibliothek der IPU Berlin ein einfaches, zeitlich unbefristetes Nutzungsrecht an Ihren zu veröffentlichenden Forschungsdaten und gestatten der IPU Berlin damit, Ihr Werk auf ihren Servern zu speichern, zu vervielfältigen, öffentlich zugänglich zu machen, zum Download anzubieten und auf Einzelabruf in Datennetzen zu übertragen. Die IPU Berlin verfolgt mit der Archivierung und Veröffentlichung keine wirtschaftlichen Interessen. Der Autor enthält von der IPU Berlin für die Veröffentlichung seines Werkes keine Vergütung.</li>
+	<li>Sie versichern, dass im Falle der Veröffentlichung der Forschungsdaten, auch im Namen der an der Erzeugung beteiligten Personen, keine Rechte Dritter mit einer derartigen Veröffentlichung zu verletzt werden.</li>
+	<li>Sie übernehmen als Inhaber der Verwertungsrechte die volle Verantwortung für die Vermeidung von Interessenskonflikten. Die Bibliothek der IPU Berlin ist hierfür nicht verantwortbar.</li>
+	<li>Sie übernehmen die volle Verantwortung für die von Ihnen verbreiteten Inhalte und die Einhaltung der geltenden wissenschaftlichen Standards. Sie übernehmen die volle Verantwortung für die Wahrung der geltenden Datenschutzbestimmungen, insbesondere bzgl. der Anonymisierung/Pseudonymisierung personenbezogener Daten und dem Vorliegen von Einwilligungserklärungen der beteiligten Personen.</li>
+	<li>Die Bibliothek der IPU Berlin behält sich das Recht vor, bei veröffentlichten Forschungsdaten den Zugriff auf diese zu sperren, sofern konkrete Anhaltspunkte für eine Rechtsverletzung bestehen. Die Bibliothek der IPU Berlin haftet nicht für aus der Verletzung von Verwertungsrechten resultierenden Schäden. Sie versichern, in Zweifelsfällen oder bei Entstehen vermeintlicher oder tatsächlicher Rechtsverletzungen die Bibliothek der IPU Berlin hiervon unverzüglich in Kenntnis zu setzen.</li>
+	<li>Die Metadaten der publizierten Forschungsdaten sowie die zusätzlich eingereichte README-Datei mit vertieften Beschreibungen des Datensatzes werden öffentlich zugänglich gemacht. Die Metadaten werden an Systeme wie BASE und DataCite zum Zwecke der Auffindbarkeit weitergegeben.</li>
+	<li>Der Bibliothek der IPU Berlin ist es gestattet, insbesondere zum Zwecke der Langzeitarchivierung die Forschungsdaten in andere Dateiformate zu konvertieren oder anderweitig technisch zu verändern.</li>
+	<li>Die Bibliothek der IPU Berlin übernimmt keine Haftung für den Fall eines missbräuchlichen Zugriffs seitens Dritter auf Forschungsdaten.</li>
+</ol>
+
+<p>Weitere Informationen zu den Vertragsbedingungen entnehmen Sie bitte dem <a href="/ipu/content/publish/Forschungsdatenpublikationsvertrag_OEDIPUB(3).pdf">Vertragsformular für die digitale Publikation von Forschungsdaten</a>.</p>
+
+<p>Stand: 17.08.2021</p>
+</div>
+</div>
+</section><meta><log lastEditor="degenhardt" date="2021-09-06" time="10:02" /></meta></MyCoReWebPage>
