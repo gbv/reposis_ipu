@@ -9,18 +9,6 @@
       <label xml:lang="de" text="Artikel / Aufsatz" />
       <label xml:lang="x-mapping" text="marcgt:article diniPublType:article" />
       <label xml:lang="x-hosts" text="journal series collection proceedings standalone" />
-      <category ID="chapter">
-        <label xml:lang="en" text="Book chapter" />
-        <label xml:lang="de" text="Buchkapitel" />
-        <label xml:lang="x-mapping" text="marcgt:article diniPublType:bookPart" />
-        <label xml:lang="x-hosts" text="monograph book collection" />
-      </category>
-      <category ID="review">
-        <label xml:lang="en" text="Review" />
-        <label xml:lang="de" text="Rezension" />
-        <label xml:lang="x-mapping" text="marcgt:article diniPublType:review" />
-        <label xml:lang="x-hosts" text="journal collection proceedings standalone" />
-      </category>
     </category>
     <category ID="monograph">
       <label xml:lang="en" text="Monograph" />
