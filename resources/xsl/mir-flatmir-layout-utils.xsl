@@ -6,9 +6,8 @@
     xmlns:mcrxsl="xalan://org.mycore.common.xml.MCRXMLFunctions"
     exclude-result-prefixes="i18n mcrver mcrxsl">
 
-  <xsl:param name="MIR.TestInstance" />
-
   <xsl:import href="resource:xsl/layout/mir-common-layout.xsl" />
+  <xsl:param name="MIR.TestInstance" />
 
   <xsl:template name="mir.navigation">
 
