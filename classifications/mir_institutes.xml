@@ -80,6 +80,38 @@
         <label xml:lang="en" text="Psychotherapy research" description="Psychotherapy research" />
       </category>
       <category ID="02.07">
+        <label xml:lang="de" text="Kinder- und Jugendpsychotherapie" description="Kinder- und Jugendpsychotherapie" />
+        <label xml:lang="en" text="Child and adolescent psychotherapy" description="Child and adolescent psychotherapy" />
+      </category>
+      <category ID="02.08">
+        <label xml:lang="de" text="Gruppenanalyse" description="Gruppenanalyse" />
+        <label xml:lang="en" text="Group analysis" description="Group analysis" />
+      </category>
+      <category ID="02.09">
+        <label xml:lang="de" text="Geriatrie" description="Geriatrie" />
+        <label xml:lang="en" text="Geriatrics" description="Geriatrics" />
+      </category>
+      <category ID="02.10">
+        <label xml:lang="de" text="Psychiatrie" description="Psychiatrie" />
+        <label xml:lang="en" text="Psychiatry" description="Psychiatry" />
+      </category>
+      <category ID="02.11">
+        <label xml:lang="de" text="Medizinische Psychologie" description="Medizinische Psychologie" />
+        <label xml:lang="en" text="Medical psychology" description="Medical psychology" />
+      </category>
+      <category ID="02.12">
+        <label xml:lang="de" text="Psychosenforschung" description="Psychosenforschung" />
+        <label xml:lang="en" text="Psychosis research" description="Psychosis research" />
+      </category>
+      <category ID="02.13">
+        <label xml:lang="de" text="Rechtspsychologie" description="Rechtspsychologie" />
+        <label xml:lang="en" text="Legal psychology" description="Legal psychology" />
+      </category>
+      <category ID="02.14">
+        <label xml:lang="de" text="Sexualwissenschaft" description="Sexualwissenschaft" />
+        <label xml:lang="en" text="Sexology" description="Sexology" />
+      </category>
+      <category ID="02.15">
         <label xml:lang="de" text="Sonstige" description="Sonstige" />
         <label xml:lang="en" text="Other" description="Other" />
       </category>
