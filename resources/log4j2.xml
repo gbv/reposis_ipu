@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <configuration status="OFF">
   <appenders>
-    <RollingFile name="RollingFile" fileName="/mcr/log"
+    <RollingFile name="RollingFile" fileName="/mcr/log/mycore-app.log"
       filePattern="/mcr/log/$${date:yyyy-MM}/mycore-app-%d{MM-dd-yyyy}-%i.log.gz">
       <PatternLayout>
         <Pattern>%highlight{%d{ISO8601} %-5p %X{loginId} %c{1}: %m%n%ex}</Pattern>
@@ -14,11 +14,11 @@
 
     <Console name="console" target="SYSTEM_OUT">
       <PatternLayout pattern="[%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %c{1} - %msg%n" />
-  </Console>
-
+    </Console>
   </appenders>
+
   <loggers>
-    <root level="debug">
+    <root level="info">
       <appender-ref ref="RollingFile" />
       <appender-ref ref="console" />
     </root>

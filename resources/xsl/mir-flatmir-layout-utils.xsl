@@ -7,6 +7,7 @@
     exclude-result-prefixes="i18n mcrver mcrxsl">
 
   <xsl:import href="resource:xsl/layout/mir-common-layout.xsl" />
+  <xsl:param name="MIR.TestInstance" />
 
   <xsl:template name="mir.navigation">
 
@@ -157,6 +158,9 @@
         <img src="{$WebApplicationBaseURL}mir-layout/images/mycore_logo_small_invert.png" title="{$mcr_version}" alt="powered by MyCoRe" />
       </a>
     </div>
+    <xsl:if test="contains($MIR.TestInstance, 'true')">
+      <div id="watermark_testenvironment">Testumgebung</div>
+    </xsl:if>
   </xsl:template>
 
 </xsl:stylesheet>
