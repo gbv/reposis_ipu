@@ -113,6 +113,10 @@
         <label xml:lang="de">Nutzermenü</label>
         <label xml:lang="en">User menu</label>
         <group id="thisuser">
+            <item href="/servlets/solr/select?q=createdby:USERNAME" type="intern" replaceMenu="false" constrainPopUp="false">
+                <label xml:lang="de">Meine Dokumente</label>
+                <label xml:lang="en">My Documents</label>
+            </item>
             <item href="/servlets/MCRUserServlet?action=changeMyPassword" type="extern" replaceMenu="false" constrainPopUp="false">
                 <label xml:lang="de">Passwort ändern</label>
                 <label xml:lang="en">Change Password</label>
