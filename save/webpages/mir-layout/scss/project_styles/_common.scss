@@ -15,6 +15,12 @@
   font-weight: bold;
 }
 
+  // to remove blue border from navigation elements on iOS
+  // todo: check if there is a less greedy solution
+  *:focus {
+    outline: none !important;
+  }
+
 
 // Extra large devices (large desktops)
 // set the defaults for all responsive levels here
