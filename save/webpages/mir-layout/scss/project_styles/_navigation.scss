@@ -43,6 +43,10 @@
 // Medium devices (tablets) and below: <= 992px
 @include media-breakpoint-down(md) {
   // add/overwrite styles for responsive level md and lower
+  .mir-main-nav #basket-list-item .nav-link,
+  .mir-main-nav .nav-item .nav-link {
+    padding-left: 1rem;
+  }
 }
 
 // Small devices (landscape phones) and below: <= 768px

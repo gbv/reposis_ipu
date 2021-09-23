@@ -53,9 +53,21 @@
 // Small devices (landscape phones) and below: <= 768px
 @include media-breakpoint-down(sm) {
   // add/overwrite styles for responsive level sm and lower
+  #ipu-bibliothek {
+    right: auto;
+    bottom: auto;
+    top: 0;
+    left: 15px;
+  }
 }
 
 // Extra small devices (portrait phones): <= 576px
 @include media-breakpoint-down(xs) {
   // add/overwrite styles for responsive level xs
+  #project_logo_box a .project-name {
+    font-size: 2rem;
+  }
+  #project_logo_box img {
+    padding-right: 1rem;
+  }
 }

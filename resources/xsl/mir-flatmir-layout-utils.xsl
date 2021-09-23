@@ -108,17 +108,17 @@
   <xsl:template name="mir.footer">
     <div class="container">
       <div class="row">
-        <div class="col-6">
+        <div class="col-12 col-sm-6 order-2 order-sm-1">
           <ul class="internal_links nav navbar-nav navbar-expand-md">
             <xsl:apply-templates select="$loaded_navigation_xml/menu[@id='below']/*" />
           </ul>
         </div>
-        <div class="col-6 ipu-logo-box">
+        <div class="col-12 col-sm-6 ipu-logo-box order-1 order-sm-2">
           <a href="http://www.ipu-berlin.de/">
-            <img src="{$WebApplicationBaseURL}images/ipu-logo-web_de.svg" alt="Logo IPU" />
+            <img class="mb-5" src="{$WebApplicationBaseURL}images/ipu-logo-web_de.svg" alt="Logo IPU" />
           </a>
         </div>
-        <div class="col-12">
+        <div class="col-12 order-3">
           <div class="copyright-box">Copyright © 2021 · International Psychoanalytic University Berlin</div>
         </div>
       </div>
