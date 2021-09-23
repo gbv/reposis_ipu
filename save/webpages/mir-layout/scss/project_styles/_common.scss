@@ -18,7 +18,11 @@
   // to remove blue border from navigation elements on iOS
   // todo: check if there is a less greedy solution
   *:focus {
-    outline: none !important;
+    //outline: none !important;
+    outline-style: dotted;
+    outline-color: $dropdownText;
+    outline-width: 1px;
+    outline-offset: 2px;
   }
 
 
