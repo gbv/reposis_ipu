@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <MyCoReWebPage>
-  <section title="Publizieren" xml:lang="de">
+  <section title="Publizieren - OEDIPUB" xml:lang="de">
     <form id="submit_publication"
           class="form-horizontal" 
           role="form" 
@@ -35,7 +35,7 @@
     </form>
   </section>
 
-  <section title="Publish" xml:lang="en">
+  <section title="Publish - OEDIPUB" xml:lang="en">
     <form id="submit_publication"
           class="form-horizontal" 
           role="form" 
