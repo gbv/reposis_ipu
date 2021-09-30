@@ -93,8 +93,8 @@
             <label xml:lang="en">Publish</label>
         </item>
         <item href="/content/publish/index.xml" type="intern" replaceMenu="false" constrainPopUp="false">
-            <label xml:lang="de">Dokument importieren</label>
-            <label xml:lang="en">Import document</label>
+            <label xml:lang="de">Publizieren mit Metadatenimport</label>
+            <label xml:lang="en">Publish with metadata import</label>
         </item>
         <item href="/content/publish/contract.xml" type="intern" replaceMenu="false" constrainPopUp="false">
             <label xml:lang="de">Vertragsbedingungen</label>

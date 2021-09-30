@@ -76,8 +76,67 @@
     <xed:include ref="project.ddc.repeat"                after="sdnb.repeat" />
     <xed:remove  ref="sdnb.repeat" />
   </xed:modify>
+
+  <xed:modify ref="genres.dissertation">
+    <xed:include ref="thesis.advisor.reviewer.extented.repeated" before="thesis.advisor.reviewer.all.repeated" />
+    <xed:remove ref="thesis.advisor.reviewer.all.repeated" />
+  </xed:modify>
+
+  <xed:modify ref="genres.habilitation">
+    <xed:include ref="thesis.advisor.reviewer.extented.habil.repeated" before="thesis.advisor.reviewer.all.repeated" />
+    <xed:remove ref="thesis.advisor.reviewer.all.repeated" />
+  </xed:modify>
+
+  <xed:modify ref="genres.bachelor_thesis">
+    <xed:include ref="thesis.advisor.reviewer.reduced.repeated" before="thesis.advisor.reviewer.all.repeated" />
+    <xed:remove ref="thesis.advisor.reviewer.all.repeated" />
+    <xed:include ref="date.issued.datetimepicker" after="year.issued" />
+    <xed:include ref="date.accepted.datetimepicker" after="date.issued.datetimepicker" />
+  </xed:modify>
+
+  <xed:modify ref="genres.master_thesis">
+    <xed:include ref="thesis.advisor.reviewer.reduced.repeated" before="thesis.advisor.reviewer.all.repeated" />
+    <xed:remove ref="thesis.advisor.reviewer.all.repeated" />
+    <xed:include ref="date.issued.datetimepicker" after="year.issued" />
+    <xed:include ref="date.accepted.datetimepicker" after="date.issued.datetimepicker" />
+  </xed:modify>
   
   <!-- ========== ipu specific templates ========== -->
+
+  <xed:template id="genres.issue">
+    <xed:include ref="title.original" />
+    <xed:include ref="editor.repeated" />
+    <xed:include ref="place" />
+    <xed:include ref="publisher" />
+    <xed:if test="$host='standalone'">
+      <xed:include ref="year.issued" />
+      <xed:include ref="extent" />
+    </xed:if>
+    <xed:include ref="identifier.issn" />
+    <xed:include ref="language" />
+    <xed:include ref="lp.class.series" />
+    <xed:include ref="abstract.simple" />
+    <xed:include ref="rights" />
+    <xed:include ref="institutes.required" />
+    <xed:include ref="validate.institutes.required" />
+    <xed:include ref="lp.comment.byRole" />
+  </xed:template>
+
+  <xed:template id="genres.monograph">
+    <xed:include ref="genres.book" />
+  </xed:template>
+
+  <xed:template id="genres.expert_opinions">
+    <xed:include ref="genres.review" />
+  </xed:template>
+
+  <xed:template id="genres.other_scientific_publications">
+    <xed:include ref="genres.report" />
+  </xed:template>
+
+  
+  <!-- ========== ipu specific field templates ========== -->
+
   <xed:template id="project.ddc.repeat">
     <xed:repeat xpath="mods:classification[@authority='ddc'][@displayLabel='ddc']" min="1" max="10" method="build">
       <!--<div class="form-group row required {$xed-validation-marker}">-->
@@ -87,7 +146,7 @@
         </label>
         <div class="col-md-6">
           <div class="controls">
-            <select class="form-control form-control-inline">
+            <select class="form-control form-control-inline mir-form__js-select--large">
               <option value="">
                 <xed:output i18n="mir.select" />
               </option>
@@ -103,4 +162,52 @@
                   display="global" />-->
   </xed:template>
   
+  <xed:template id="thesis.advisor.reviewer.extented.repeated">
+    <xed:bind xpath="mods:name[@type='personal'][mods:role/mods:roleTerm[@authority='marcrelator'][@type='code']='aut']" />
+    <xed:bind xpath="mods:name[@type='personal'][mods:role/mods:roleTerm[@authority='marcrelator'][@type='code']='ths']" />
+    <xed:bind xpath="mods:name[@type='personal'][mods:role/mods:roleTerm[@authority='marcrelator'][@type='code']='rev']" />
+    <mir:person.repeated help-text="{i18n:mir.help.thesis.advisor.reviewer}">
+      <option value="aut">
+        <xed:output i18n="project.role.thesis.habilitand" />
+      </option>
+      <option value="aut">
+        <xed:output i18n="mir.role.thesis" />
+      </option>
+      <option value="ths">
+        <xed:output i18n="mir.role.advisor" />
+      </option>
+      <option value="rev">
+        <xed:output i18n="mir.role.reviewer" />
+      </option>
+    </mir:person.repeated>
+  </xed:template>
+
+  <xed:template id="thesis.advisor.reviewer.extented.habil.repeated">
+    <xed:bind xpath="mods:name[@type='personal'][mods:role/mods:roleTerm[@authority='marcrelator'][@type='code']='aut']" />
+    <xed:bind xpath="mods:name[@type='personal'][mods:role/mods:roleTerm[@authority='marcrelator'][@type='code']='ths']" />
+    <xed:bind xpath="mods:name[@type='personal'][mods:role/mods:roleTerm[@authority='marcrelator'][@type='code']='rev']" />
+    <mir:person.repeated help-text="{i18n:mir.help.thesis.advisor.reviewer}">
+      <option value="aut">
+        <xed:output i18n="mir.role.thesis" />
+      </option>
+      <option value="aut" selected="selected">
+        <xed:output i18n="project.role.thesis.habilitand" />
+      </option>
+      <option value="ths">
+        <xed:output i18n="mir.role.advisor" />
+      </option>
+      <option value="rev">
+        <xed:output i18n="mir.role.reviewer" />
+      </option>
+    </mir:person.repeated>
+  </xed:template>
+
+  <xed:template id="thesis.advisor.reviewer.reduced.repeated">
+    <xed:bind xpath="mods:name[@type='personal'][mods:role/mods:roleTerm[@authority='marcrelator'][@type='code']='aut']" />
+    <xed:bind xpath="mods:name[@type='personal'][mods:role/mods:roleTerm[@authority='marcrelator'][@type='code']='ths']" />
+    <mir:person.repeated help-text="{i18n:mir.help.thesis.advisor}">
+      <xed:include uri="xslStyle:items2options:classification:editor:-1:children:marcrelator" />
+    </mir:person.repeated>
+  </xed:template>
+
 </xed:template>
