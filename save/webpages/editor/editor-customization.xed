@@ -92,6 +92,7 @@
     <xed:remove ref="thesis.advisor.reviewer.all.repeated" />
     <xed:include ref="date.issued.datetimepicker" after="year.issued" />
     <xed:include ref="date.accepted.datetimepicker" after="date.issued.datetimepicker" />
+    <xed:remove ref="year.issued" />
   </xed:modify>
 
   <xed:modify ref="genres.master_thesis">
@@ -99,6 +100,7 @@
     <xed:remove ref="thesis.advisor.reviewer.all.repeated" />
     <xed:include ref="date.issued.datetimepicker" after="year.issued" />
     <xed:include ref="date.accepted.datetimepicker" after="date.issued.datetimepicker" />
+    <xed:remove ref="year.issued" />
   </xed:modify>
   
   <!-- ========== ipu specific templates ========== -->
