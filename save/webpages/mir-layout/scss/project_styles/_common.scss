@@ -25,6 +25,17 @@
     outline-offset: 2px;
   }
 
+ // banner test environment
+ #watermark_testenvironment {
+  z-index: 200;
+  color: #ffffff;
+  background-color: red;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  box-shadow: 1px 1px 8px 1px #969696;
+  -webkit-box-shadow: 1px 1px 4px 1px #969696;
+}
 
 // Extra large devices (large desktops)
 // set the defaults for all responsive levels here
