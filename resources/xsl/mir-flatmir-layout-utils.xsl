@@ -123,7 +123,7 @@
           </a>
         </div>
         <div class="col-12 order-3">
-          <div class="copyright-box">Copyright © 2021 · International Psychoanalytic University Berlin</div>
+          <div class="copyright-box">Copyright © 2023 · International Psychoanalytic University Berlin</div>
         </div>
       </div>
     </div>
