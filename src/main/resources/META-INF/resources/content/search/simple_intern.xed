@@ -32,6 +32,9 @@
             <!-- Institution -->
               <mir:template name="selectInput" xpath="condition[@field='category'][1]/@value" id="inputInst1" i18n="editor.search.mir.institute"
                 tooltip="editor.search.mir.institute.tooltip" uri="xslStyle:items2options:classification:editorComplete:-1:children:mir_institutes" />
+            <!-- Sondersammlung -->
+            <mir:template name="selectInput" xpath="condition[@field='category.top'][2]/@value" id="inputCollections1" i18n="project.form.label.collections"
+                 tooltip="project.help.collections" uri="xslStyle:items2options:classification:editorComplete:-1:children:collections" />
         <!-- /xed:bind> TODO: realize search dependent on current user and state
         <xed:bind xpath="boolean[@operator='or']" default="{$CurrentUser}" -->
           <!-- xed:bind xpath="condition[@field='createdby']/@value" default="{$CurrentUser}" / -->

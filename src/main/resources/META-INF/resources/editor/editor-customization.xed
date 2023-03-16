@@ -1,79 +1,94 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xed:template xmlns:xed="http://www.mycore.de/xeditor" xmlns:mir="http://www.mycore.de/mir">
-  
+
   <!-- ========== extend editor-genres.xed ========== -->
   <xed:modify ref="admin.fields">
     <xed:include ref="project.ddc.repeat"                after="sdnb.repeat" />
+    <xed:include ref="project.collections"               after="project.ddc.repeat" />
     <xed:remove  ref="sdnb.repeat" />
   </xed:modify>
-  
+
   <xed:modify ref="genres.book.common">
     <xed:include ref="project.ddc.repeat"                after="sdnb.repeat" />
+    <xed:include ref="project.collections"               after="project.ddc.repeat" />
     <xed:remove  ref="sdnb.repeat" />
   </xed:modify>
-  
+
   <xed:modify ref="genres.journal.common">
     <xed:include ref="project.ddc.repeat"                after="sdnb.repeat" />
+    <xed:include ref="project.collections"               after="project.ddc.repeat" />
     <xed:remove  ref="sdnb.repeat" />
   </xed:modify>
-  
+
   <xed:modify ref="genres.thesis.common">
     <xed:include ref="project.ddc.repeat"                after="sdnb.repeat" />
+    <xed:include ref="project.collections"               after="project.ddc.repeat" />
     <xed:remove  ref="sdnb.repeat" />
   </xed:modify>
-  
+
   <xed:modify ref="genres.teaching_material">
     <xed:include ref="project.ddc.repeat"                after="sdnb.repeat" />
+    <xed:include ref="project.collections"               after="project.ddc.repeat" />
     <xed:remove  ref="sdnb.repeat" />
   </xed:modify>
-  
+
   <xed:modify ref="genres.publication.common">
     <xed:include ref="project.ddc.repeat"                after="sdnb.repeat" />
+    <xed:include ref="project.collections"               after="project.ddc.repeat" />
     <xed:remove  ref="sdnb.repeat" />
   </xed:modify>
-  
+
   <xed:modify ref="genres.report.common">
     <xed:include ref="project.ddc.repeat"                after="sdnb.repeat" />
+    <xed:include ref="project.collections"               after="project.ddc.repeat" />
     <xed:remove  ref="sdnb.repeat" />
   </xed:modify>
-  
+
   <xed:modify ref="genres.entry">
     <xed:include ref="project.ddc.repeat"                after="sdnb.repeat" />
+    <xed:include ref="project.collections"               after="project.ddc.repeat" />
     <xed:remove  ref="sdnb.repeat" />
   </xed:modify>
-  
+
   <xed:modify ref="genres.preface">
     <xed:include ref="project.ddc.repeat"                after="sdnb.repeat" />
+    <xed:include ref="project.collections"               after="project.ddc.repeat" />
     <xed:remove  ref="sdnb.repeat" />
   </xed:modify>
-  
+
   <xed:modify ref="genres.interview">
     <xed:include ref="project.ddc.repeat"                after="sdnb.repeat" />
+    <xed:include ref="project.collections"               after="project.ddc.repeat" />
     <xed:remove  ref="sdnb.repeat" />
   </xed:modify>
-  
+
   <xed:modify ref="genres.speech">
     <xed:include ref="project.ddc.repeat"                after="sdnb.repeat" />
+    <xed:include ref="project.collections"               after="project.ddc.repeat" />
     <xed:remove  ref="sdnb.repeat" />
   </xed:modify>
-  
+
   <xed:modify ref="genres.poster">
     <xed:include ref="project.ddc.repeat"                after="sdnb.repeat" />
+    <xed:include ref="project.collections"               after="project.ddc.repeat" />
     <xed:remove  ref="sdnb.repeat" />
   </xed:modify>
-  
+
   <xed:modify ref="genres.av.common">
     <xed:include ref="project.ddc.repeat"                after="sdnb.repeat" />
+    <xed:include ref="project.collections"               after="project.ddc.repeat" />
     <xed:remove  ref="sdnb.repeat" />
   </xed:modify>
-  
+
   <xed:modify ref="genres.research_data">
     <xed:include ref="project.ddc.repeat"                after="sdnb.repeat" />
+    <xed:include ref="project.collections"               after="project.ddc.repeat" />
     <xed:remove  ref="sdnb.repeat" />
   </xed:modify>
-  
+
   <xed:modify ref="genres.lecture">
     <xed:include ref="project.ddc.repeat"                after="sdnb.repeat" />
+    <xed:include ref="project.collections"               after="project.ddc.repeat" />
     <xed:remove  ref="sdnb.repeat" />
   </xed:modify>
 
@@ -102,7 +117,7 @@
     <xed:include ref="date.accepted.datetimepicker" after="date.issued.datetimepicker" />
     <xed:remove ref="year.issued" />
   </xed:modify>
-  
+
   <!-- ========== ipu specific templates ========== -->
 
   <xed:template id="genres.issue">
@@ -136,7 +151,7 @@
     <xed:include ref="genres.report" />
   </xed:template>
 
-  
+
   <!-- ========== ipu specific field templates ========== -->
 
   <xed:template id="project.ddc.repeat">
@@ -163,7 +178,26 @@
     <xed:validate xpath="//mods:mods/mods:classification[@authority='ddc'][@displayLabel='ddc']" required="true" i18n="project.validation.ddc"
                   display="global" />-->
   </xed:template>
-  
+
+  <xed:template id="project.collections">
+    <xed:bind xpath="mods:classification[@authorityURI='https://oedipub.ipu-berlin.de/api/v2/classifications/collections'][@displayLabel='collections']/@valueURIxEditor">
+      <div class="form-group row {$xed-validation-marker}">
+        <label class="col-md-3 col-form-label text-right">
+          <xed:output i18n="project.form.label.collections" />
+        </label>
+        <div class="col-md-6">
+          <select class="form-control form-control-inline">
+            <option value="">
+              <xed:output i18n="mir.select.optional" />
+            </option>
+            <xed:include uri="xslStyle:items2options:classification:editor:-1:children:collections" />
+          </select>
+        </div>
+        <mir:help-pmud help-text="{i18n:project.help.collections}" pmud="false" />
+      </div>
+    </xed:bind>
+  </xed:template>
+
   <xed:template id="thesis.advisor.reviewer.extented.repeated">
     <xed:bind xpath="mods:name[@type='personal'][mods:role/mods:roleTerm[@authority='marcrelator'][@type='code']='aut']" />
     <xed:bind xpath="mods:name[@type='personal'][mods:role/mods:roleTerm[@authority='marcrelator'][@type='code']='ths']" />

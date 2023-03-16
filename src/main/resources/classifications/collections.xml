@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mycoreclass xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="MCRClassification.xsd" ID="collections">
+  <label xml:lang="en" text="Special collection" description="List of special collections" />
+  <label xml:lang="x-uri" text="https://oedipub.ipu-berlin.de/api/v2/classifications/collections" />
+  <label xml:lang="de" text="Sondersammlung" description="Liste der Sondersammlungen" />
+  <categories>
+    <category ID="buchholz">
+      <label xml:lang="en" text="Psycho-Newsletter of Prof. Dr. Buchholz" />
+      <label xml:lang="de" text="Psycho-Newsletter von Prof. Dr. Buchholz" />
+    </category>
+  </categories>
+</mycoreclass>
