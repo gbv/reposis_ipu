@@ -204,7 +204,7 @@
       <!-- captcha -->
       <div class="form-group row">
         <label class="col-md-3 control-label"> </label>
-        <div id="captcha" class="g-recaptcha col-md-6" data-sitekey="{$MIR.ReCaptcha.site.key}" 
+        <div id="captcha" class="g-recaptcha col-md-6" data-sitekey="6Lf-dW8cAAAAAD69i3IdQllnYlu_kBq3qJmSfxcm"
              data-callback="verifyRecaptchaCallback" data-expired-callback="expiredRecaptchaCallback" />
         <input id="g-recaptcha-response" class="form-control d-none" required="required" data-recaptcha="true" data-error="Bitte vervollständigen Sie das Captcha." />
         <div class="help-block with-errors" />
