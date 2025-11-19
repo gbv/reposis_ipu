@@ -4,6 +4,10 @@
   <label xml:lang="en" text="genre" description="A list of publication types" />
   <label xml:lang="x-uri" text="https://oedipub.ipu-berlin.de/classifications/mir_genres" />
   <categories>
+    <category ID="Review">
+      <label xml:lang="de" text="Review" />
+      <label xml:lang="en" text="Review" />
+    </category>
     <category ID="article">
       <label xml:lang="de" text="Artikel / Aufsatz" />
       <label xml:lang="en" text="Article / Chapter" />
