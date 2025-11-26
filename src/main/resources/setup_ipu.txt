@@ -1,11 +1,5 @@
 update classification from uri resource:classifications/rfc5646.xml
-
-
-Migration from 2022.06.x to 2023.06.x
-
-WebCLI:
 reload mappings in jpa configuration file
 
-ACL:
-POOLPRIVILEGE	create-derivate     submitter,edotpr amd administrator
+
 
