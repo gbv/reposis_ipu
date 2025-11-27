@@ -67,10 +67,10 @@
         <label xml:lang="de" text="Behandlungstechnik" description="Behandlungstechnik" />
         <label xml:lang="en" text="Treatment technology" description="Treatment technology" />
       </category>
-        <category ID="02.04">
-          <label xml:lang="de" text="Arbeits- und Organisationspsychologie" description="Arbeits- und Organisationspsychologie" />
-          <label xml:lang="en" text="Work and Organization Psycho Analysis and Psychology" description="Work and Organization Psycho Analysis and Psychology" />
-        </category>
+      <category ID="02.04">
+        <label xml:lang="de" text="Arbeits- und Organisationspsychologie" description="Arbeits- und Organisationspsychologie" />
+        <label xml:lang="en" text="Work and Organization Psycho Analysis and Psychology" description="Work and Organization Psycho Analysis and Psychology" />
+      </category>
       <category ID="02.05">
         <label xml:lang="de" text="Pädagogische Psychoanalyse und Psychologie" description="Pädagogische Psychoanalyse und Psychologie" />
         <label xml:lang="en" text="Educational psychoanalysis and psychology" description="Educational psychoanalysis and psychology" />

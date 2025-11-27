@@ -15,6 +15,3 @@ MCR.LayoutService.LastModifiedCheckPeriod=0
 MCR.UseXSLTemplateCache=false
 MCR.SASS.DeveloperMode=true
 ```
-For migration to 2023.06.x add this to your ACL:
-
-POOLPRIVILEGE	create-derivate     submitter,editor amd administrator

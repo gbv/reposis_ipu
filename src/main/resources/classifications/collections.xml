@@ -6,7 +6,8 @@
   <categories>
     <category ID="HLL">
       <label xml:lang="de" text="Sondersammlung Dr. Harald Leupold-Löwenthal" />
-      <label xml:lang="en" text="Special Collection Dr. Harald Leupold-Löwenthal" /></category>
+      <label xml:lang="en" text="Special Collection Dr. Harald Leupold-Löwenthal" />
+    </category>
     <category ID="buchholz">
       <label xml:lang="de" text="Psycho-Newsletter von Prof. Dr. Dr. Buchholz" />
       <label xml:lang="en" text="Psycho-Newsletter of Prof. Dr. Dr. Buchholz" />
