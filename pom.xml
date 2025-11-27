@@ -70,20 +70,9 @@
         </pluginRepository>
     </pluginRepositories>
     <dependencies>
-        <!-- enable theese if you write code using them
         <dependency>
-            <groupId>org.mycore</groupId>
-            <artifactId>mycore-base</artifactId>
+            <groupId>com.h2database</groupId>
+            <artifactId>h2</artifactId>
         </dependency>
-        <dependency>
-            <groupId>org.mycore</groupId>
-            <artifactId>mycore-mods</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.mycore</groupId>
-            <artifactId>mycore-pi</artifactId>
-        </dependency>
-        -->
     </dependencies>
-
 </project>
