@@ -27,7 +27,7 @@
         <version>2023.06-SNAPSHOT</version>
     </parent>
 
-    <groupId>de.gbv.ipu</groupId>
+
     <artifactId>reposis_ipu</artifactId>
     <version>2023.06-SNAPSHOT</version>
     <properties>
