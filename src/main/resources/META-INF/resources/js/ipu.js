@@ -1,32 +1,50 @@
-
-$(document).ready(function() {
-
-  // spam protection for mails
-  $('span.madress').each(function(i) {
-      var text = $(this).text();
-      var address = text.replace(" [at] ", "@");
-      $(this).after('<a href="mailto:'+address+'">'+ address +'</a>')
-      $(this).remove();
+function replaceMaskedEmails() {
+  document.querySelectorAll("span.madress").forEach(span => {
+    const address = span.textContent.replace(" [at] ", "@");
+    const link = document.createElement("a");
+    link.href = `mailto:${address}`;
+    link.textContent = address;
+    span.replaceWith(link);
   });
+}
 
-  // activate empty search on start page
-  $("#project-searchMainPage").submit(function (evt) {
-    $(this).find(":input").filter(function () {
-          return !this.value;
-      }).attr("disabled", true);
-    return true;
+function disableEmptyInputsOnSubmit() {
+  const form = document.querySelector("#project-searchMainPage");
+  if (!form) return;
+
+  form.addEventListener("submit", () => {
+    form.querySelectorAll("input").forEach(input => {
+      if (!input.value) input.disabled = true;
+    });
   });
+}
 
-  // replace placeholder USERNAME with username
-  var userID = $("#currentUser strong").html();
-  var newHref = 'https://reposis-test.gbv.de/ipu/servlets/solr/select?q=createdby:' + userID + '&fq=objectType:mods';
-  $("a[href='https://reposis-test.gbv.de/ipu/servlets/solr/select?q=createdby:USERNAME']").attr('href', newHref);
-  // var newHref = 'http://localhost:18091/ipu/servlets/solr/select?q=createdby:' + userID + '&fq=objectType:mods';
-  // $("a[href='http://localhost:18091/ipu/servlets/solr/select?q=createdby:USERNAME']").attr('href', newHref);
-});
+function removeGenreOptions(values) {
+  const select = document.querySelector("select#genre");
+  if (!select) {
+    return;
+  }
+  Array.from(select.options).forEach(option => {
+    if (values.includes(option.value)) {
+      option.remove();
+    }
+  });
+}
 
-$( document ).ajaxComplete(function() {
-  // remove series and journal as option from publish/index.xml
-  $("select#genre option[value='series']").remove();
-  $("select#genre option[value='journal']").remove();
-});
+function setupGenreObserver(values) {
+  const observer = new MutationObserver(() => {
+    removeGenreOptions(values);
+  });
+  observer.observe(document.body, {childList: true, subtree: true});
+  return observer;
+}
+
+function initPage() {
+  const genresToRemove = ["series", "journal"];
+  setupGenreObserver(genresToRemove);
+  replaceMaskedEmails();
+  disableEmptyInputsOnSubmit();
+  removeGenreOptions(genresToRemove);
+}
+
+document.addEventListener("DOMContentLoaded", initPage);
