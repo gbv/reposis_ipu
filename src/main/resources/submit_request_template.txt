@@ -1,0 +1,20 @@
+{{name}} sendet folgende Publikation zur Einreichung:
+
+  Angaben zur Person:
+  -------------------
+    Name:        {{name}}
+    E-Mail:      {{mail}}
+    Universität: {{institute}}
+    Fachbereich: {{department}}
+
+
+  Angaben zur Publikation:
+  ------------------------
+    Titel (deutsch):            {{title_de}}
+    Titel (englisch):           {{title_en}}
+    Lizenz:                     {{license}}
+    Schlagworte (deutsch):      {{keywords_de}}
+    Schlagworte (englisch):     {{keywords_en}}
+    Zusammenfassung (deutsch):  {{abstract_de}}
+    Zusammenfassung (englisch): {{abstract_en}}
+    Anmerkungen:                {{notes}}
