@@ -4,6 +4,10 @@
   <label xml:lang="en" text="Special collection" description="List of special collections" />
   <label xml:lang="x-uri" text="https://oedipub.ipu-berlin.de/api/v2/classifications/collections" />
   <categories>
+    <category ID="HLL">
+      <label xml:lang="de" text="Sondersammlung Dr. Harald Leupold-Löwenthal" />
+      <label xml:lang="en" text="Special Collection Dr. Harald Leupold-Löwenthal" />
+    </category>
     <category ID="buchholz">
       <label xml:lang="de" text="Psycho-Newsletter von Prof. Dr. Dr. Buchholz" />
       <label xml:lang="en" text="Psycho-Newsletter of Prof. Dr. Dr. Buchholz" />

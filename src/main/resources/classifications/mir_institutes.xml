@@ -36,8 +36,8 @@
         <label xml:lang="en" text="Metapsychology" description="Metapsychology" />
       </category>
       <category ID="01.08">
-        <label xml:lang="de" text="Psychoanalytische Kulturtheorie" description="Psychoanalytische Kulturtheorie" />
-        <label xml:lang="en" text="Psychoanalytic cultural theory" description="Psychoanalytic cultural theory" />
+        <label xml:lang="de" text="Psychoanalytische Kulturwissenschaften" description="Psychoanalytische Kulturwissenschaften" />
+        <label xml:lang="en" text="Psychoanalytic cultural science" description="Psychoanalytic cultural science" />
       </category>
       <category ID="01.09">
         <label xml:lang="de" text="Psychoanalytische Sozialwissenschaften" description="Psychoanalytische Sozialwissenschaften" />
@@ -68,7 +68,7 @@
         <label xml:lang="en" text="Treatment technology" description="Treatment technology" />
       </category>
       <category ID="02.04">
-        <label xml:lang="de" text="Arbeits- und Organisationspsychoanalyse und -pschologie" description="Arbeits- und Organisationspsychoanalyse und -pschologie" />
+        <label xml:lang="de" text="Arbeits- und Organisationspsychologie" description="Arbeits- und Organisationspsychologie" />
         <label xml:lang="en" text="Work and Organization Psycho Analysis and Psychology" description="Work and Organization Psycho Analysis and Psychology" />
       </category>
       <category ID="02.05">
