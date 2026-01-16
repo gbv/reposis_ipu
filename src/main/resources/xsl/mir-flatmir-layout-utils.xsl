@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+<xsl:stylesheet
+  version="1.0"
+  xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+  xmlns:date="http://exslt.org/dates-and-times"
+  exclude-result-prefixes="date">
 
   <xsl:import href="resource:xsl/layout/mir-common-layout.xsl" />
   <xsl:param name="MIR.TestInstance" />
@@ -110,7 +114,11 @@
           </a>
         </div>
         <div class="col-12 order-3">
-          <div class="copyright-box">Copyright © 2023 · International Psychoanalytic University Berlin</div>
+          <div class="copyright-box">
+            Copyright ©
+            <xsl:value-of select="date:year(date:date())" />
+            · International Psychoanalytic University Berlin
+          </div>
         </div>
       </div>
     </div>
