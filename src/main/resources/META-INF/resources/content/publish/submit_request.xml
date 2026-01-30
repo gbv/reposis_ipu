@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE MyCoReWebPage>
+<MyCoReWebPage>
+  <section xml:lang="de" title="Publizieren - OEDIPUB">
+    <h1>Übermittlung Ihrer Daten</h1>
+    <form
+      action="../../servlets/MIRMailerWithFile?action=submit_request"
+      method="post"
+      role="form"
+      class="form-horizontal"
+      enctype="multipart/form-data">
+      <div class="form-group row">
+        <label for="inputSenderName" class="col-sm-3 col-form-label">Name</label>
+        <div class="col-sm-6">
+          <input
+            type="text"
+            class="form-control"
+            id="inputSenderName"
+            name="name"
+            autocomplete="name"
+            placeholder="M. Muster"
+            required="required" />
+        </div>
+      </div>
+      <div class="form-group row">
+        <label for="inputSenderEmail" class="col-sm-3 col-form-label">E-Mail</label>
+        <div class="col-sm-6">
+          <input
+            type="email"
+            class="form-control"
+            id="inputSenderEmail"
+            name="mail"
+            autocomplete="email"
+            placeholder="m.muster@ipu.de"
+            required="required" />
+        </div>
+      </div>
+      <div class="form-group row">
+        <label for="inputInstitute" class="col-sm-3 col-form-label">Universität / Institut</label>
+        <div class="col-sm-6">
+          <input
+            type="text"
+            class="form-control"
+            id="inputInstitute"
+            name="institute"
+            autocomplete="organization"
+            required="required" />
+        </div>
+      </div>
+      <div class="form-group row">
+        <label for="selectDepartment" class="col-sm-3 col-form-label">Fachbereich</label>
+        <div class="col-sm-6">
+          <select id="selectDepartment" name="department" class="form-control" required="required">
+            <option selected="selected" value="" disabled="disabled">(bitte wählen)</option>
+            <optgroup label="Grundlagenfächer">
+              <option title="Allgemeine Psychologie" value="Allgemeine Psychologie">Allgemeine Psychologie</option>
+              <option title="Grundlagen der Psychoanalyse" value="Grundlagen der Psychoanalyse">Grundlagen der Psychoanalyse</option>
+              <option title="Bio-/Neuropsychoanalyse und -psychologie" value="Bio-/Neuropsychoanalyse und -psychologie">Bio-/Neuropsychoanalyse und -psychologie</option>
+              <option title="Differentielle- bzw. Persönlichkeitspsychologie" value="Differentielle- bzw. Persönlichkeitspsychologie">Differentielle- bzw. Persönlichkeitspsychologie</option>
+              <option title="Entwicklungspsychoanalyse und -psychologie" value="Entwicklungspsychoanalyse und -psychologie">Entwicklungspsychoanalyse und -psychologie</option>
+              <option title="Sozialpsychologie" value="Sozialpsychologie">Sozialpsychologie</option>
+              <option title="Metapsychologie" value="Metapsychologie">Metapsychologie</option>
+              <option title="Psychoanalytische Kulturtheorie" value="Psychoanalytische Kulturtheorie">Psychoanalytische Kulturtheorie</option>
+              <option title="Psychoanalytische Sozialwissenschaften" value="Psychoanalytische Sozialwissenschaften">Psychoanalytische Sozialwissenschaften</option>
+              <option title="Geschichte der Psychoanalyse und Psychologie" value="Geschichte der Psychoanalyse und Psychologie">Geschichte der Psychoanalyse und Psychologie</option>
+              <option title="Sonstige" value="Sonstige">Sonstige</option>
+            </optgroup>
+            <optgroup label="Anwendungsfächer">
+              <option title="Klinische Psychoanalyse und Psychologie" value="Klinische Psychoanalyse und Psychologie">Klinische Psychoanalyse und Psychologie</option>
+              <option title="Behandlungsaspekte" value="Behandlungsaspekte">Behandlungsaspekte</option>
+              <option title="Behandlungstechnik" value="Behandlungstechnik">Behandlungstechnik</option>
+              <option title="Arbeits- und Organisationspsychoanalyse und -pschologie" value="Arbeits- und Organisationspsychoanalyse und -pschologie">Arbeits- und Organisationspsychoanalyse und
+                -pschologie
+              </option>
+              <option title="Pädagogische Psychoanalyse und Psychologie" value="Pädagogische Psychoanalyse und Psychologie">Pädagogische Psychoanalyse und Psychologie</option>
+              <option title="Psychotherapieforschung" value="Psychotherapieforschung">Psychotherapieforschung</option>
+              <option title="Sonstige" value="Sonstige">Sonstige</option>
+            </optgroup>
+            <optgroup label="Methodenfächer">
+              <option title="Psychologische und sozialwissenschaftliche Methodenlehre" value="Psychologische und sozialwissenschaftliche Methodenlehre">Psychologische und sozialwissenschaftliche
+                Methodenlehre
+              </option>
+              <option title="Statistik" value="Statistik">Statistik</option>
+              <option title="Psychodynamische und psychologische Diagnostik" value="Psychodynamische und psychologische Diagnostik">Psychodynamische und psychologische Diagnostik</option>
+              <option title="Sonstige" value="Sonstige">Sonstige</option>
+            </optgroup>
+          </select>
+        </div>
+      </div>
+      <div class="form-group row">
+        <label for="inputTitleDe" class="col-sm-3 col-form-label">Titel (deutsch)</label>
+        <div class="col-sm-6">
+          <input
+            type="text"
+            class="form-control"
+            id="inputTitleDe"
+            name="title_de"
+            required="required" />
+        </div>
+      </div>
+      <div class="form-group row">
+        <label for="inputTitleEn" class="col-sm-3 col-form-label">Titel (englisch)</label>
+        <div class="col-sm-6">
+          <input
+            type="text"
+            class="form-control"
+            id="inputTitleEn"
+            name="title_en"
+            required="required" />
+        </div>
+      </div>
+      <div class="form-group row">
+        <label for="selectLicense" class="col-sm-3 col-form-label">Lizenz</label>
+        <div class="col-sm-6">
+          <select id="selectLicense" name="license" class="form-control" required="required">
+            <option selected="selected" value="" disabled="disabled">(bitte wählen)</option>
+            <option title="Alle Rechte vorbehalten" value="Alle Rechte vorbehalten">Alle Rechte vorbehalten</option>
+            <option title="Open-Access im Zuge einer Allianz- bzw. Nationallizenz" value="Open-Access im Zuge einer Allianz- bzw. Nationallizenz">Open-Access im Zuge einer Allianz- bzw.
+              Nationallizenz
+            </option>
+            <optgroup label="Creative Commons 3.0 International Lizenzen" title="Creative Commons 3.0 International Lizenzen" value="cc_3.0">
+              <option title="CC BY 3.0" value="CC BY 3.0">CC BY 3.0</option>
+              <option title="CC BY-SA 3.0" value="CC BY-SA 3.0">CC BY-SA 3.0</option>
+              <option title="CC BY-ND 3.0" value="CC BY-ND 3.0">CC BY-ND 3.0</option>
+              <option title="CC BY-NC 3.0" value="CC BY-NC 3.0">CC BY-NC 3.0</option>
+              <option title="CC BY-NC-SA 3.0" value="CC BY-NC-SA 3.0">CC BY-NC-SA 3.0</option>
+              <option title="CC BY-NC-ND 3.0" value="CC BY-NC-ND 3.0">CC BY-NC-ND 3.0</option>
+            </optgroup>
+            <optgroup label="Creative Commons 4.0 International Lizenzen" title="Creative Commons 4.0 International Lizenzen" value="cc_4.0">
+              <option title="CC BY 4.0" value="CC BY 4.0">CC BY 4.0</option>
+              <option title="CC BY-SA 4.0" value="CC BY-SA 4.0">CC BY-SA 4.0</option>
+              <option title="CC BY-ND 4.0" value="CC BY-ND 4.0">CC BY-ND 4.0</option>
+              <option title="CC BY-NC 4.0" value="CC BY-NC 4.0">CC BY-NC 4.0</option>
+              <option title="CC BY-NC-SA 4.0" value="CC BY-NC-SA 4.0">CC BY-NC-SA 4.0</option>
+              <option title="CC BY-NC-ND 4.0" value="CC BY-NC-ND 4.0">CC BY-NC-ND 4.0</option>
+            </optgroup>
+            <option title="PDDL - Public Domain Dedication and License" value="PDDL - Public Domain Dedication and License">PDDL - Public Domain Dedication and License</option>
+            <option title="ODC-By - Attribution License" value="ODC-By - Attribution License">ODC-By - Attribution License</option>
+            <option title="ODC-ODbL - Open Database License" value="ODC-ODbL - Open Database License">ODC-ODbL - Open Database License</option>
+            <option title="Open Government Licence" value="Open Government Licence">Open Government Licence</option>
+            <option title="OGL 3.0" value="OGL 3.0">OGL 3.0</option>
+            <option title="OGL 2.0" value="OGL 2.0">OGL 2.0</option>
+            <option title="OGL 1.0" value="OGL 1.0">OGL 1.0</option>
+          </select>
+        </div>
+      </div>
+      <div class="form-group row">
+        <label for="inputKeywordsDe" class="col-sm-3 col-form-label">Schlagwörter (deutsch)</label>
+        <div class="col-sm-6">
+          <input type="text" class="form-control" id="inputKeywordsDe" name="keywords_de" />
+        </div>
+      </div>
+      <div class="form-group row">
+        <label for="inputKeywordsEn" class="col-sm-3 col-form-label">Schlagwörter (englisch)</label>
+        <div class="col-sm-6">
+          <input type="text" class="form-control" id="inputKeywordsEn" name="keywords_en" />
+        </div>
+      </div>
+      <div class="form-group row">
+        <label for="inputAbstractDe" class="col-sm-3 col-form-label">Zusammenfassung (deutsch)</label>
+        <div class="col-sm-6">
+          <textarea
+            class="form-control"
+            id="inputAbstractDe"
+            name="abstract_de"
+            required="required"
+            rows="3"></textarea>
+        </div>
+      </div>
+      <div class="form-group row">
+        <label for="inputAbstractEn" class="col-sm-3 col-form-label">Zusammenfassung (englisch)</label>
+        <div class="col-sm-6">
+          <textarea name="abstract_en" class="form-control" id="inputAbstractEn" rows="3"></textarea>
+        </div>
+      </div>
+      <div class="form-group row">
+        <label for="inputNotes" class="col-sm-3 col-form-label">Anmerkungen</label>
+        <div class="col-sm-6">
+          <textarea name="notes" class="form-control" id="inputNotes" rows="3"></textarea>
+        </div>
+      </div>
+      <div class="form-group row">
+        <label for="inputFile" class="col-sm-3 col-form-label">Anhang (max. 50MB)</label>
+        <div class="col-sm-6">
+          <div class="custom-file">
+            <input type="file" class="custom-file-input" id="inputFile" name="file" required="required" />
+            <label class="custom-file-label" for="inputFile">Datei auswählen ...</label>
+          </div>
+        </div>
+      </div>
+      <div class="form-group form-check">
+        <input class="form-check-input" type="checkbox" id="checkboxAcceptRights" required="required" />
+        <label class="form-check-label" for="checkboxAcceptRights">
+          Ich habe die <a href="../below/rights.xml">Datenschutzerklärung</a> gelesen und erkenne sie an.
+        </label>
+      </div>
+      <div class="form-group form-check">
+        <input class="form-check-input" type="checkbox" id="checkboxCopy" name="copy" />
+        <label class="form-check-label" for="checkboxCopy">Kopie an Absender</label>
+      </div>
+      <div class="form-row">
+        <div class="col-md">
+          <label for="captcha-input">Captcha</label>
+          <div class="d-flex align-items-center">
+            <img
+              id="captcha-image"
+              src="../../servlets/MIRMailerWithFile?action=captcha"
+              alt="captcha"
+              class="img-fluid"
+            />
+            <div class="d-flex flex-column align-items-center">
+              <a href="#" id="captcha-refresh">
+                <i class="fa fa-refresh" />
+              </a>
+              <a href="#" id="captcha-play">
+                <i class="fa-solid fa-volume-high" />
+              </a>
+              <a href="#" id="captcha-stop" class="d-none">
+                <i class="fa-solid fa-volume-xmark" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="col-3-md mb-3">
+          <input
+            type="text"
+            id="captcha-input"
+            name="captcha"
+            class="form-control"
+            required="required"
+            autocomplete="off"
+            value=""
+          />
+        </div>
+      </div>
+      <div class="btn-group" role="group">
+        <button id="reset" class="btn btn-secondary" type="reset">Formular leeren</button>
+        <button id="save" class="btn btn-primary" type="submit">Absenden</button>
+      </div>
+    </form>
+    <script>
+      const maxSize = 50 * 1024 * 1024; // 50 MB
+      document.getElementById('inputFile').addEventListener('change', function() {
+        const file = this.files[0];
+        if (file &amp;&amp; file.size > maxSize) {
+          alert('Die Datei ist zu groß. Maximal 50 MB erlaubt.');
+          this.value = '';
+        }
+      });
+      document.querySelectorAll('[required]').forEach(el => {
+        if (!el.id) return;
+
+        const label = document.querySelector(`label[for="${el.id}"]`);
+        if (!label) return;
+
+        if (!label.querySelector('.required-marker')) {
+          const star = document.createElement('span');
+          star.className = 'required-marker';
+          star.textContent = ' *';
+          star.setAttribute('aria-hidden', 'true');
+          label.appendChild(star);
+        }
+      });
+    </script>
+    <script src="../../js/captcha.js" type="text/javascript" />
+    <script src="../../js/mailer-with-file.js" type="text/javascript" />
+  </section>
+</MyCoReWebPage>
