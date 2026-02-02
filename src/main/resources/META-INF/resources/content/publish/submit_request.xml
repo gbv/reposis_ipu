@@ -263,6 +263,13 @@
           label.appendChild(star);
         }
       });
+      document.querySelector('.custom-file-input').addEventListener('change', (e) => {
+        const input = e.target;
+        const label = input.nextElementSibling;
+        if (label) {
+          label.textContent = input.files?.[0]?.name || '';
+        }
+      });
     </script>
     <script src="../../js/captcha.js" type="text/javascript" />
     <script src="../../js/mailer-with-file.js" type="text/javascript" />
