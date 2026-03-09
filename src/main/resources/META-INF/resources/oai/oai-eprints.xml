@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <description>
-  <eprints xmlns="http://www.openarchives.org/OAI/1.1/eprints"
-           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-           xsi:schemaLocation="http://www.openarchives.org/OAI/1.1/eprints http://www.openarchives.org/OAI/1.1/eprints.xsd">
+  <eprints
+    xmlns="http://www.openarchives.org/OAI/1.1/eprints"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.openarchives.org/OAI/1.1/eprints http://www.openarchives.org/OAI/1.1/eprints.xsd">
     <content>
       <text>
         This repository holds Open Access publications, electronic thesis and dissertations, and Open Educational
@@ -15,7 +16,7 @@
         All bibliographic metadata provided via this interface, except abstracts, is hereby made available under CC0
         license, free to share and re-use.
       </text>
-      <URL>http://creativecommons.org/publicdomain/zero/1.0/deed.de</URL>
+      <URL>https://creativecommons.org/publicdomain/zero/1.0/deed.de</URL>
     </metadataPolicy>
     <dataPolicy>
       <text>
